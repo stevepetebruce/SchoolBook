@@ -1,0 +1,70 @@
+diff --git a/BakerView/BakerViewController.h b/BakerView/BakerViewController.h
+index 68885a9..e072531 100644
+--- a/BakerView/BakerViewController.h
++++ b/BakerView/BakerViewController.h
+@@ -78,6 +78,8 @@
+     BOOL shouldForceOrientationUpdate;
+ 
+     BOOL adjustViewsOnAppDidBecomeActive;
++    
++    BOOL showStatusBar;
+ 
+     UIScrollView *scrollView;
+     UIWebView *prevPage;
+diff --git a/BakerView/BakerViewController.m b/BakerView/BakerViewController.m
+index 9a9525b..5c996c7 100755
+--- a/BakerView/BakerViewController.m
++++ b/BakerView/BakerViewController.m
+@@ -122,6 +122,8 @@
+         shouldForceOrientationUpdate = YES;
+ 
+         adjustViewsOnAppDidBecomeActive = NO;
++        
++        showStatusBar = NO;
+ 
+         webViewBackground = nil;
+ 
+@@ -1683,6 +1685,12 @@
+         return CGRectMake(navX, 20, navW, navH);
+     }
+ }
++- (BOOL)prefersStatusBarHidden {
++    return !showStatusBar;
++}
++- (UIStatusBarAnimation)preferredStatusBarUpdateAnimation {
++    return UIStatusBarAnimationSlide;
++}
+ - (void)toggleBars {
+     // if modal view is up, don't toggle.
+     if (!self.presentedViewController) {
+@@ -1692,8 +1700,12 @@
+ 
+         if (hidden) {
+             [sharedApplication setStatusBarHidden:NO withAnimation:UIStatusBarAnimationSlide];
++            showStatusBar = YES;
++            [self setNeedsStatusBarAppearanceUpdate];
+             [self performSelector:@selector(showNavigationBar) withObject:nil afterDelay:0.1];
+         } else {
++            showStatusBar = NO;
++            [self setNeedsStatusBarAppearanceUpdate];
+             [self hideBars:[NSNumber numberWithBool:YES]];
+         }
+ 
+@@ -1736,11 +1748,15 @@
+                          completion:^(BOOL finished) {
+                              navigationBar.hidden = YES;
+                          }];
+-        [[UIApplication sharedApplication] setStatusBarHidden:YES withAnimation:UIStatusBarAnimationSlide];
++//        [[UIApplication sharedApplication] setStatusBarHidden:YES withAnimation:UIStatusBarAnimationSlide];
++        showStatusBar = NO;
++        [self setNeedsStatusBarAppearanceUpdate];
+     } else {
+         navigationBar.frame = newNavigationFrame;
+         navigationBar.hidden = YES;
+-        [[UIApplication sharedApplication] setStatusBarHidden:YES withAnimation:UIStatusBarAnimationSlide];
++//        [[UIApplication sharedApplication] setStatusBarHidden:YES withAnimation:UIStatusBarAnimationSlide];
++        showStatusBar = NO;
++        [self setNeedsStatusBarAppearanceUpdate];
+     }
+ 
+     if(![indexViewController isDisabled]) {

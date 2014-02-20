@@ -1,0 +1,25 @@
+{
+"hpub": 1,
+   "title": "Heroes",
+    "author": ["David King"], 
+     "creator": ["Genesoft"], 
+     "date": "2013-05-23", 
+     "url": "http://www.ashdown.co.uk/",
+     "orientation": "landscape",
+     "zoomable": false, 
+     "-baker-background": "#000000", 
+     "-baker-vertical-bounce": true, 
+    "-baker-index-height": 200, 
+     "-baker-media-autoplay": true, 
+     "-baker-background-image-portrait": "library_images/background-portrait.png", 
+    "-baker-background-image-landscape": "library_images/background-landscape.png", 
+     "-baker-page-numbers-color": "#333", 
+     "contents": [  
+                  "3.html",
+                  "5.html",
+                  "6.html",
+                  "7.html",
+                  "8.html"
+                  ]
+                }
+

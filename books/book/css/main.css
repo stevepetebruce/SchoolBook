@@ -1,0 +1,14 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.content {
+	width: 90%;
+	margin: 80px auto 0px auto;
+}
+
+.content p {
+	
+	font-family: 'alegreyaregular';
+	font-size:12px;
+	
+	}
