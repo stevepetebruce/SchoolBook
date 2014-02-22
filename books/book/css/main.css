@@ -11,4 +11,13 @@
 	font-family: 'alegreyaregular';
 	font-size:12px;
 	
-	}
+}
+
+body {
+	background-image: url(images/lightpaperfibers.png);
+	background-repeat: repeat;
+}
+.content {
+	width: 90%;
+	margin-top: 80px;
+}
