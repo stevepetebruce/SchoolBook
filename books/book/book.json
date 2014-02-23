@@ -15,6 +15,7 @@
     "-baker-background-image-landscape": "library_images/background-landscape.png",
     "-baker-page-numbers-color": "#333",
     "contents": [
+                 "frontcover.html",
                  "1.html",
                  "2.html",
                  "3.html",
