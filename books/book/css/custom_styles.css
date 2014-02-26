@@ -9,14 +9,16 @@ body {
 }
 
 .front-cover-img{
-	height:55%;
-	width:55%;
+	//	height:55%;
+	//	width:55%;
+	height:100%;
+	width:100%;
 }
 
 img.centre {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .black-background{
@@ -31,3 +33,89 @@ img.centre {
 /*START Time Line Styles*/
 
 /*END Time Line Styles*/
+
+/*START ribbon styles */
+
+/* ribbon style */
+
+.ribbon-main-title .ribbon-content {
+	/*font-family: 'Gabriela', serif;*/
+	font-family: 'Diplomata SC', cursive;
+	color: #EFFFAE;
+	padding-left: 10px;
+	text-shadow: 0px 1px 2px #bbb;
+
+}
+
+
+.ribbon-main-title {
+	left:-50px;
+	top:200px;
+	font-size: 22px !important;
+	/* This ribbon is based on a 16px font side and a 24px vertical rhythm. I've used em's to position each element for scalability. If you want to use a different font size you may have to play with the position of the ribbon elements */
+
+	width: 100%;
+
+	position: relative;
+	background: #DF2F2F;
+	color: #fff;
+	text-align: center;
+	padding: 1em 2em; /* Adjust to suit */
+	margin: 2em auto 3em; /* Based on 24px vertical rhythm. 48px bottom margin - normally 24 but the ribbon 'graphics' take up 24px themselves so we double it. */
+	-webkit-transform: rotate(-10deg); 
+	-moz-transform: rotate(-10deg); 
+	-ms-transform: rotate(-10deg); 
+	-o-transform: rotate(-10deg); 
+	transform: rotate(-10deg);
+	text-shadow: 0px 1px 2px #bbb;
+	-webkit-box-shadow: 0px 2px 4px #888;
+	-moz-box-shadow: 0px 2px 4px #888;
+	box-shadow: 0px 2px 4px #888;
+}
+
+.front-cover h2
+{
+   	top:600px;
+	float: right;
+	position: relative;
+	width: 40%;
+	height: 50px;
+	font-weight: bold;
+	background: #DF2F2F;
+	padding: 15px 15px 6px 30px;
+	margin: 30px 0px 0px 0px;
+	text-shadow: 0px 1px 2px #bbb;
+	-webkit-box-shadow: 0px 2px 4px #888;
+	-moz-box-shadow: 0px 2px 4px #888;
+	box-shadow: 0px 2px 4px #888;
+	font-family: 'Diplomata SC', cursive;
+	color: #EFFFAE;
+	font-size: 18px;
+}
+
+/*.front-cover h2:after
+{
+	content: ' ';
+	position: absolute;
+	width: 0;
+	height: 0;
+	left: 0px;
+	top: 100%;
+	border-width: 5px 10px;
+	border-style: solid;
+	border-color: #666 #666 transparent transparent;
+}*/
+
+/*.front-cover h2:before
+{
+	content: ' ';
+	position: absolute;
+	width: 10px;
+	height: 10px;
+	right: -2px;
+	top: 0px;
+	border-color: transparent #fff transparent transparent;
+}*/
+/* END Ribbon Styles*/
+
+
