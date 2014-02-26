@@ -16,6 +16,7 @@
     "-baker-page-numbers-color": "#333",
     "contents": [
                  "frontcover.html",
+                 "content.html",
                  "1.html",
                  "2.html",
                  "3.html",
