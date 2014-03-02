@@ -111,4 +111,23 @@ img.centre {
 
 /* END Ribbon Styles*/
 
+.main-title-text{
+  font-family: 'Diplomata SC', cursive;
+  color: #EFFFAE;
+  padding-right: 15px;
+  text-shadow: 0px 1px 2px #bbb;
+}
+
+.black{
+  color: black;
+}
+
+.centre{
+  text-align: center;
+}
+
+/* START Chapter Pages Styles*/
+
+
+/* END Chapter Pages Styles*/
 

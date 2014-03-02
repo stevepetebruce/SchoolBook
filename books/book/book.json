@@ -15,16 +15,23 @@
     "-baker-background-image-landscape": "library_images/background-landscape.png",
     "-baker-page-numbers-color": "#333",
     "contents": [
-                 "frontcover.html",
-                 "content.html",
+                 "front_cover.html",
+                 "contents.html",
+                 "chapter1.html",
                  "1.html",
+                 "chapter2.html",
                  "2.html",
+                 "chapter3.html",
                  "3.html",
+                 "chapter4.html",
                  "4.html",
+                 "chapter5.html",
                  "5.html",
+                 "chapter6.html",
                  "6.html",
+                 "chapter7.html",
                  "7.html",
-                 "8.html"
+                 "the_end.html",
+                 "time_line.html"
                  ]
 }
-
