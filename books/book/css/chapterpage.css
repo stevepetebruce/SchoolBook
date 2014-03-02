@@ -1,0 +1,55 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html { height: 100%; margin:0; padding:0; }
+body { background: #FFF; font: 400 1.6em/1.8 "Droid Serif", serif; color: #111; text-align: center; height: 100%; }
+
+h1 { font: 300 5.4em/0.2 "desyrelregular", sans-serif; text-shadow: 1px 1px 1px #000; }
+h2 {
+	font: 700 1.5em/1.5 "Droid Sans", sans-serif;
+	margin: 1em 0 0 0;
+	text-shadow: 1px 1px 1px #000;
+}
+h3 { font: 700 1.5em/1.5 "Droid Sans", sans-serif; margin: 1em 0; }
+
+#banner { background: url(../images/bg_p1.jpg) no-repeat fixed 50% 0; background-size: cover; color: #fff; height: 100%; width: 100%; }
+
+#banner.p2 {background: url(../images/bg_p2.jpg) no-repeat fixed 50% 0; background-size: cover; color: #fff; height: 100%; width: 100%;}
+
+#bannertext { width: 28em; position: fixed; top: 10%; left: 50%; margin-left: -14em; padding: 2em 0; }
+
+#content { max-width: 28em; text-align: justify; margin: 0 auto; padding: 2em; }
+
+#content p {
+	margin: 0 0 2em;
+	text-align:left;
+}
+
+.leftpic {
+	float:left;
+	margin-left:-2em;
+	padding: 4px 4px 4px 0px;
+	
+	}
+
+.rightpic {
+	float:right;
+	margin-right:-2em;
+	padding: 4px 0px 4px 4px;
+	
+	}
+
+.horzarrows {
+	padding: 0 1.4em 1.4em 1.4em;
+	height:70px;
+	width:70px;
+	}
+	
+.downarrow {
+	position:fixed;
+	right: left;
+	right: auto;
+	bottom: 12px;
+	padding:0;
+	margin-left:-25px;
+	}	

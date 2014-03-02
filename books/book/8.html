@@ -1,330 +1,53 @@
 <!DOCTYPE html>
-<html>
-
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 <head>
 
-  <meta charset="UTF-8">
+	<!-- Basic Page Needs
+	================================================== -->
+	<meta charset="utf-8">
+	<title>Anne Frank - Chapter 6</title>
 
-  <title>Anne Frank Timeline</title>
-    <!-- <link rel="stylesheet" type="text/css" href="css/custom_styles.css"/> -->
-    <!-- TODO: need to put all the time line styles below into the custom_styles file above and then include.. -->
+	<!-- Mobile Specific Metas
+	================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-    <style>
-@import url(http://fonts.googleapis.com/css?family=Noto+Sans);
-/* -------------------------------------
- * For horizontal version, set the
- * $vertical variable to false
- * ------------------------------------- */
-/* -------------------------------------
- * General Style
- * ------------------------------------- */
-body {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 5%;
-  font-size: 100%;
-  font-family: "Noto Sans", sans-serif;
-  color: #fff;
-  background: #29a5e6;
-}
-
-h2 {
-  margin: 3em 0 0 0;
-  font-size: 1.5em;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-}
-
-/* -------------------------------------
- * timeline
- * ------------------------------------- */
-#timeline {
-  list-style: none;
-  margin: 50px 0 30px 120px;
-  padding-left: 30px;
-  border-left: 8px solid #eee9dc;
-}
-#timeline li {
-  margin: 40px 0;
-  position: relative;
-}
-#timeline p {
-  margin: 0 0 15px;
-}
-
-.date {
-  margin-top: -10px;
-  top: 50%;
-  left: -158px;
-  font-size: 0.95em;
-  line-height: 20px;
-  position: absolute;
-}
-
-.circle {
-  margin-top: -10px;
-  top: 50%;
-  left: -44px;
-  width: 10px;
-  height: 10px;
-  background: #48b379;
-  border: 5px solid #eee9dc;
-  border-radius: 50%;
-  display: block;
-  position: absolute;
-}
-
-.content {
-  max-height: 20px;
-  padding: 50px 20px 0;
-  border-color: transparent;
-  border-width: 2px;
-  border-style: solid;
-  border-radius: 0.5em;
-  position: relative;
-  background-color:#fff;
-}
-.content:before, .content:after {
-  content: "";
-  width: 0;
-  height: 0;
-  border: solid transparent;
-  position: absolute;
-  pointer-events: none;
-  right: 100%;
-}
-.content:before {
-  border-right-color: inherit;
-  border-width: 20px;
-  top: 50%;
-  margin-top: -20px;
-}
-.content:after {
-  border-right-color: #fff;
-  border-width: 17px;
-  top: 50%;
-  margin-top: -17px;
-  
-}
-.content p {
-  max-height: 0;
-  color: transparent;
-  text-align: justify;
-  word-break: break-word;
-  hyphens: auto;
-  overflow: hidden;
-  color:#999;
-}
-
-
-
-
-label {
-  font-size: 1.3em;
-  position: absolute;
-  z-index: 100;
-  cursor: pointer;
-  top: 20px;
-  left: 20px;
-  transition: transform 0.2s linear;
-  color:#666;
-}
-
-.radio {
-  display: none;
-}
-
-.radio:checked + .relative label {
-  cursor: auto;
-  transform: translateX(42px);
-}
-.radio:checked + .relative .circle {
-  background: #f98262;
-}
-.radio:checked ~ .content {
-  max-height: 180px;
-  border-color: #eee9dc;
-  margin-right: 20px;
-  transform: translateX(20px);
-  transition: max-height 0.4s linear, border-color 0.5s linear, transform 0.2s linear;
-}
-.radio:checked ~ .content p {
-  max-height: 200px;
-  color: #555;
-  transition: color 0.3s linear 0.3s;
-}
-
-/* -------------------------------------
- * mobile phones (vertical version only)
- * ------------------------------------- */
-@media screen and (max-width: 767px) {
-  #timeline {
-    margin-left: 0;
-    padding-left: 0;
-    border-left: none;
-  }
-  #timeline li {
-    margin: 50px 0;
-  }
-
-  label {
-    width: 85%;
-    font-size: 1.1em;
-    white-space: nowrap;
-    text-overflow: ellipsis;
-    overflow: hidden;
-    display: block;
-    transform: translateX(18px);
-  }
-
-  .content {
-    padding-top: 45px;
-    border-color: #eee9dc;
-  }
-  .content:before, .content:after {
-    border: solid transparent;
-    bottom: 100%;
-  }
-  .content:before {
-    border-bottom-color: inherit;
-    border-width: 17px;
-    top: -16px;
-    left: 50px;
-    margin-left: -17px;
-  }
-  .content:after {
-    border-bottom-color: #fff;
-    border-width: 20px;
-    top: -20px;
-    left: 50px;
-    margin-left: -20px;
-  }
-  .content p {
-    font-size: 0.9em;
-    line-height: 1.4;
-  }
-
-  .circle, .date {
-    display: none;
-  }
-}
-
-</style>
-
-  <script src="js/prefixfree.min.js"></script>
-
+  <!-- CSS
+  ================================================== -->
+  <link rel="stylesheet" type="text/css" href="css/main.css"/> 
+  <link rel="stylesheet" type="text/css" href="css/base.css"/>
+  <link rel="stylesheet" type="text/css" href="css/skeleton.css"/>
+  <link rel="stylesheet" type="text/css" href="css/layout.css"/>
+  <link rel="stylesheet" type="text/css" href="css/custom_styles.css"/>
 </head>
 
 <body>
+	<div id="page" class="chapter">
 
-  <h2>Timeline</h2>
+		<div class="container chapter" id="content">
+			<h1> Chapter 6 </h1>  <h2>The Liberation... </h2>
+			
+			<p>
+				Unknown to Anne and Margot, the Evil Lord's enemies, "The Alliance", had been busy planning to destroy him and his men. Whilst Anne and her family spent years hiding in the secret house, The Alliance were building up their armies with men and weapons to fight the Evil Lord. While the Frank family were being moved to Camp A, The Alliance started their attack on the Evil Lord's soldiers. Gigantic battles on the land, in the air and at sea were being fought and the Evil Lord was losing. More and more of the countries he had invaded were being won back by The Alliance who were liberating the people, that is making them free again. The Alliance were driving further and further into the continent, destroying more and more of the Evil Lords soldiers and were soon close to Camp B where they could liberate all the people who had been imprisoned there. 
+			</p>
+			<p>
 
-<ul id='timeline'>
-  <li class='work'>
-    <input class='radio' id='work7' name='works' type='radio' checked>
-    <div class="relative">
-      <label for='work7'>Anne Frank Born</label>
-      <span class='date'>1929</span>
-      <span class='circle'></span>
-    </div>
-    <div class='content'>
-      <p>
-      <img src="images/head.png" width="152" height="152" style="float:left;">
-      ...in Frankfurt, Germany. <br/>
-      Her Father is Otto, her Mother is Edith and her big sister is Margot. 
-    </p>
-    </div>
-  </li>
-  <li class='work'>
-    <input class='radio' id='work6' name='works' type='radio'>
-    <div class="relative">
-      <label for='work6'>Hitler's Nazi Party Gain Power in Germany</label>
-      <span class='date'>1933</span>
-      <span class='circle'></span>
-    </div>
-    <div class='content'>
-      <p>
-        <img src="images/head.png" width="152" height="152" style="float:left;">
-        ...The Frank family escape Germany and move to Amsterdam, in The Netherlands.
-        </p>
-    </div>
-  </li>
-  <li class='work'>
-    <input class='radio' id='work5' name='works' type='radio'>
-    <div class="relative">
-      <label for='work5'>Germany Invades The Netherlands</label>
-      <span class='date'>1940</span>
-      <span class='circle'></span>
-    </div>
-    <div class='content'>
-      <p>
-        <img src="images/head.png" width="152" height="152" style="float:left;">
-        ...and The Frank family are trapped in Amsterdam. Persecution of the Jews begins.
-      </p>
-    </div>
-  </li>
-  <li class='work'>
-    <input class='radio' id='work4' name='works' type='radio'>
-    <div class="relative">
-      <label for='work4'>The Franks Go Into Hiding</label>
-      <span class='date'>1942</span>
-      <span class='circle'></span>
-    </div>
-    <div class='content'>
-      <p>
-        <img src="images/head.png" width="152" height="152" style="float:left;">
-        ...in the concealed rooms in the building where Otto Frank worked.
-      </p>
-    </div>
-  </li>
-  <li class='work'>
-    <input class='radio' id='work3' name='works' type='radio'>
-    <div class="relative">
-      <label for='work3'>The Group Are Betrayed</label>
-      <span class='date'>1944</span>
-      <span class='circle'></span>
-    </div>
-    <div class='content'>
-      <p>
-        <img src="images/head.png" width="152" height="152" style="float:left;">
-        ... and they are all transported to concentration camps.
-      </p>
-    </div>
-  </li>
-  <li class='work'>
-    <input class='radio' id='work2' name='works' type='radio'>
-    <div class="relative">
-      <label for='work2'>Anne and Margot Die</label>
-      <span class='date'>1945</span>
-      <span class='circle'></span>
-    </div>
-    <div class='content'>
-      <p>
-        <img src="images/head.png" width="152" height="152" style="float:left;">
-        ... of typhus bug in the concentration camp.
-      </p>
-    </div>
-  </li>
-  <li class='work'>
-    <input class='radio' id='work1' name='works' type='radio'>
-    <div class="relative">
-      <label for='work1'>Otto Frank Returns To Amsterdam</label>
-      <span class='date'>1945</span>
-      <span class='circle'></span>
-    </div>
-    <div class='content'>
-      <p>
-        <img src="images/head.png" width="152" height="152" style="float:left;">
-        ...He is the only Frank to survive and discovers Anne's diary. 
-        <br/>
-        Later he publishes her diary and a museum is made where their secret house was.
-      </p>
-    </div>
-  </li>
-</ul>
+				The Alliance soldiers finally beat the Evil Lord's soldiers who were guarding Camp B and they could not believe what they saw. Thousands of dead people lying in giant graves, with thousands more ill and starving people who were close to death themselves. The Alliance gave these poor people food, water and medical care else they too might die. Even though The Alliance tried to get to the camps as quickly as possible, it was too late for Anne and Margot. 
+			</p>
+			<p>
 
-  <script src='http://codepen.io/assets/libs/fullpage/none.js'></script>
+				A few weeks before The Alliance liberated Camp B, Margot had caught the bug that was spreading through the camp. She was so ill already she didn't have the strength to fight the disease. She died shortly after. Now Anne, was completely alone, not knowing what had happened to her mother and father and now had lost her sister. She too was ill, starving and shivering with the cold and disease. Anne died a few days after her sister. 
+			</p>
+			<p>
+				She was only 15 years old.
 
+			</p>
+		</div><!-- container -->
+	</div>
+
+	<script type="text/javascript" src="js/retina-1.1.0.min.js"></script>
 </body>
-
 </html>
