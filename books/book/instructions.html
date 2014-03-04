@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Loading Page</title>
+  
+	<link rel="stylesheet" type="text/css" href="css/layout.css">
+  <link href="css/intro.css" rel="stylesheet" type="text/css" />
+ 	<style>
+			.expandable {
+				padding-top: 10px;
+				/* overflow set to hidden to hide the expanded text */
+				overflow: hidden;
+				/* all style changes will ease-in-out for 1s */
+				-moz-transition: all 1s ease-in-out;
+				-ms-transition: all 1s ease-in-out;
+				-o-transition: all 1s ease-in-out;
+				-webkit-transition: all 1s ease-in-out;
+				transition: all 1s;
+			}
+	</style>
+  
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
+</head>
+<body>
+
+<article class="comic group">
+
+<ol class="grid"> 
+
+
+ <li class="row h050 across-1">
+      <ol class="panels">
+        <li class="elsewhere">
+          <p>Anne Frank</p>
+        </li>
+      </ol>
+  </li>
+ </ol> 
+  <div id="s"
+     class="expandable"
+     style="height: 80px;">
+    <!-- upon clicking this <a>, javascript executes
+         toggleHeight, using 150 as the maxHeight. -->
+   <ol class="grid">       
+         
+   <li class="row h050 across-1">
+      <ol class="panels">
+        <li class="elsewhere">
+          <p> <a href="#!" onclick="toggleHeight(this, 450); return false">+tap</a></p>
+        </li>
+      </ol>
+  </li>
+  
+  
+  
+  <li class="row h300 across-3">
+    <ol class="panels">
+    
+      <li>
+      
+        <p>Gesture 1</p>
+        
+      </li>
+      <li>
+        <p>Gesture 2</p>
+      </li>
+      <li>
+        <p>Gesture 3</p>
+      </li>
+    </ol>
+  </li>
+  <li class="row h250 across-3">
+    <ol class="panels">
+      <li>
+       <p>Gesture 4</p>
+        </li>
+      <li>
+        <p>Gesture 5</p>
+        </li>
+      <li>
+        <p>Gesture 6</p>
+        </li>
+      </ol>
+  </li>
+  </ol>
+  </div>
+  
+  
+ <ol class="grid"> 
+ 
+  <li class="row h050 across-1">
+      <ol class="panels">
+      <li class="elsewhere">
+          <p></p>
+        </li>
+        <li class="elsewhere">
+          <p>About</p>
+     
+        </li>
+      </ol>
+  </li>
+  
+   
+  <li class="row h300">
+    <p class="speech">iov dfhifd io;dfaigo;dfa;fd;agf;adui</p>
+  </li>
+
+ 
+
+ 
+</ol>
+</article>
+
+<script>
+function toggleHeight(e, maxHeight) {
+    e = document.getElementById("s"); // e = the gray div
+    
+    if(e.style.height != '80px') {
+        e.style.height = '80px'; // height of one line: 20px
+    } else {
+        e.style.height = maxHeight + 'px';
+    }
+}
+</script>
+
+</body>
+</html>
