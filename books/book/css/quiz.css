@@ -1,0 +1,119 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+#subhead {
+	width:90%;
+	margin: 0 auto 0 auto;
+	}
+
+
+
+
+a {
+	color: #333333;
+}
+
+#questionsList {
+	margin: 0 auto;
+	padding:0;
+	width: 80%;
+}
+
+#questionsList section {
+	display:none;
+}
+
+#questionsList section.current {
+	display:block;
+	position: relative;
+}
+
+#questionsList li {
+	display:list-item;
+	margin: 0 auto;
+	list-style: none;
+}
+
+
+
+#questionsList .questionItem {
+	margin:0 auto;
+	padding: 0.2em 0;
+	position: relative;
+	display: block;
+	text-align:left
+}
+
+#questionsList .questionItem svg {
+	position: absolute;
+	width:40px;
+	height: 40px;
+	top:50%;
+	margin-top: -20px;
+	left:5px;
+	pointer-events:none;
+}
+
+#questionsList .questionItem svg path {
+	stroke: red;
+	stroke-width:14px;
+	background: none;
+}
+
+svg:not(:root) {
+	overflow: hidden;
+}
+
+#questionsList .questionItem label {
+	display: inline-block;
+	position: relative;
+	font-size: 2em;
+	color:#8C8C8C;
+	padding:0 0 0 80px;
+	vertical-align: top;
+	cursor: pointer;
+}
+
+#questionsList .questionItem label::before {
+	border-radius: 50%;
+	content: '';
+	border: 6px solid #000;
+	background-color: #000;
+	width:50px;
+	height:50px;
+	top:50%;
+	left:0;
+	margin-top: -25px;
+	position: absolute;
+	cursor: pointer;
+	box-sizing: border-box;
+}
+
+#questionsList .questionItem input[type=radio] {
+	-webkit-appearance: none;
+	opacity: 0;
+	width:50px;
+	height:50px;
+	position: absolute;
+	top:50%;
+	left:0;
+	margin-top:-25px;
+	cursor: pointer;
+	background-color:#FFF;
+}
+
+.nextButton, .finalButton {
+	display:block;
+	border:4px solid #8C8C8C;
+	border-radius: 20px;
+	width:100%;
+	margin:0 auto;
+	margin-top: 25px;
+	padding:5px 10px;
+	font-family: "desyrelregular", sans-serif;
+	font-size: 1.2em;
+	text-align: center;
+	text-decoration: none;
+	color: #8C8C8C;
+}

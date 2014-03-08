@@ -5,34 +5,34 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>A358C42B-D695-48A8-9534-38C9AF36B6DB</string>
+	<string>9751644B-D869-459A-94ED-E9C1AE812F29</string>
 	<key>IDESourceControlProjectName</key>
 	<string>Baker</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>1F4D9565-91FF-4438-91C7-DC7784998D2A</key>
-		<string>ssh://github-alanuk/stevepetebruce/SchoolBook.git</string>
+		<key>7F55B1AF-C14A-40DA-9ABD-FF28FA7A6362</key>
+		<string>https://github.com/stevepetebruce/SchoolBook.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>Baker.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>1F4D9565-91FF-4438-91C7-DC7784998D2A</key>
+		<key>7F55B1AF-C14A-40DA-9ABD-FF28FA7A6362</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>ssh://github-alanuk/stevepetebruce/SchoolBook.git</string>
+	<string>https://github.com/stevepetebruce/SchoolBook.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>1F4D9565-91FF-4438-91C7-DC7784998D2A</string>
+	<string>7F55B1AF-C14A-40DA-9ABD-FF28FA7A6362</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>1F4D9565-91FF-4438-91C7-DC7784998D2A</string>
+			<string>7F55B1AF-C14A-40DA-9ABD-FF28FA7A6362</string>
 			<key>IDESourceControlWCCName</key>
 			<string>SchoolBook</string>
 		</dict>

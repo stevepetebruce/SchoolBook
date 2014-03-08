@@ -3,9 +3,9 @@
 <head>
   <meta charset="utf-8" />
   <title>Loading Page</title>
-  
-	<link rel="stylesheet" type="text/css" href="css/layout.css">
-  <link href="css/intro.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" type="text/css" href="css/layout.css">
+	<link rel="stylesheet" type="text/css" href="css/chapterpage.css">
+  <link rel="stylesheet" type="text/css" href="css/simplegrid.css" />
  	<style>
 			.expandable {
 				padding-top: 10px;
@@ -22,102 +22,137 @@
   
   <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
 </head>
-<body>
+<body style="text-align:center;">
 
-<article class="comic group">
+        <div class="grid grid-pad">
+            <div class="col-1-1">
+               <div class="content">
+                  <h1>Anne Frank</h1>
+                  <p>Instructions</p>
+                    </div>
+            </div>
+        </div>
 
-<ol class="grid"> 
 
 
- <li class="row h050 across-1">
-      <ol class="panels">
-        <li class="elsewhere">
-          <p>Anne Frank</p>
-        </li>
-      </ol>
-  </li>
- </ol> 
-  <div id="s"
+  
+  
+ 			<div class="grid grid-pad">
+                <div class="col-1-3">
+                   <div class="content">
+                   <img src="images/leftarrow.png" width="60" height="60">
+                       <h4>Icon 1</h4>
+                   </div>
+                </div>
+                <div class="col-1-3">
+                   <div class="content">
+                   <img src="images/plusarrow.png" width="60" height="60">
+                   <h4>Icon 2</h4>
+                   </div>
+                </div>
+                <div class="col-1-3">
+                   <div class="content">
+                   <img src="images/rightarrow.png" width="60" height="60">
+                       <h4>Icon 3</h4>
+                   </div>
+                </div>
+            </div>
+            
+            <div class="grid grid-pad">
+                <div class="col-1-3">
+                   <div class="content">
+                   <img src="images/rightarrow.png" width="60" height="60">
+                       <h4>Icon 4</h4>
+                   </div>
+                </div>
+                <div class="col-1-3">
+                   <div class="content">
+                    <img src="images/downarrow.png" width="60" height="60">
+                       <h4>Icon 5</h4>
+                   </div>
+                </div>
+                <div class="col-1-3">
+                   <div class="content">
+                   <img src="images/leftarrow.png" width="60" height="60">
+                       <h4>Icon 6</h4>
+                   </div>
+                </div>
+            </div>
+            
+            
+         
+            
+            
+            
+            
+ <div id="s"
      class="expandable"
-     style="height: 80px;">
+     style="background:#e6e6e6; height: 60px;">
     <!-- upon clicking this <a>, javascript executes
          toggleHeight, using 150 as the maxHeight. -->
-   <ol class="grid">       
-         
-   <li class="row h050 across-1">
-      <ol class="panels">
-        <li class="elsewhere">
-          <p> <a href="#!" onclick="toggleHeight(this, 450); return false">+tap</a></p>
-        </li>
-      </ol>
-  </li>
+    <a href="#!" onclick="toggleHeight(this, 450); return false">+Tap for other publications+</a>
   
   
+              <div class="grid grid-pad">
+                <div class="col-1-3">
+                   <div class="content">
+                       <h3>Publication 1</h3>
+                   </div>
+                </div>
+                <div class="col-1-3">
+                   <div class="content">
+                       <h3>Publication 2</h3>
+                   </div>
+                </div>
+                <div class="col-1-3">
+                   <div class="content">
+                       <h3>Publication 3</h3>
+                   </div>
+                </div>
+            </div>
+            
+            <div class="grid grid-pad">
+                <div class="col-1-3">
+                   <div class="content">
+                       <h3>Publication 4</h3>
+                   </div>
+                </div>
+                <div class="col-1-3">
+                   <div class="content">
+                       <h3>Publication 5</h3>
+                   </div>
+                </div>
+                <div class="col-1-3">
+                   <div class="content">
+                       <h3>Publication 6</h3>
+                   </div>
+                </div>
+            </div>
   
-  <li class="row h300 across-3">
-    <ol class="panels">
-    
-      <li>
-      
-        <p>Gesture 1</p>
-        
-      </li>
-      <li>
-        <p>Gesture 2</p>
-      </li>
-      <li>
-        <p>Gesture 3</p>
-      </li>
-    </ol>
-  </li>
-  <li class="row h250 across-3">
-    <ol class="panels">
-      <li>
-       <p>Gesture 4</p>
-        </li>
-      <li>
-        <p>Gesture 5</p>
-        </li>
-      <li>
-        <p>Gesture 6</p>
-        </li>
-      </ol>
-  </li>
-  </ol>
+  
+
+  
+  
   </div>
   
   
- <ol class="grid"> 
- 
-  <li class="row h050 across-1">
-      <ol class="panels">
-      <li class="elsewhere">
-          <p></p>
-        </li>
-        <li class="elsewhere">
-          <p>About</p>
-     
-        </li>
-      </ol>
-  </li>
-  
-   
-  <li class="row h300">
-    <p class="speech">iov dfhifd io;dfaigo;dfa;fd;agf;adui</p>
-  </li>
+   <div class="grid grid-pad">
+            <div class="col-1-1">
+               <div class="content">
+                  <p>Credits</p>
+                  <p>Design and Build - www.Pencil.agency</p>
+                 
+                    </div>
+            </div>
+        </div>
 
- 
-
- 
-</ol>
-</article>
 
 <script>
 function toggleHeight(e, maxHeight) {
     e = document.getElementById("s"); // e = the gray div
     
-    if(e.style.height != '80px') {
-        e.style.height = '80px'; // height of one line: 20px
+    if(e.style.height != '60px') {
+        e.style.height = '60px'; // height of one line: 20px
     } else {
         e.style.height = maxHeight + 'px';
     }
