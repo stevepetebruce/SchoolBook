@@ -1,5 +1,5 @@
 function init(){
-	$('#tab-container').easytabs({animate: true}); 
+	// $('#tab-container').easytabs({animate: true}); 
 	$('.noannim').hide();
 }
 
@@ -15,8 +15,17 @@ function initEventHandlers(){
 	});
 }
 
+function animate(){
+
+	// cant get this to work together:
+	// $(".animated_text").lettering(); 
+	$('.tlt').textillate({ in: { effect: 'fadeIn', shuffle: true } });
+
+}
+
 
 $(document).ready(function() {
 	init();
 	initEventHandlers();
+	animate();
 });

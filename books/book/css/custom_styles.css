@@ -3,13 +3,22 @@ body {
 	background-image: url(../images/lightpaperfibers.png);
 	background-repeat: repeat;
 }
+
+p{
+	font-size: 25px;
+	line-height: 1.3em;
+	padding: 50px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+
+}
 .content {
 	width: 90%;
 	margin-top: 80px;
 }
 
 .front-cover-img{
-/*	height:55%;
+	/*	height:55%;
 	width:55%;*/
 	height:100%;
 	width:100%;
@@ -23,6 +32,12 @@ img.centre {
 
 .black-background{
 	background-color: black;
+}
+
+.page_number{
+	float: right;
+	font-size: 25px;
+	padding-right: 10px;
 }
 
 /* Start TYPOGRAPHY STYLES */
@@ -75,7 +90,7 @@ img.centre {
 
 .front-cover h2
 {
-    top:600px;
+	top:600px;
 	float: right;
 	position: relative;
 	left:30px;
@@ -95,36 +110,91 @@ img.centre {
 }
 
 .stitched {
-   padding: 20px;
-   margin: 10px;
-   background: #ff0030;
-   color: #fff;
-   font-size: 21px;
-   font-weight: bold;
-   line-height: 1.3em;
-   border: 2px dashed #fff;
-   border-radius: 10px;
-   box-shadow: 0 0 0 4px #ff0030, 2px 1px 6px 4px rgba(10, 10, 0, 0.5);
-   text-shadow: -1px -1px #aa3030;
-   font-weight: normal;
+	padding: 20px;
+	margin: 10px;
+	background: #ff0030;
+	color: #fff;
+	font-size: 21px;
+	font-weight: bold;
+	line-height: 1.3em;
+	border: 2px dashed #fff;
+	border-radius: 10px;
+	box-shadow: 0 0 0 4px #ff0030, 2px 1px 6px 4px rgba(10, 10, 0, 0.5);
+	text-shadow: -1px -1px #aa3030;
+	/*font-weight: normal;*/
 }
 
 /* END Ribbon Styles*/
 
+@font-face {
+	font-family: 'LoversQuarrel-Regular';
+	src: url('../fonts/LoversQuarrel-Regular.otf') format('opentype');
+	font-weight: normal;
+	font-style: normal;
+}
+
 .main-title-text{
-  font-family: 'Diplomata SC', cursive;
-  color: #EFFFAE;
-  padding-right: 15px;
-  text-shadow: 0px 1px 2px #bbb;
+	font-family: 'Diplomata SC', cursive;
+	color: #EFFFAE;
+	padding-right: 15px;
+	text-shadow: 0px 1px 2px #bbb;
+}
+.contents-text h1{
+	font-family: 'LoversQuarrel-Regular';
+	font-size: 100px;
+	padding-top: 20px;
+}
+
+.contents-text li *{
+	font-family: 'Della Respira', serif;
+	font-size: 25px;
 }
 
 .black{
-  color: black;
+	color: black;
 }
 
 .centre{
-  text-align: center;
+	text-align: center;
 }
+
+.chapter-header{
+	font-family: 'LoversQuarrel-Regular';
+	font-size: 100px;
+	padding-top: 150px;
+}
+
+.chapter-title{
+	font-family: 'LoversQuarrel-Regular';
+	font-size: 100px;
+	padding-top:100px;
+}
+
+/*.left{
+	float: left;
+	display: block;
+	}*/
+/*
+li{
+	float: left;
+	width: 220px;
+	clear: both;
+}
+*/
+.contents-wrapper{
+	display: block;
+	text-align: center;
+	padding-top: 30px;
+}
+
+.contents-wrapper li{
+	line-height: 30px;
+}
+
+/*.container{
+	padding: 50px;
+}
+*/
 
 /* START Chapter Pages Styles*/
 

@@ -1,10 +1,10 @@
 {
     "hpub": 1,
     "title": "Heroes",
-    "author": ["David King"],
-    "creator": ["Genesoft"],
+    "author": ["Alan Donohoe"],
+    "creator": ["Pencil"],
     "date": "2013-05-23",
-    "url": "http://www.ashdown.co.uk/",
+    "url": "http://www.pencil-pencil.co.uk/",
     "orientation": "portrait",
     "zoomable": false,
     "-baker-background": "#000000",
@@ -15,7 +15,7 @@
     "-baker-background-image-landscape": "library_images/background-landscape.png",
     "-baker-page-numbers-color": "#333",
     "contents": [
-                 "front_cover.html",
+                 "anne_frank.html",
                  "contents.html",
                  "chapter1.html",
                  "1.html",
