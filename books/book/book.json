@@ -5,7 +5,7 @@
     "creator": ["Genesoft"],
     "date": "2013-05-23",
     "url": "http://www.ashdown.co.uk/",
-    "orientation": “portrait”,
+    "orientation": "portrait",
     "zoomable": false,
     "-baker-background": "#000000",
     "-baker-vertical-bounce": true,
@@ -15,8 +15,8 @@
     "-baker-background-image-landscape": "library_images/background-landscape.png",
     "-baker-page-numbers-color": "#333",
     "contents": [
-		“instructions.html”,
-                 “introduction.html",
+                 "instructions.html”,
+                 "introduction.html",
                  "1.html",
                  "2.html",
                  "3.html",
@@ -24,7 +24,7 @@
                  "5.html",
                  "6.html",
                  "7.html",
-                 “quiz.html"
+                 "quiz.html"
                  ]
 }
 

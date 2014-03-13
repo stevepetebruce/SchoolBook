@@ -25,7 +25,7 @@ footer, header, hgroup, menu, nav, section {
 }
 
 
-body { background: #FFF; font: 200 1.6em/1.8 "Droid Serif", serif; color: #111; height: 100%; }
+body { background: #95c9c3; font: 200 1.6em/1.8 "Droid Serif", serif; color: #111; height: 100%; }
 
 
 ol, ul {
@@ -51,9 +51,13 @@ table {
 }
 
 
+
+
 .panels {
   position: relative;
   height: 100%;
+  
+   
 }
 
 .panels li {
@@ -62,6 +66,14 @@ table {
   margin-left: 2%;
   height: 100%;
   overflow: hidden;
+  background: #f3e4c8;
+  box-shadow: 3px 3px 0 0 rgba(0, 0, 0, 0.1);
+
+
+
+
+
+
   
   
 }
@@ -69,6 +81,8 @@ table {
 .panels li img {
   position: absolute;
   margin: 18px 0 0 0;
+  
+  
 }
 
 
@@ -182,31 +196,36 @@ p {
 }
 
 .speech {
-	padding: 4%;
-	margin: 4% 4% 0 4%;
-	background-color: #fff;
-	border-radius: 12px;
-	text-align: center;
+	margin: 0%;
+	background-color: #f3e4c8;
 	font-size: .8em;
-	display: inline-block;
-	bottom: 4%;
-	line-height:1.2em;
+	bottom: 0%;
+	line-height:1em;
 	position: absolute;
+	width:100%;
+	padding: 14px 10px 20px 10px;
+ 	text-align: center;
 	
 	
 }
 
 .chapno {
-	margin: 3% 0 0 3%;
-	background-color: #fff;
-	border-radius: 50%;
+	  position: absolute;
+  bottom: 35px;
+  left: 45%;
+  display: block;
+  -moz-border-radius: 40px 40px 40px 40px;
+  -webkit-border-radius: 40px 40px 40px 40px;
+  border-radius: 40px 40px 40px 40px;
 	text-align: center;
 	font-size: 1.5em;
 	display: inline-block;
 	font-family: 'desyrelregular', serif;
 	line-height:1em;
-	height:44px;
-	width:44px;
+	height:50px;
+	width:50px;
+	 background: #f3e4c8;
+	 color:#cb5432;
 
 }
 
@@ -230,43 +249,80 @@ p {
 }
 
 .panels .panel-1 {
-  background: url(../images/panel-1.jpg) top center;
+  background: #f3e4c8 url(../images/panel-1.jpg);
+      background-size:96%;
+  background-repeat:no-repeat;
+  background-position:6px 6px;
+
+
+
+
 }
 
 .panels .panel-2 {
-  background: url(../images/panel-2.jpg) top center;
+  background: #f3e4c8 url(../images/panel-2.jpg);
+      background-size:96%;
+  background-repeat:no-repeat;
+  background-position:6px 6px;
+
+
+
 }
 
 .panels .panel-3 {
-  background: url(../images/panel-3.jpg) top center;
+  background: url(../images/panel-3.jpg);
+  background-size:96%;
+  background-repeat:no-repeat;
+  background-position:6px 6px;
 }
 
 .panels .panel-4 {
   background: url(../images/panel-4.jpg) top center;
+  background-size:96%;
+  background-repeat:no-repeat;
+  background-position:6px 6px;
 }
 
 .panels .panel-5 {
   background: url(../images/panel-5.jpg) top center;
+  background-size:96%;
+  background-repeat:no-repeat;
+  background-position:6px 6px;
 }
 
 .panels .panel-6 {
   background: url(../images/panel-6.jpg) top center;
+  background-size:96%;
+  background-repeat:no-repeat;
+  background-position:6px 6px;
 }
 
 .panels .panel-7 {
   background: url(../images/panel-7.jpg) top center;
+  background-size:96%;
+  background-repeat:no-repeat;
+  background-position:6px 6px;
 }
 
 .panels .panel-8 {
   background: url(../images/panel-8.jpg) top center;
+  background-size:96%;
+  background-repeat:no-repeat;
+  background-position:6px 6px;
 }
 
 .panels .panel-9 {
   background: url(../images/panel-9.jpg) top center;
+  background-size:96%;
+  background-repeat:no-repeat;
+  background-position:6px 6px;
 }
 
 .panels .panel-10 {
   background: url(../images/panel-10.jpg) top center;
+  background-size:96%;
+  background-repeat:no-repeat;
+  background-position:6px 6px;
 }
 
 .speech-left {
@@ -329,9 +385,7 @@ p {
  
 }
 
-body {
-  background: #fff;
-}
+
 
 .group:after {
   content: ".";
@@ -345,13 +399,10 @@ article {
   max-width: 900px;
   margin: 20px auto;
   padding: 20px;
-  background-color: #fff;
+
 }
 
-.elsewhere {
-  background-color: white;
-  
-}
+
 .elsewhere p {
   color: #333;
   text-align: center;
