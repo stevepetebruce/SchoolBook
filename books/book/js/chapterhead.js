@@ -11,7 +11,13 @@ function EasyPeasyParallax() {
 		'opacity': 1-(scrollPos/250)
 	});
 }
-$(document).ready(function(){
+
+
+
+
+
+
+$(document).ready('touchmove',function(){
 	$(window).scroll(function() {
 		EasyPeasyParallax();
 	});
