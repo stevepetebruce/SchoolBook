@@ -68,6 +68,10 @@ table {
   overflow: hidden;
   background: #f3e4c8;
   box-shadow: 3px 3px 0 0 rgba(0, 0, 0, 0.1);
+  -moz-border-radius: 4px;
+-webkit-border-radius: 4px;
+border-radius: 4px; /* future proofing */
+-khtml-border-radius: 4px; /* for old Konqueror browsers */
 
 
 
@@ -210,13 +214,14 @@ p {
 }
 
 .chapno {
-	  position: absolute;
-  bottom: 35px;
-  left: 45%;
-  display: block;
-  -moz-border-radius: 40px 40px 40px 40px;
-  -webkit-border-radius: 40px 40px 40px 40px;
-  border-radius: 40px 40px 40px 40px;
+	 position: absolute;
+ 	 bottom: 35px;
+ 	left: 50%;
+	margin-left:-25px;
+ 	 display: block;
+ 	 -moz-border-radius: 40px 40px 40px 40px;
+ 	 -webkit-border-radius: 40px 40px 40px 40px;
+ 	 border-radius: 40px 40px 40px 40px;
 	text-align: center;
 	font-size: 1.5em;
 	display: inline-block;
@@ -249,21 +254,17 @@ p {
 }
 
 .panels .panel-1 {
-  background: #f3e4c8 url(../images/panel-1.jpg);
-      background-size:96%;
+  background: #f3e4c8 url(../images/bg_p1.jpg);
+  background-size:100%;
   background-repeat:no-repeat;
-  background-position:6px 6px;
-
-
-
 
 }
 
 .panels .panel-2 {
-  background: #f3e4c8 url(../images/panel-2.jpg);
-      background-size:96%;
+  background: #f3e4c8 url(../images/bg_p2.jpg);
+      background-size:100%;
   background-repeat:no-repeat;
-  background-position:6px 6px;
+
 
 
 

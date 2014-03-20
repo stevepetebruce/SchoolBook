@@ -390,11 +390,6 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0500;
-				TargetAttributes = {
-					ABAFB58615AB9A2E002FA498 = {
-						DevelopmentTeam = 7YPG76ULT8;
-					};
-				};
 			};
 			buildConfigurationList = ABAFB58115AB9A2E002FA498 /* Build configuration list for PBXProject "Baker" */;
 			compatibilityVersion = "Xcode 3.2";
