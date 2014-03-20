@@ -25,7 +25,7 @@ footer, header, hgroup, menu, nav, section {
 }
 
 
-body { background: #95c9c3; font: 200 1.6em/1.8 "Droid Serif", serif; color: #111; height: 100%; }
+body { background: url(../images/greynoise.jpg) repeat; font: 200 1.6em/1.8 "Droid Serif", serif; color: #111; height: 100%; }
 
 
 ol, ul {
@@ -201,13 +201,13 @@ p {
 
 .speech {
 	margin: 0%;
-	background-color: #f3e4c8;
+	background-color: #78afbe;
 	font-size: .8em;
 	bottom: 0%;
 	line-height:1em;
 	position: absolute;
 	width:100%;
-	padding: 14px 10px 20px 10px;
+	padding: 20px 10px 14px 10px;
  	text-align: center;
 	
 	
@@ -215,7 +215,7 @@ p {
 
 .chapno {
 	 position: absolute;
- 	 bottom: 35px;
+ 	 bottom: 36px;
  	left: 50%;
 	margin-left:-25px;
  	 display: block;
@@ -223,14 +223,17 @@ p {
  	 -webkit-border-radius: 40px 40px 40px 40px;
  	 border-radius: 40px 40px 40px 40px;
 	text-align: center;
-	font-size: 1.5em;
+	font-size: 1.2em;
 	display: inline-block;
 	font-family: 'desyrelregular', serif;
-	line-height:1em;
-	height:50px;
-	width:50px;
-	 background: #f3e4c8;
-	 color:#cb5432;
+	line-height:1.2em;
+	height:40px;
+	width:40px;
+	 background: #699ead;
+	 color:#fff;
+	 -moz-box-shadow:    0px 1px 1px 1px  rgba(68,68,68,0.4);
+  -webkit-box-shadow: 0px 1px 1px 1px  rgba(68,68,68,0.4);
+  box-shadow:         0px 1px 1px 1px  rgba(68,68,68,0.4);
 
 }
 
@@ -254,14 +257,14 @@ p {
 }
 
 .panels .panel-1 {
-  background: #f3e4c8 url(../images/bg_p1.jpg);
+  background: #d46216 url(../images/bg_p1.jpg);
   background-size:100%;
   background-repeat:no-repeat;
 
 }
 
 .panels .panel-2 {
-  background: #f3e4c8 url(../images/bg_p2.jpg);
+  background: #d46216 url(../images/bg_p2.jpg);
       background-size:100%;
   background-repeat:no-repeat;
 
