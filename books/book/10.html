@@ -8,9 +8,11 @@
   <title>Anne Frank Timeline</title>
     <!-- <link rel="stylesheet" type="text/css" href="css/custom_styles.css"/> -->
     <!-- TODO: need to put all the time line styles below into the custom_styles file above and then include.. -->
+    
+    <link rel="stylesheet" type="text/css" href="css/layout.css">
 
     <style>
-@import url(http://fonts.googleapis.com/css?family=Noto+Sans);
+
 /* -------------------------------------
  * For horizontal version, set the
  * $vertical variable to false
@@ -22,17 +24,20 @@ body {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 5%;
-  font-size: 100%;
-  font-family: "Noto Sans", sans-serif;
+  font-size: 120%;
+  font-family: "Droid Serif", serif;
+  
   color: #fff;
-  background: #29a5e6;
+  background:url(images/brownbg.jpg) repeat;
 }
 
-h2 {
-  margin: 3em 0 0 0;
-  font-size: 1.5em;
-  letter-spacing: 2px;
-  text-transform: uppercase;
+h1 {
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.6);
+	font-family: "desyrelregular", sans-serif;
+	font-size: 4em;
+	line-height: 0.4;
+	font-weight: 300;
+	text-align:center;
 }
 
 /* -------------------------------------
@@ -49,16 +54,18 @@ h2 {
   position: relative;
 }
 #timeline p {
-  margin: 0 0 15px;
+	margin: 0 0 15px;
+	line-height: 1.6em;
 }
 
 .date {
-  margin-top: -10px;
-  top: 50%;
-  left: -158px;
-  font-size: 0.95em;
-  line-height: 20px;
-  position: absolute;
+	margin-top: -10px;
+	top: 50%;
+	left: -158px;
+	font-size: 1.4em;
+	line-height: 20px;
+	position: absolute;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.6);
 }
 
 .circle {
@@ -76,11 +83,11 @@ h2 {
 
 .content {
   max-height: 20px;
-  padding: 50px 20px 0;
+  padding: 60px 20px 0;
   border-color: transparent;
   border-width: 2px;
   border-style: solid;
-  border-radius: 0.5em;
+  border-radius: 0.3em;
   position: relative;
   background-color:#fff;
 }
@@ -114,6 +121,7 @@ h2 {
   hyphens: auto;
   overflow: hidden;
   color:#999;
+
 }
 
 
@@ -124,7 +132,7 @@ label {
   position: absolute;
   z-index: 100;
   cursor: pointer;
-  top: 20px;
+  top: 25px;
   left: 20px;
   transition: transform 0.2s linear;
   color:#666;
@@ -209,7 +217,10 @@ label {
   }
 }
 
-</style>
+    .content p img {
+	margin-right: 12px;
+}
+    </style>
 
   <script src="js/prefixfree.min.js"></script>
 
@@ -217,7 +228,7 @@ label {
 
 <body>
 
-  <h2>Timeline</h2>
+  <h1>Timeline</h1>
 
 <ul id='timeline'>
   <li class='work'>
@@ -229,7 +240,7 @@ label {
     </div>
     <div class='content'>
       <p>
-      <img src="images/head.png" width="152" height="152" style="float:left;">
+      <img src="images/ill_anne_frank_large.jpg" width="152" height="172" style="float:left;">
       ...in Frankfurt, Germany. <br/>
       Her Father is Otto, her Mother is Edith and her big sister is Margot. 
     </p>
@@ -244,7 +255,7 @@ label {
     </div>
     <div class='content'>
       <p>
-        <img src="images/head.png" width="152" height="152" style="float:left;">
+        <img src="images/ill_anne_frank_large.jpg" width="152" height="172" style="float:left;">
         ...The Frank family escape Germany and move to Amsterdam, in The Netherlands.
         </p>
     </div>
@@ -258,7 +269,7 @@ label {
     </div>
     <div class='content'>
       <p>
-        <img src="images/head.png" width="152" height="152" style="float:left;">
+        <img src="images/ill_anne_frank_large.jpg" width="152" height="172" style="float:left;">
         ...and The Frank family are trapped in Amsterdam. Persecution of the Jews begins.
       </p>
     </div>
@@ -272,7 +283,7 @@ label {
     </div>
     <div class='content'>
       <p>
-        <img src="images/head.png" width="152" height="152" style="float:left;">
+        <img src="images/ill_anne_frank_large.jpg" width="152" height="172" style="float:left;">
         ...in the concealed rooms in the building where Otto Frank worked.
       </p>
     </div>
@@ -286,7 +297,7 @@ label {
     </div>
     <div class='content'>
       <p>
-        <img src="images/head.png" width="152" height="152" style="float:left;">
+        <img src="images/ill_anne_frank_large.jpg" width="152" height="172" style="float:left;">
         ... and they are all transported to concentration camps.
       </p>
     </div>
@@ -300,7 +311,7 @@ label {
     </div>
     <div class='content'>
       <p>
-        <img src="images/head.png" width="152" height="152" style="float:left;">
+       <img src="images/ill_anne_frank_large.jpg" width="152" height="172" style="float:left;">
         ... of typhus bug in the concentration camp.
       </p>
     </div>
@@ -314,7 +325,7 @@ label {
     </div>
     <div class='content'>
       <p>
-        <img src="images/head.png" width="152" height="152" style="float:left;">
+        <img src="images/ill_anne_frank_large.jpg" width="152" height="172" style="float:left;">
         ...He is the only Frank to survive and discovers Anne's diary. 
         <br/>
         Later he publishes her diary and a museum is made where their secret house was.
