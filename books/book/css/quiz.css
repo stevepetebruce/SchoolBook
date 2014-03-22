@@ -137,10 +137,10 @@ h3{
 }
 
 #boxdec {
-	margin-top:40px;
-	
+	margin:40px 0 40px 0;
+	height:700px;
 	padding:20px;
-	
 	-moz-box-shadow:    0px 0px 12px 12px rgba(0,0,0,0.3);
-  -webkit-box-shadow: 0px 0px 12px 12px rgba(0,0,0,0.3);
-  box-shadow:         0px 0px 12px 12px rgba(0,0,0,0.3);}
+  	-webkit-box-shadow: 0px 0px 12px 12px rgba(0,0,0,0.3);
+  	box-shadow:         0px 0px 12px 12px rgba(0,0,0,0.3);
+	}
