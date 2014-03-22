@@ -18,9 +18,9 @@ h2 {
 }
 h3 { font: 700 1.5em/1.5 "Droid Sans", sans-serif; margin: 1em 0; }
 
-#banner { background: url(../images/bg_p1.jpg) no-repeat fixed 50% 0; background-size: cover; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; color: #fff; height: 98%; width: 100%; }
+#banner { background: url(../images/bg_p1.jpg) no-repeat fixed 50% 0; background-size: cover; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; color: #fff; height: 98%; width: 100%; background-size:768px 1024px; }
 
-#banner.p2 {background: url(../images/bg_p2.jpg) no-repeat fixed 50% 0; background-size: cover; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; color: #fff; height: 98%; width: 100%;}
+#banner.p2 {background: url(../images/bg_p2.jpg) no-repeat fixed 50% 0; background-size: cover; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; color: #fff; height: 98%; width: 100%; background-size:768px 1024px;}
 
 #bannertext { width: 28em; position: absolute; top: 10%; left: 50%; margin-left: -14em; padding: 2em 0; }
 
