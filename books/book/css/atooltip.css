@@ -7,11 +7,11 @@
 	z-index: 50000;
 }
 
-	#aToolTip .aToolTipContent {
-		position:relative;
-		margin:0;
-		padding:0;
-	}
+#aToolTip .aToolTipContent {
+	position:relative;
+	margin:0;
+	padding:0;
+}
 /* 
 	END: Required Styles
 */
@@ -34,18 +34,18 @@
 	-webkit-box-shadow: 2px 2px 8px #111; /* for Safari and Chrome */
 	box-shadow: 2px 2px 8px #111; /* for Safari and Chrome */
 }
-	
-	.defaultTheme #aToolTipCloseBtn {
-		display:block;
-		height:38px;
-		width:38px;
-		background:url(../images/Button-Close-icon.png) no-repeat;
-		background-size:44px 44px;
-		text-indent:-9999px;
-		outline:none;
-		position:absolute;
-		top:-40px;
-		right:-50px;
-		margin:2px;
-		padding:4px;
-	}
+
+.defaultTheme #aToolTipCloseBtn {
+	display:block;
+	height:38px;
+	width:38px;
+	background:url(../images/Button-Close-icon.png) no-repeat;
+	background-size:44px 44px;
+	text-indent:-9999px;
+	outline:none;
+	position:absolute;
+	top:-40px;
+	right:-50px;
+	margin:2px;
+	padding:4px;
+}

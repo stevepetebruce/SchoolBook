@@ -10,6 +10,12 @@
 
 }
 
+@font-face {
+    font-family: DiplomataSC;
+    src: url('DiplomataSC-Regular.ttf') format('truetype');
+    /*font-weight: normal;*/
+}
+
 /*@font-face{
 	font-family: 'fairyTaleFontOne';
 	src: url('RoyalInitialen.ttf') format('truetype');

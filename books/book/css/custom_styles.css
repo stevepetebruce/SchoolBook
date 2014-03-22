@@ -17,6 +17,10 @@ p{
 	margin-top: 80px;
 }
 
+.word1{
+
+}
+
 .front-cover-img{
 	/*	height:55%;
 	width:55%;*/
@@ -28,6 +32,26 @@ img.centre {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+/*	padding-top: 10px;
+	padding-bottom: 10px;*/
+/*	height: 350px;
+	width: 800px;*/
+  	-webkit-box-shadow: 3px 3px 5px 6px #ccc;
+}
+
+img.pull-right{
+	float: right;
+}
+
+img.banner{
+	height:200px;
+	width:650px;
+}
+
+img#hitler-tv{
+	height: 250px;
+	width: 260px;
+	padding-top: 20px;
 }
 
 .black-background{
@@ -37,7 +61,13 @@ img.centre {
 .page_number{
 	float: right;
 	font-size: 25px;
-	padding-right: 10px;
+	/*padding-right: 10px;*/
+	padding-top: 20px;
+	position:absolute;
+  	bottom:0;
+  	/*width:100%;
+    height:60px; */  
+    right: 40px;
 }
 
 /* Start TYPOGRAPHY STYLES */
@@ -55,7 +85,8 @@ img.centre {
 
 .ribbon-main-title .ribbon-content {
 	/*font-family: 'Gabriela', serif;*/
-	font-family: 'Diplomata SC', cursive;
+	/*font-family: 'Diplomata SC', cursive;*/
+	font-family: 'DiplomataSC', cursive;
 	color: #EFFFAE;
 	padding-right: 15px;
 	text-shadow: 0px 1px 2px #bbb;
@@ -104,7 +135,7 @@ img.centre {
 	/*-webkit-box-shadow: 0px 2px 4px #888;*/
 	/*-moz-box-shadow: 0px 2px 4px #888;*/
 	/*box-shadow: 0px 2px 4px #888;*/
-	font-family: 'Diplomata SC', cursive;
+	font-family: 'DiplomataSC', cursive;
 	color: #EFFFAE;;
 	font-size: 22px;
 }
@@ -134,7 +165,8 @@ img.centre {
 }
 
 .main-title-text{
-	font-family: 'Diplomata SC', cursive;
+	/*font-family: 'Diplomata SC', cursive;*/
+	font-family: 'DiplomataSC', cursive;
 	color: #EFFFAE;
 	padding-right: 15px;
 	text-shadow: 0px 1px 2px #bbb;
@@ -170,6 +202,9 @@ img.centre {
 	padding-top:100px;
 }
 
+a{
+	text-decoration:none;
+}
 /*.left{
 	float: left;
 	display: block;
@@ -191,10 +226,20 @@ li{
 	line-height: 30px;
 }
 
-/*.container{
-	padding: 50px;
+.container{
+	padding-top: 20px;
+	position:relative;
+	height: 1000px;
 }
-*/
+
+.illustration_wrapper{
+	border-style: solid;
+	border: black;
+	/*border-radius: 5px;*/
+	/*width: 500px;*/
+	/*height:500px;*/
+	
+}
 
 /* START Chapter Pages Styles*/
 
