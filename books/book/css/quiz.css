@@ -1,0 +1,146 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+#subhead {
+	width:90%;
+	margin: 0 auto 0 auto;
+	}
+
+
+
+
+a {
+	color: #333333;
+}
+
+#questionsList {
+	margin: 0 auto;
+	padding:0;
+	width: 65%;
+}
+
+#questionsList section {
+	display:none;
+}
+
+#questionsList section.current {
+	display:block;
+	position: relative;
+}
+
+#questionsList li {
+	display:list-item;
+	margin: 0 auto;
+	list-style: none;
+}
+
+
+
+#questionsList .questionItem {
+	margin:0 auto;
+	padding: 0.2em 0;
+	position: relative;
+	display: block;
+	text-align:left
+}
+
+#questionsList .questionItem svg {
+	position: absolute;
+	width:40px;
+	height: 40px;
+	top:50%;
+	margin-top: -20px;
+	left:5px;
+	pointer-events:none;
+}
+
+#questionsList .questionItem svg path {
+	stroke: #c96227;
+	stroke-width:14px;
+	background: none;
+}
+
+svg:not(:root) {
+	overflow: hidden;
+}
+
+#questionsList .questionItem label {
+	display: inline-block;
+	position: relative;
+	font-size: 1.2em;
+	color:#333;
+	padding:0 0 0 80px;
+	vertical-align: top;
+	cursor: pointer;
+}
+
+#questionsList .questionItem label::before {
+	border-radius: 50%;
+	content: '';
+	border: 6px solid #000;
+	background-color: #000;
+	width:50px;
+	height:50px;
+	top:50%;
+	left:0;
+	margin-top: -25px;
+	position: absolute;
+	cursor: pointer;
+	box-sizing: border-box;
+}
+
+#questionsList .questionItem input[type=radio] {
+	-webkit-appearance: none;
+	opacity: 0;
+	width:50px;
+	height:50px;
+	position: absolute;
+	top:50%;
+	left:0;
+	margin-top:-25px;
+	cursor: pointer;
+	background-color:#FFF;
+}
+
+.nextButton, .finalButton {
+	display:block;
+	border:4px solid #5B808A;
+	border-radius: 20px;
+	width:100%;
+	margin-top: 25px;
+	font-family: "droid sans", sans-serif;
+	font-size: 1.2em;
+	text-align: center;
+	text-decoration: none;
+	color: #000;
+	background-color: #78afbe;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	padding-top: 5px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+}
+
+h3{
+	
+	font-size:0.8em;}
+	
+#subhead h1{
+	font-size:3em;
+	-moz-box-shadow:    inset 0px 0px 0px #fff;
+	-webkit-box-shadow: inset 0px 0px 0px #fff;
+	box-shadow:         inset 0px 0px 0px #fff;
+	color:#608089;
+}
+
+#boxdec {
+	margin:40px 0 40px 0;
+	height:700px;
+	padding:20px;
+	-moz-box-shadow:    0px 0px 12px 12px rgba(0,0,0,0.3);
+  	-webkit-box-shadow: 0px 0px 12px 12px rgba(0,0,0,0.3);
+  	box-shadow:         0px 0px 12px 12px rgba(0,0,0,0.3);
+	}

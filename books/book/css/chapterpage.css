@@ -1,0 +1,67 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html { height: 100%; margin:0; padding:0; }
+body { background: #FFF; font: 400 1.6em/1.8 "Droid Serif", serif; color: #111; text-align: center; height: 100%; }
+
+h1 {
+	text-shadow: 1px 1px 1px #000;
+	font-family: "desyrelregular", sans-serif;
+	font-size: 4em;
+	line-height: 0.4;
+	font-weight: 300;
+}
+h2 {
+	font: 700 1.5em/1.5 "Droid Sans", sans-serif;
+	margin: 1em 0 0 0;
+	text-shadow: 1px 1px 1px #000;
+}
+h3 { font: 700 1.5em/1.5 "Droid Sans", sans-serif; margin: 1em 0; }
+
+#banner { background: url(../images/bg_p1.jpg) no-repeat fixed 50% 0; background-size: cover; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; color: #fff; height: 98%; width: 100%; background-size:768px 1024px; }
+
+#banner.p2 {background: url(../images/bg_p2.jpg) no-repeat fixed 50% 0; background-size: cover; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; color: #fff; height: 98%; width: 100%; background-size:768px 1024px;}
+
+#bannertext { width: 28em; position: absolute; top: 10%; left: 50%; margin-left: -14em; padding: 2em 0; }
+
+#content { max-width: 28em; text-align: justify; margin: 0 auto; padding: 2em; }
+
+#content p {
+	margin: 0 0 2em;
+	text-align:left;
+}
+
+.leftpic {
+	float:left;
+	margin-left:-2em;
+	padding: 4px 4px 4px 0px;
+	
+	}
+
+.rightpic {
+	float:right;
+	margin-right:-2em;
+	padding: 4px 0px 4px 4px;
+	
+	}
+
+.horzarrows {
+	padding: 0 1.4em 1.4em 1.4em;
+	height:70px;
+	width:70px;
+	}
+	
+.downarrow {
+	position:absolute;
+	right: left;
+	right: auto;
+	bottom: -220px;
+	padding:0;
+	margin-left:-25px;
+	}	
+	
+.firstcharacter { float: left; font-size: 92px; line-height: 76px; padding-top: 10px; padding-right: 8px; padding-left: 3px; }
+
+
+
+

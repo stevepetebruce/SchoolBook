@@ -1,0 +1,417 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+
+body { background: url(../images/greynoise.jpg) repeat; font: 200 1.6em/1.8 "Droid Serif", serif; color: #111; height: 100%; }
+
+
+ol, ul {
+  list-style: none;
+}
+
+
+blockquote, q {
+  quotes: none;
+}
+
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+
+
+
+.panels {
+  position: relative;
+  height: 100%;
+  
+   
+}
+
+.panels li {
+  position: relative;
+  float: left;
+  margin-left: 2%;
+  height: 100%;
+  overflow: hidden;
+  background: #f3e4c8;
+  box-shadow: 3px 3px 0 0 rgba(0, 0, 0, 0.1);
+  -moz-border-radius: 4px;
+-webkit-border-radius: 4px;
+border-radius: 4px; /* future proofing */
+-khtml-border-radius: 4px; /* for old Konqueror browsers */
+
+
+
+
+
+
+  
+  
+}
+
+.panels li img {
+  position: absolute;
+  margin: 18px 0 0 0;
+  
+  
+}
+
+
+.row {
+  margin-left: -2%;
+  margin-bottom: 2%;
+  position: relative;
+  clear: both;
+}
+
+.row.across-1 .panels li {
+  width: 98%;
+  
+}
+
+.row.across-2 .panels li {
+  width: 48%;
+}
+
+.row.across-3 .panels li {
+  width: 31.333%;
+}
+.row.across-3 .panels li.span-2 {
+  width: 64.667%;
+}
+@media screen and (max-width: 600px) {
+  .row.across-3 .panels li {
+    width: 48%;
+  }
+}
+.row.across-4 .panels li {
+  width: 23%;
+}
+.row.across-4 .panels li.span-2 {
+  width: 48%;
+}
+.row.across-4 .panels li.span-3 {
+  width: 73%;
+}
+.row.h050 {
+  height: 50px;
+}
+.row.h100 {
+  height: 100px;
+}
+.row.h150 {
+  height: 150px;
+}
+.row.h200 {
+  height: 200px;
+}
+.row.h250 {
+  height: 250px;
+}
+.row.h300 {
+  height: 300px;
+}
+.row.h350 {
+  height: 350px;
+}
+.row.h400 {
+  height: 400px;
+}
+.row.h450 {
+  height: 450px;
+}
+.row.h500 {
+  height: 500px;
+}
+.row.h550 {
+  height: 550px;
+}
+
+@media screen and (max-width: 600px) {
+  .row.across-2 .panels li {
+    width: 98%;
+    margin-bottom: 2%;
+  }
+  .row.across-3 .panels li {
+    width: 48%;
+    margin-bottom: 2%;
+  }
+  .row.across-3 .panels li:nth-child(3) {
+    width: 98%;
+  }
+  .row.across-4 .panels li {
+    width: 48%;
+    margin-bottom: 2%;
+  }
+}
+@media screen and (max-width: 400px) {
+  .row.across-2 .panels li {
+    width: 98%;
+    margin-bottom: 2%;
+  }
+  .row.across-3 .panels li {
+    width: 98%;
+    margin-bottom: 2%;
+  }
+  .row.across-3 .panels li:nth-child(3) {
+    width: 98%;
+  }
+  .row.across-4 .panels li {
+    width: 98%;
+    margin-bottom: 2%;
+  }
+}
+p {
+  font-family: "Droid Serif", serif;
+ 
+}
+
+.speech {
+	margin: 0%;
+	background-color: #78afbe;
+	font-size: .8em;
+	bottom: 0%;
+	line-height:1em;
+	position: absolute;
+	width:100%;
+	padding: 20px 10px 14px 10px;
+ 	text-align: center;
+	
+	
+}
+
+.chapno {
+	 position: absolute;
+ 	 bottom: 36px;
+ 	left: 50%;
+	margin-left:-25px;
+ 	 display: block;
+ 	 -moz-border-radius: 40px 40px 40px 40px;
+ 	 -webkit-border-radius: 40px 40px 40px 40px;
+ 	 border-radius: 40px 40px 40px 40px;
+	text-align: center;
+	font-size: 1.2em;
+	display: inline-block;
+	font-family: 'desyrelregular', serif;
+	line-height:1.2em;
+	height:40px;
+	width:40px;
+	 background: #699ead;
+	 color:#fff;
+	 -moz-box-shadow:    0px 1px 1px 1px  rgba(68,68,68,0.4);
+  -webkit-box-shadow: 0px 1px 1px 1px  rgba(68,68,68,0.4);
+  box-shadow:         0px 1px 1px 1px  rgba(68,68,68,0.4);
+
+}
+
+.yelling {
+  font-size: 24px;
+  
+}
+
+.action {
+  font-family: 'helvetica', arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 0.8em;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 4px;
+  border-top: 1px solid #333;
+  background: #ffc;
+}
+
+.panels .panel-1 {
+  background: #d46216 url(../images/bg_p1.jpg);
+  background-size:100%;
+  background-repeat:no-repeat;
+
+}
+
+.panels .panel-2 {
+  background: #d46216 url(../images/bg_p2.jpg);
+      background-size:100%;
+  background-repeat:no-repeat;
+
+
+
+
+}
+
+.panels .panel-3 {
+  background: url(../images/panel-3.jpg);
+  background-size:96%;
+  background-repeat:no-repeat;
+  background-position:6px 6px;
+}
+
+.panels .panel-4 {
+  background: url(../images/panel-4.jpg) top center;
+  background-size:96%;
+  background-repeat:no-repeat;
+  background-position:6px 6px;
+}
+
+.panels .panel-5 {
+  background: url(../images/panel-5.jpg) top center;
+  background-size:96%;
+  background-repeat:no-repeat;
+  background-position:6px 6px;
+}
+
+.panels .panel-6 {
+  background: url(../images/panel-6.jpg) top center;
+  background-size:96%;
+  background-repeat:no-repeat;
+  background-position:6px 6px;
+}
+
+.panels .panel-7 {
+  background: url(../images/panel-7.jpg) top center;
+  background-size:96%;
+  background-repeat:no-repeat;
+  background-position:6px 6px;
+}
+
+.panels .panel-8 {
+  background: url(../images/panel-8.jpg) top center;
+  background-size:96%;
+  background-repeat:no-repeat;
+  background-position:6px 6px;
+}
+
+.panels .panel-9 {
+  background: url(../images/panel-9.jpg) top center;
+  background-size:96%;
+  background-repeat:no-repeat;
+  background-position:6px 6px;
+}
+
+.panels .panel-10 {
+  background: url(../images/panel-10.jpg) top center;
+  background-size:96%;
+  background-repeat:no-repeat;
+  background-position:6px 6px;
+}
+
+.speech-left {
+  float: left;
+}
+
+.speech-right {
+  float: right;
+}
+
+.speech-left-75 {
+  width: 75%;
+  float: left;
+}
+
+.speech-right-75 {
+  width: 75%;
+  float: right;
+}
+
+.speech-center-75 {
+  width: 75%;
+  margin: 4% 12.5% 0 12.5%;
+}
+
+.speech-left-50 {
+  width: 50%;
+  float: left;
+}
+
+.speech-right-50 {
+  width: 50%;
+  float: right;
+}
+
+.speech-center-50 {
+  width: 50%;
+  margin: 4% 25% 0 25%;
+}
+
+.speech-left-30 {
+  width: 30%;
+  float: left;
+}
+
+.speech-right-30 {
+  width: 30%;
+  float: right;
+}
+
+.speech-center-30 {
+  width: 30%;
+  margin: 4% auto;
+}
+
+
+
+@font-face {
+  font-family: "Droid Serif", serif;
+ 
+}
+
+
+
+.group:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+article {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 20px;
+
+}
+
+
+.elsewhere p {
+  color: #333;
+  text-align: center;
+	padding-top: 2px;
+  font-family: 'desyrelregular', serif;
+  font-size:2em;
+  line-height:1em;
+}
