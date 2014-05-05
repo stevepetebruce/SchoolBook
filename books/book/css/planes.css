@@ -1,0 +1,17 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.gwd-page-container{position:relative;width:100%;height:100%;}
+.gwd-page-content{background-color:transparent;-webkit-transform:perspective(1400px) matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);-webkit-transform-style:preserve-3d;position:absolute; overflow:hidden;}
+.gwd-page-wrapper{background-color:#ffffff;position:absolute;-webkit-transform:translateZ(0px);}
+.gwd-page-size{width:768px;height:1024px;}
+.gwd-img-drhz{position:absolute;width:900px;height:1100px;left:-99.41666666666646px;top:-18.91666666665924px;}
+.gwd-img-f3fv{position:absolute;top:406.33333333333326px;left:-496px;width:783px;height:770px;}
+.gwd-gen-mgdh .gwd-gen-bfy2gwdanimation{-webkit-animation:gwd-gen-bfy2gwdanimation_gwd-keyframes 20s linear 0s 1 forwards;}
+.gwd-img-elb7{position:absolute;width:1053px;height:800px;left:154.33333333333303px;top:175px;}
+.gwd-gen-mgdh .gwd-gen-p2xwgwdanimation{-webkit-animation:gwd-gen-p2xwgwdanimation_gwd-keyframes 20s linear 0s 1 forwards;}
+@-webkit-keyframes gwd-gen-bfy2gwdanimation_gwd-keyframes{0%{top:406.33333333333326px;left:-496px;width:783px;height:770px;-webkit-animation-timing-function:linear;} 100%{top:-107.66666666666652px;left:756px;width:783px;height:770px;-webkit-animation-timing-function:linear;}}.gwd-img-sm72{position:absolute;top:263.66666666666663px;left:-277.66666666666777px;width:783px;height:770px;}
+.gwd-gen-mgdh .gwd-gen-0i6pgwdanimation{-webkit-animation:gwd-gen-0i6pgwdanimation_gwd-keyframes 20s linear 0s 1 forwards;}
+@-webkit-keyframes gwd-gen-0i6pgwdanimation_gwd-keyframes{0%{top:263.66666666666663px;left:-277.66666666666777px;width:783px;height:770px;-webkit-animation-timing-function:linear;} 100%{top:199px;left:596px;width:783px;height:770px;-webkit-animation-timing-function:linear;}}@-webkit-keyframes gwd-gen-p2xwgwdanimation_gwd-keyframes{0%{top:175px;left:154.33333333333303px;width:1053px;height:800px;-webkit-animation-timing-function:linear;} 100%{top:-652px;left:-251.6666666666663px;width:1053px;height:800px;-webkit-animation-timing-function:linear;}}.gwd-gen-bfy2gwdanimation-gen-animation0keyframe{top:406.33333333333326px;left:-496px;width:783px;height:770px;}
+.gwd-gen-p2xwgwdanimation-gen-animation0keyframe{top:175px;left:154.33333333333303px;width:1053px;height:800px;}
+.gwd-gen-0i6pgwdanimation-gen-animation0keyframe{top:263.66666666666663px;left:-277.66666666666777px;width:783px;height:770px;}
