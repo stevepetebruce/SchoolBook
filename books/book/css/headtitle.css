@@ -6,6 +6,8 @@
   width: 600px;
   font-size: 30px;
   text-align: center;
+  text-shadow: 1px 1px 1px #222;
+
  
 }
 
@@ -18,9 +20,9 @@ span {
   font-style: normal;
   font-weight: normal;
   text-decoration: inherit;
-  font-size: 36px;
+  font-size: 48px;
   margin: 0 30px;
-  top: -5px;
+  top: -20px;
   color:#FFF;
 }
 
@@ -28,7 +30,11 @@ span {
   font-family: "bebasregular", sans-serif;
   font-weight: 400;
   text-transform: uppercase;
-  font-size: 98px;
-  letter-spacing: 15px;
+  font-size: 95px;
+  letter-spacing: -2px;
+  word-spacing: 25px;
   margin: 0 0;
   color:#FFF;
+  text-shadow: 1px 1px 1px #222;
+
+}
