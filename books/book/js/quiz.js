@@ -23,7 +23,7 @@ function answersArray() {
 	// and create an empty array to store the answers
 	var answers = [];
 	// and have our correct answers
-	var correctAnswers = ["Answer1", "Answer1", "Answer1", "Answer1", "Answer1", "Answer1", "Answer1", "Answer1", "Answer1", "Answer1"];
+	var correctAnswers = ["Germany", "1939", "1944", "1 sister", "A journalist", "Otto Frank", "10", "In Auschwitz (Camp A)", "1945", "Otto"];
 	// test the length of the arrays
 	var length = Math.min(answers.length,correctAnswers.length);
 	// have the numbers of correct and incorrect answers

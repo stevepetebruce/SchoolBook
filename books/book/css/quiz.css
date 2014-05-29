@@ -7,9 +7,6 @@
 	margin: 0 auto 0 auto;
 	}
 
-
-
-
 a {
 	color: #333333;
 }
@@ -17,7 +14,7 @@ a {
 #questionsList {
 	margin: 0 auto;
 	padding:0;
-	width: 65%;
+	width: 95%;
 }
 
 #questionsList section {
@@ -138,7 +135,7 @@ h3{
 
 #boxdec {
 	margin:40px 0 40px 0;
-	height:700px;
+	height:750px;
 	padding:20px;
 	-moz-box-shadow:    0px 0px 12px 12px rgba(0,0,0,0.3);
   	-webkit-box-shadow: 0px 0px 12px 12px rgba(0,0,0,0.3);
