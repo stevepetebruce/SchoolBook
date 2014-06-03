@@ -18,21 +18,27 @@
   <!-- aToolTip css -->
   <link type="text/css" href="css/atooltip.css" rel="stylesheet"  media="screen" />
   <script type="text/javascript" src="js/jquery.atooltip.js"></script>
+  
+  <!-- flag -->
+  <script src="js/flag.js" type="text/javascript"></script>
+  
+  	<style type="text/css" media="screen">
+		#flag { position:absolute; top:412px; right:124px; z-index:2; }
+	</style>
 
 
 </head>
 <body>
       <div class="swiper-container">
         <div class="swiper-wrapper">
-            <div class="swiper-slide red-slide">
-
-                <div id="banner">
-                  <div class="headlinecontainer">
-                      <span class="line2">The Liberation</span>
-                      <span class="line1">Chapter 6</span>
-                </div>
-                </div>
-            </div>
+            <div class="swiper-slide red-slide" style="background-image:url(images/clothheadbg.jpg)">
+					<canvas id="flag"></canvas>
+				<div class="headlinecontainer">
+            		<span class="line2">The Liberation</span>
+            		<span class="line1">Chapter 6</span>
+       		 	</div>
+                
+          </div>
            
   
 
