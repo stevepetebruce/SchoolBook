@@ -1,0 +1,133 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.swipeleft {
+  position: absolute;
+  bottom: 25px;
+  left: 50%;
+  color:#FFF;
+
+}
+.arrowleft {
+  position: absolute;
+  bottom: 60px;
+  left: 42%;
+  margin-left:30px;
+}
+.arrowleft:before,
+.arrowleft:after{
+  content: '';
+  position: absolute;
+  top: 0px;
+  right: -24px;
+  width: 24px;
+  height: 6px;
+  border-radius: 10px;
+  display: block;
+  background: #fff;
+  transform:rotate(-45deg);
+  -webkit-transform:rotate(-45deg); 
+}
+.arrowleft:after{
+  right: inherit;
+  left: 0px;
+  top: 14px;
+  transform:rotate(45deg);
+  -webkit-transform:rotate(45deg); 
+}
+
+ 
+.animatedleft{
+  -webkit-animation: bounceleft 3s 4;
+  animation: bounceleft 3s both 4;
+}
+ 
+ 
+@-webkit-keyframes bounceleft {
+	0% {-webkit-transform: translatX(0); opacity: 0;}
+  60% { opacity: 1;}
+  100% {-webkit-transform: translateX(-60px); opacity: 0}
+}
+ 
+@-moz-keyframes bouncleft {
+	0% {-webkit-transform: translateX(0); opacity: 0;}
+  60% { opacity: 1;}
+  100% {-webkit-transform: translateX(-60px); opacity: 0}
+}
+ 
+@-o-keyframes bounceleft {
+	0% {-webkit-transform: translateX(0); opacity: 0;}
+  60% { opacity: 1;}
+  100% {-webkit-transform: translateY(-60px); opacity: 0}
+}
+@keyframes bounceleft {
+	0% {-webkit-transform: translateX(0); opacity: 0;}
+  60% { opacity: 1;}
+  100% {-webkit-transform: translateX(-60px); opacity: 0}
+}
+
+
+.swipeup {
+  position: absolute;
+  bottom: 10px;
+  left: 43%;
+  color:#FFF;
+
+}
+
+
+.arrowup {
+  position: absolute;
+  bottom: 60px;
+  left: 50%;
+  margin-left:-20px;
+}
+.arrowup:before,
+.arrowup:after{
+  content: '';
+  position: absolute;
+  top: 0;
+  right: -18px;
+  width: 24px;
+  height: 6px;
+  border-radius: 10px;
+  display: block;
+  background: #fff;
+  transform:rotate(45deg);
+  -webkit-transform:rotate(45deg); 
+}
+.arrowup:after{
+  right: inherit;
+  left: -18px;
+  transform:rotate(-45deg);
+  -webkit-transform:rotate(-45deg); 
+}
+ 
+.animatedup{
+  -webkit-animation: bounceup 3s 4;
+  animation: bounceup 3s both 4;
+}
+ 
+ 
+@-webkit-keyframes bounceup {
+	0% {-webkit-transform: translateY(0); opacity: 0;}
+  60% { opacity: 1;}
+  100% {-webkit-transform: translateY(-60px); opacity: 0}
+}
+ 
+@-moz-keyframes bounceup {
+	0% {-webkit-transform: translateY(0); opacity: 0;}
+  60% { opacity: 1;}
+  100% {-webkit-transform: translateY(-60px); opacity: 0}
+}
+ 
+@-o-keyframes bounceup {
+	0% {-webkit-transform: translateY(0); opacity: 0;}
+  60% { opacity: 1;}
+  100% {-webkit-transform: translateY(-60px); opacity: 0}
+}
+@keyframes bounceup {
+	0% {-webkit-transform: translateY(0); opacity: 0;}
+  60% { opacity: 1;}
+  100% {-webkit-transform: translateY(-60px); opacity: 0}
+}
