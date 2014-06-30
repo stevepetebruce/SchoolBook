@@ -1,10 +1,10 @@
 {
     "hpub": 1,
-    "title": "Heroes",
-    "author": ["David King"],
-    "creator": ["Genesoft"],
+    "title": "Real Life Heroes: Anne Frank",
+    "author": ["Free The Trees"],
+    "creator": ["Free The Trees"],
     "date": "2013-05-23",
-    "url": "http://www.ashdown.co.uk/",
+    "url": "http://www.freethetrees.co.uk/",
     "orientation": "portrait",
     "zoomable": false,
     "-baker-background": "#000000",
@@ -17,7 +17,6 @@
     "contents": [
                  "cover.html",
                  "introduction.html",
-                 "1test.html",
                  "1.html",
                  "2.html",
                  "3.html",
@@ -25,10 +24,7 @@
                  "5.html",
                  "6.html",
                  "7.html",
-                 "8.html",
-                 "9.html",
-                 "10.html",
-                 "quiz.html"
+                 "quiz_intro.html",
+                 "quiz.html",
                  ]
 }
-
