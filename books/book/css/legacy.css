@@ -9,15 +9,8 @@
 
 .gwd-page-content {
   background-color: transparent;
-  -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
-  -moz-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
-  transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
-  -webkit-perspective: 1400px;
-  -moz-perspective: 1400px;
-  perspective: 1400px;
+  -webkit-transform: perspective(1400px) matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
   -webkit-transform-style: preserve-3d;
-  -moz-transform-style: preserve-3d;
-  transform-style: preserve-3d;
   position: absolute;
 }
 
@@ -25,8 +18,6 @@
   background-color: rgb(255, 255, 255);
   position: absolute;
   -webkit-transform: translateZ(0px);
-  -moz-transform: translateZ(0px);
-  transform: translateZ(0px);
 }
 
 .gwd-page-size {
@@ -36,74 +27,54 @@
 
 .gwd-img-f35c {
   position: absolute;
-  top: -30px;
-  left: -8px;
-  width: 786px;
-  height: 1080px;
+  top: 0px;
+  left: -12px;
+  width: 790px;
+  height: 1082px;
 }
 
 .gwd-img-wsnp {
   position: absolute;
-  top: -30px;
-  left: -8px;
-  width: 786px;
-  height: 1080px;
+  top: 0px;
+  width: 790px;
+  height: 1082px;
   opacity: 0;
+  -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+  -webkit-transform-origin: 420px 550px 0px;
+  left: -12px;
 }
 
 .gwd-gen-xycu .gwd-gen-03cxgwdanimation {
   -webkit-animation: gwd-gen-03cxgwdanimation_gwd-keyframes 10.2s linear 0s 1 forwards;
-  -moz-animation: gwd-gen-03cxgwdanimation_gwd-keyframes 10.2s linear 0s 1 forwards;
-  animation: gwd-gen-03cxgwdanimation_gwd-keyframes 10.2s linear 0s 1 forwards;
 }
 
 .gwd-gen-xycu .gwd-gen-426mgwdanimation {
   -webkit-animation: gwd-gen-426mgwdanimation_gwd-keyframes 10.2s linear 0s 1 forwards;
-  -moz-animation: gwd-gen-426mgwdanimation_gwd-keyframes 10.2s linear 0s 1 forwards;
-  animation: gwd-gen-426mgwdanimation_gwd-keyframes 10.2s linear 0s 1 forwards;
 }
 
 @-webkit-keyframes gwd-gen-426mgwdanimation_gwd-keyframes {
-  0% { top: 0px; left: 0px; width: 768px; height: 1055px; -webkit-animation-timing-function: linear; }
-  16.6667% { top: 0px; left: 0px; width: 768px; height: 1055px; -webkit-animation-timing-function: ease-in-out; }
-  100% { top: -30px; left: -8px; width: 786px; height: 1080px; -webkit-animation-timing-function: linear; }
-}
-@-moz-keyframes gwd-gen-426mgwdanimation_gwd-keyframes {
-  0% { top: 0px; left: 0px; width: 768px; height: 1055px; -moz-animation-timing-function: linear; }
-  16.6667% { top: 0px; left: 0px; width: 768px; height: 1055px; -moz-animation-timing-function: ease-in-out; }
-  100% { top: -30px; left: -8px; width: 786px; height: 1080px; -moz-animation-timing-function: linear; }
-}
-@keyframes gwd-gen-426mgwdanimation_gwd-keyframes {
-  0% { top: 0px; left: 0px; width: 768px; height: 1055px; animation-timing-function: linear; }
-  16.6667% { top: 0px; left: 0px; width: 768px; height: 1055px; animation-timing-function: ease-in-out; }
-  100% { top: -30px; left: -8px; width: 786px; height: 1080px; animation-timing-function: linear; }
+  0% { top: 0px; left: 0px; width: 768px; height: 1051px; -webkit-animation-timing-function: linear; }
+  16.6667% { top: 0px; left: 0px; width: 768px; height: 1051px; -webkit-animation-timing-function: ease-in-out; }
+  100% { top: 0px; left: -12px; width: 790px; height: 1082px; -webkit-animation-timing-function: linear; }
 }
 @-webkit-keyframes gwd-gen-03cxgwdanimation_gwd-keyframes {
-  0% { top: 0px; left: 0px; width: 768px; height: 1055px; opacity: 1; -webkit-animation-timing-function: linear; }
-  16.6667% { top: 0px; left: 0px; width: 768px; height: 1055px; opacity: 1; -webkit-animation-timing-function: ease-in-out; }
-  100% { top: -30px; left: -8px; width: 786px; height: 1080px; opacity: 0; -webkit-animation-timing-function: linear; }
-}
-@-moz-keyframes gwd-gen-03cxgwdanimation_gwd-keyframes {
-  0% { top: 0px; left: 0px; width: 768px; height: 1055px; opacity: 1; -moz-animation-timing-function: linear; }
-  16.6667% { top: 0px; left: 0px; width: 768px; height: 1055px; opacity: 1; -moz-animation-timing-function: ease-in-out; }
-  100% { top: -30px; left: -8px; width: 786px; height: 1080px; opacity: 0; -moz-animation-timing-function: linear; }
-}
-@keyframes gwd-gen-03cxgwdanimation_gwd-keyframes {
-  0% { top: 0px; left: 0px; width: 768px; height: 1055px; opacity: 1; animation-timing-function: linear; }
-  16.6667% { top: 0px; left: 0px; width: 768px; height: 1055px; opacity: 1; animation-timing-function: ease-in-out; }
-  100% { top: -30px; left: -8px; width: 786px; height: 1080px; opacity: 0; animation-timing-function: linear; }
+  0% { top: 0px; left: 0px; width: 768px; height: 1051px; opacity: 1; -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); -webkit-transform-origin: 50% 50% 0px; -webkit-animation-timing-function: linear; }
+  16.6667% { top: 0px; left: 0px; width: 768px; height: 1051px; opacity: 1; -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); -webkit-transform-origin: 50% 50% 0px; -webkit-animation-timing-function: ease-in-out; }
+  100% { top: 0px; left: -12px; width: 790px; height: 1082px; opacity: 0; -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); -webkit-transform-origin: 420px 550px 0px; -webkit-animation-timing-function: linear; }
 }
 .gwd-gen-03cxgwdanimation-gen-animation0keyframe {
   top: 0px;
   left: 0px;
   width: 768px;
-  height: 1055px;
+  height: 1051px;
   opacity: 1;
+  -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+  -webkit-transform-origin: 50% 50% 0px;
 }
 
 .gwd-gen-426mgwdanimation-gen-animation0keyframe {
   top: 0px;
   left: 0px;
   width: 768px;
-  height: 1055px;
+  height: 1051px;
 }
