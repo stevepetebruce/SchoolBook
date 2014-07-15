@@ -133,20 +133,20 @@
   text-align: left;
   color: rgb(0, 0, 0);
   height: 300px;
-  left: 35px;
-  top: 200px;
+  left: 10px;
+  top: 160px;
 }
 
 .gwd-span-piqi {
   font-family: "bebasregular", sans-serif;
   font-weight: 400;
   text-transform: uppercase;
-  font-size: 220px;
-  letter-spacing: -16px;
+  font-size: 250px;
+  letter-spacing: -20px;
   word-spacing: 25px;
   margin: 0 0;
   color:#c31414;
-  text-shadow: 1px 1px 0px #420d0d;
+  text-shadow: 1px 2px 0px #420d0d;
   
 }
 
@@ -154,12 +154,12 @@
   font-family: "bebasregular", sans-serif;
   font-weight: 400;
   text-transform: uppercase;
-  font-size: 230px;
-  letter-spacing: -16px;
+  font-size: 260px;
+  letter-spacing: -20px;
   word-spacing: 25px;
   margin: 0 0;
   color:#c31414;
-  text-shadow: 1px 1px 0px #420d0d;
+  text-shadow: 1px 2px 0px #420d0d;
 }
 
 .gwd-div-txxu {
@@ -169,20 +169,20 @@
   font-family: 'Times New Roman';
   text-align: left;
   color: rgb(0, 0, 0);
-  left: 35px;
-  top: 410px;
+  left: 10px;
+  top: 394px;
 }
 
 .gwd-span-6zwl {
   font-family: "bebasregular", sans-serif;
   font-weight: 400;
   text-transform: uppercase;
-  font-size: 220px;
-  letter-spacing: -16px;
+  font-size: 250px;
+  letter-spacing: -20px;
   word-spacing: 25px;
   margin: 0 0;
   color:#c31414;
-  text-shadow: 1px 1px 0px #420d0d;
+  text-shadow: 1px 2px 0px #420d0d;
 }
 
 .gwd-div-jkup {
@@ -192,15 +192,15 @@
   font-family: 'Times New Roman';
   text-align: left;
   color: rgb(0, 0, 0);
-  left: 40px;
-  top: 196px;
+  left: 30px;
+  top: 150px;
 }
 
 .gwd-span-01zh {
   font-family: "pacificoregular", cursive;
   font-weight: 400;
-  color:#FFF;
-  font-size: 44px;
+  color:#f4efec;
+  font-size: 54px;
 }
 
 .gwd-span-knrg {
