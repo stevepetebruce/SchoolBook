@@ -213,3 +213,30 @@
   width: 492px;
   height: 588px;
 }
+
+
+.circle {
+  width: 180px;
+  height: 165px;
+  line-height: 40px;
+  border-radius: 50%; /* the magic */
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  text-align: center;
+  font-family: "open sans", sans-serif;
+  color: #CCC;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin: 0 auto 40px;
+  background-color: rgba(0,0,0,0.2);
+  position:absolute;
+  bottom:-90px;
+  left:-30px;
+  padding-top:15px;
+  z-index:12;
+}
+
+.circle img {
+	opacity: 0.9;
+}
