@@ -1,11 +1,242 @@
-@charset "UTF-8";
-/* CSS Document */
+.gwd-page-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
 
-.gwd-page-container{position:relative;width:100%;height:100%;}
-.gwd-page-content{background-color:transparent;-webkit-transform:perspective(1400px) matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);-webkit-transform-style:preserve-3d;position:absolute; overflow:hidden;}
-.gwd-page-wrapper{background-color:#ffffff;position:absolute;-webkit-transform:translateZ(0px);}
-.gwd-page-size{width:768px;height:1024px;}
-.gwd-img-6ded{position:absolute;width:768px;height:1024px;left:0px;top:0px;}
-.gwd-img-7rj1{position:absolute;top:588.1428571428562px;left:426.4285714285711px;width:492px;height:588px;}
-.gwd-gen-oi69 .gwd-gen-01t2gwdanimation{-webkit-animation:gwd-gen-01t2gwdanimation_gwd-keyframes 17.5s linear 0.9s 2 forwards;}
-@-webkit-keyframes gwd-gen-01t2gwdanimation_gwd-keyframes{0%{top:566px;left:232px;width:492px;height:588px;-webkit-animation-timing-function:linear;} 1.71429%{top:565.1428571428581px;left:228.7142857142859px;width:492px;height:588px;-webkit-animation-timing-function:linear;} 3.42857%{top:580.5714285714284px;left:227.71428571428567px;width:492px;height:588px;-webkit-animation-timing-function:linear;} 5.14286%{top:564.5714285714304px;left:231px;width:492px;height:588px;-webkit-animation-timing-function:linear;} 6.28571%{top:588.5714285714278px;left:235.71428571429203px;width:492px;height:588px;-webkit-animation-timing-function:linear;} 8%{top:592.8571428571427px;left:240.71428571428578px;width:492px;height:588px;-webkit-animation-timing-function:linear;} 9.14286%{top:564px;left:246.14285714285722px;width:492px;height:588px;-webkit-animation-timing-function:linear;} 10.8571%{top:587.1428571428575px;left:254.5714285714281px;width:492px;height:588px;-webkit-animation-timing-function:linear;} 12.5714%{top:602px;left:260.7142857142894px;width:492px;height:588px;-webkit-animation-timing-function:linear;} 14.2857%{top:577.4285714285705px;left:262.57142857143253px;width:492px;height:588px;-webkit-animation-timing-function:linear;} 16%{top:567.8571428571415px;left:262.2857142857117px;width:492px;height:588px;-webkit-animation-timing-function:linear;} 17.1429%{top:580.7142857142856px;left:273.57142857142844px;width:492px;height:588px;-webkit-animation-timing-function:linear;} 18.2857%{top:602.5714285714294px;left:273.5714285714288px;width:492px;height:588px;-webkit-animation-timing-function:linear;} 19.4286%{top:571.8571428571438px;left:271.85714285714073px;width:492px;height:588px;-webkit-animation-timing-function:linear;} 20.5714%{top:601.7142857142867px;left:274.8571428571415px;width:492px;height:588px;-webkit-animation-timing-function:linear;} 21.7143%{top:578.1428571428582px;left:276.85714285714323px;width:492px;height:588px;-webkit-animation-timing-function:linear;} 23.4286%{top:596px;left:278.8571428571415px;width:492px;height:588px;-webkit-animation-timing-function:linear;} 25.1429%{top:581.1428571428578px;left:283.28571428571354px;width:492px;height:588px;-webkit-animation-timing-function:linear;} 26.8571%{top:605.7142857142853px;left:288.5714285714282px;width:492px;height:588px;-webkit-animation-timing-function:linear;} 28.5714%{top:578.8571428571429px;left:299.1428571428561px;width:492px;height:588px;-webkit-animation-timing-function:linear;} 30.8571%{top:598px;left:303.714285714285px;width:492px;height:588px;-webkit-animation-timing-function:linear;} 32.5714%{top:576.1428571428573px;left:304.57142857142696px;width:492px;height:588px;-webkit-animation-timing-function:linear;} 34.2857%{top:595.57142857143px;left:309.8571428571439px;width:492px;height:588px;-webkit-animation-timing-function:linear;} 36%{top:579.2857142857144px;left:318.4285714285659px;width:492px;height:588px;-webkit-animation-timing-function:linear;} 37.1429%{top:596.1428571428573px;left:315.57142857142856px;width:492px;height:588px;-webkit-animation-timing-function:linear;} 38.2857%{top:573.714285714286px;left:323.14285714285904px;width:492px;height:588px;-webkit-animation-timing-function:linear;} 40%{top:587px;left:319.1428571428569px;width:492px;height:588px;-webkit-animation-timing-function:linear;} 41.7143%{top:569.4285714285713px;left:327.2857142857147px;width:492px;height:588px;-webkit-animation-timing-function:linear;} 42.8571%{top:589.7142857142856px;left:333.42857142857133px;width:492px;height:588px;-webkit-animation-timing-function:linear;} 44%{top:559.8571428571431px;left:339.14285714285734px;width:492px;height:588px;-webkit-animation-timing-function:linear;} 45.7143%{top:580.8571428571433px;left:349.7142857142827px;width:492px;height:588px;-webkit-animation-timing-function:linear;} 46.8571%{top:565px;left:364.71428571428623px;width:492px;height:588px;-webkit-animation-timing-function:linear;} 48.5714%{top:586px;left:365.7142857142852px;width:492px;height:588px;-webkit-animation-timing-function:linear;} 49.7143%{top:590.1428571428607px;left:372.85714285714164px;width:492px;height:588px;-webkit-animation-timing-function:linear;} 50.8571%{top:613.5714285714312px;left:382.142857142857px;width:492px;height:588px;-webkit-animation-timing-function:linear;} 52%{top:613.2857142857138px;left:391.1428571428585px;width:492px;height:588px;-webkit-animation-timing-function:linear;} 53.1429%{top:600.8571428571438px;left:408.8571428571431px;width:492px;height:588px;-webkit-animation-timing-function:linear;} 53.7143%{top:610.5714285714291px;left:410.2857142857139px;width:492px;height:588px;-webkit-animation-timing-function:linear;} 54.2857%{top:604px;left:425.2857142857148px;width:492px;height:588px;-webkit-animation-timing-function:linear;} 54.8571%{top:622.142857142858px;left:425px;width:492px;height:588px;-webkit-animation-timing-function:linear;} 56%{top:588.1428571428562px;left:426.4285714285711px;width:492px;height:588px;-webkit-animation-timing-function:linear;} 57.1429%{top:601.2857142857144px;left:423.142857142857px;width:492px;height:588px;-webkit-animation-timing-function:linear;} 58.2857%{top:583.1428571428582px;left:436px;width:492px;height:588px;-webkit-animation-timing-function:linear;} 59.4286%{top:605px;left:452.2857142857117px;width:492px;height:588px;-webkit-animation-timing-function:linear;} 60.5714%{top:577px;left:454.5714285714288px;width:492px;height:588px;-webkit-animation-timing-function:linear;} 61.7143%{top:599.1428571428573px;left:465px;width:492px;height:588px;-webkit-animation-timing-function:linear;} 62.2857%{top:617.5714285714289px;left:477.28571428571445px;width:492px;height:588px;-webkit-animation-timing-function:linear;} 63.4286%{top:585.4285714285713px;left:479.42857142857133px;width:492px;height:588px;-webkit-animation-timing-function:linear;} 64%{top:566.42857142857px;left:482.285714285714px;width:492px;height:588px;-webkit-animation-timing-function:linear;} 64.5714%{top:596.8571428571431px;left:482.1428571428578px;width:492px;height:588px;-webkit-animation-timing-function:linear;} 65.1429%{top:616.1428571428567px;left:491.571428571428px;width:492px;height:588px;-webkit-animation-timing-function:linear;} 65.7143%{top:591.5714285714303px;left:501.57142857142867px;width:492px;height:588px;-webkit-animation-timing-function:linear;} 66.8571%{top:620.4285714285725px;left:506.42857142857156px;width:492px;height:588px;-webkit-animation-timing-function:linear;} 68%{top:575.5714285714284px;left:511.85714285714243px;width:492px;height:588px;-webkit-animation-timing-function:linear;} 69.1429%{top:583.5714285714284px;left:514.8571428571424px;width:492px;height:588px;-webkit-animation-timing-function:linear;} 70.2857%{top:583.5714285714284px;left:522.8571428571424px;width:492px;height:588px;-webkit-animation-timing-function:linear;} 71.4286%{top:601.5714285714284px;left:530.8571428571424px;width:492px;height:588px;-webkit-animation-timing-function:linear;} 72%{top:612.5714285714284px;left:526.8571428571424px;width:492px;height:588px;-webkit-animation-timing-function:linear;} 73.7143%{top:594.5714285714284px;left:538.8571428571424px;width:492px;height:588px;-webkit-animation-timing-function:linear;} 74.8571%{top:614.5714285714284px;left:543.8571428571424px;width:492px;height:588px;-webkit-animation-timing-function:linear;} 76%{top:606.5714285714284px;left:555.8571428571424px;width:492px;height:588px;-webkit-animation-timing-function:linear;} 77.1429%{top:619.5714285714284px;left:555.8571428571424px;width:492px;height:588px;-webkit-animation-timing-function:linear;} 78.2857%{top:604.5714285714284px;left:567.8571428571424px;width:492px;height:588px;-webkit-animation-timing-function:linear;} 79.4286%{top:615.5714285714284px;left:561.8571428571424px;width:492px;height:588px;-webkit-animation-timing-function:linear;} 80.5714%{top:623.5714285714284px;left:577.8571428571424px;width:492px;height:588px;-webkit-animation-timing-function:linear;} 81.7143%{top:603.5714285714284px;left:580.8571428571424px;width:492px;height:588px;-webkit-animation-timing-function:linear;} 82.8571%{top:586.5714285714284px;left:580.8571428571424px;width:492px;height:588px;-webkit-animation-timing-function:linear;} 84%{top:594.5714285714284px;left:586.8571428571424px;width:492px;height:588px;-webkit-animation-timing-function:linear;} 85.1429%{top:607.5714285714284px;left:577.8571428571424px;width:492px;height:588px;-webkit-animation-timing-function:linear;} 86.2857%{top:587.5714285714284px;left:587.8571428571424px;width:492px;height:588px;-webkit-animation-timing-function:linear;} 87.4286%{top:596.5714285714284px;left:602.8571428571424px;width:492px;height:588px;-webkit-animation-timing-function:linear;} 88.5714%{top:579.5714285714284px;left:595.8571428571424px;width:492px;height:588px;-webkit-animation-timing-function:linear;} 89.7143%{top:579.5714285714284px;left:612.8571428571424px;width:492px;height:588px;-webkit-animation-timing-function:linear;} 90.2857%{top:595.5714285714284px;left:612.8571428571424px;width:492px;height:588px;-webkit-animation-timing-function:linear;} 91.4286%{top:577.5714285714284px;left:623.8571428571424px;width:492px;height:588px;-webkit-animation-timing-function:linear;} 92%{top:599.5714285714284px;left:633.8571428571424px;width:492px;height:588px;-webkit-animation-timing-function:linear;} 93.1429%{top:582.5714285714284px;left:640.8571428571424px;width:492px;height:588px;-webkit-animation-timing-function:linear;} 94.2857%{top:599.5714285714284px;left:631.8571428571424px;width:492px;height:588px;-webkit-animation-timing-function:linear;} 95.4286%{top:599.5714285714284px;left:658.8571428571424px;width:492px;height:588px;-webkit-animation-timing-function:linear;} 100%{top:566.5714285714284px;left:232.71428571428578px;width:492px;height:588px;-webkit-animation-timing-function:linear;}}.gwd-gen-01t2gwdanimation-gen-animation0keyframe{top:566px;left:232px;width:492px;height:588px;}
+.gwd-page-content {
+  background-color: transparent;
+  -webkit-transform: perspective(1400px) matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+  -webkit-transform-style: preserve-3d;
+  position: absolute;
+}
+
+.gwd-page-wrapper {
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  -webkit-transform: translateZ(0px);
+}
+
+.gwd-page-size {
+  width: 768px;
+  height: 1024px;
+}
+
+.gwd-img-6ded {
+  position: absolute;
+  width: 768px;
+  height: 1024px;
+  left: 0px;
+  top: 0px;
+}
+
+.gwd-img-7rj1 {
+  position: absolute;
+  top: 566px;
+  left: 232px;
+  width: 492px;
+  height: 588px;
+}
+
+.gwd-gen-oi69 .gwd-gen-01t2gwdanimation {
+  -webkit-animation: gwd-gen-01t2gwdanimation_gwd-keyframes 17.5s linear 0.9s 2 forwards;
+}
+
+@-webkit-keyframes gwd-gen-01t2gwdanimation_gwd-keyframes {
+  0% { top: 566px; left: 232px; width: 492px; height: 588px; -webkit-animation-timing-function: linear; }
+  1.71429% { top: 565.1428571428581px; left: 228.7142857142859px; width: 492px; height: 588px; -webkit-animation-timing-function: linear; }
+  1.71429% { top: 565.1428571428581px; left: 228.7142857142859px; width: 492px; height: 588px; -webkit-animation-timing-function: linear; }
+  3.42286% { top: 580.5714285714284px; left: 227.71428571428567px; width: 492px; height: 588px; -webkit-animation-timing-function: linear; }
+  3.42857% { top: 580.5714285714284px; left: 227.71428571428567px; width: 492px; height: 588px; -webkit-animation-timing-function: linear; }
+  5.14286% { top: 564.5714285714304px; left: 231px; width: 492px; height: 588px; -webkit-animation-timing-function: linear; }
+  6.28% { top: 588.5714285714278px; left: 235.71428571429203px; width: 492px; height: 588px; -webkit-animation-timing-function: linear; }
+  8% { top: 592.8571428571427px; left: 240.71428571428578px; width: 492px; height: 588px; -webkit-animation-timing-function: linear; }
+  9.14286% { top: 564px; left: 246.14285714285722px; width: 492px; height: 588px; -webkit-animation-timing-function: linear; }
+  10.8514% { top: 587.1428571428575px; left: 254.5714285714281px; width: 492px; height: 588px; -webkit-animation-timing-function: linear; }
+  12.5657% { top: 602px; left: 260.7142857142894px; width: 492px; height: 588px; -webkit-animation-timing-function: linear; }
+  14.28% { top: 577.4285714285705px; left: 262.57142857143253px; width: 492px; height: 588px; -webkit-animation-timing-function: linear; }
+  16% { top: 567.8571428571415px; left: 262.2857142857117px; width: 492px; height: 588px; -webkit-animation-timing-function: linear; }
+  17.1429% { top: 580.7142857142856px; left: 273.57142857142844px; width: 492px; height: 588px; -webkit-animation-timing-function: linear; }
+  18.28% { top: 602.5714285714294px; left: 273.5714285714288px; width: 492px; height: 588px; -webkit-animation-timing-function: linear; }
+  19.4286% { top: 571.8571428571438px; left: 271.85714285714073px; width: 492px; height: 588px; -webkit-animation-timing-function: linear; }
+  20.5657% { top: 601.7142857142867px; left: 274.8571428571415px; width: 492px; height: 588px; -webkit-animation-timing-function: linear; }
+  21.7143% { top: 578.1428571428582px; left: 276.85714285714323px; width: 492px; height: 588px; -webkit-animation-timing-function: linear; }
+  23.4286% { top: 596px; left: 278.8571428571415px; width: 492px; height: 588px; -webkit-animation-timing-function: linear; }
+  25.1429% { top: 581.1428571428578px; left: 283.28571428571354px; width: 492px; height: 588px; -webkit-animation-timing-function: linear; }
+  26.8514% { top: 605.7142857142853px; left: 288.5714285714282px; width: 492px; height: 588px; -webkit-animation-timing-function: linear; }
+  28.5657% { top: 578.8571428571429px; left: 299.1428571428561px; width: 492px; height: 588px; -webkit-animation-timing-function: linear; }
+  30.8514% { top: 598px; left: 303.714285714285px; width: 492px; height: 588px; -webkit-animation-timing-function: linear; }
+  32.5657% { top: 576.1428571428573px; left: 304.57142857142696px; width: 492px; height: 588px; -webkit-animation-timing-function: linear; }
+  34.28% { top: 595.57142857143px; left: 309.8571428571439px; width: 492px; height: 588px; -webkit-animation-timing-function: linear; }
+  36% { top: 579.2857142857144px; left: 318.4285714285659px; width: 492px; height: 588px; -webkit-animation-timing-function: linear; }
+  37.1429% { top: 596.1428571428573px; left: 315.57142857142856px; width: 492px; height: 588px; -webkit-animation-timing-function: linear; }
+  38.28% { top: 573.714285714286px; left: 323.14285714285904px; width: 492px; height: 588px; -webkit-animation-timing-function: linear; }
+  40% { top: 587px; left: 319.1428571428569px; width: 492px; height: 588px; -webkit-animation-timing-function: linear; }
+  41.7143% { top: 569.4285714285713px; left: 327.2857142857147px; width: 492px; height: 588px; -webkit-animation-timing-function: linear; }
+  42.8514% { top: 589.7142857142856px; left: 333.42857142857133px; width: 492px; height: 588px; -webkit-animation-timing-function: linear; }
+  44% { top: 559.8571428571431px; left: 339.14285714285734px; width: 492px; height: 588px; -webkit-animation-timing-function: linear; }
+  45.7143% { top: 580.8571428571433px; left: 349.7142857142827px; width: 492px; height: 588px; -webkit-animation-timing-function: linear; }
+  46.8514% { top: 565px; left: 364.71428571428623px; width: 492px; height: 588px; -webkit-animation-timing-function: linear; }
+  48.5657% { top: 586px; left: 365.7142857142852px; width: 492px; height: 588px; -webkit-animation-timing-function: linear; }
+  49.7143% { top: 590.1428571428607px; left: 372.85714285714164px; width: 492px; height: 588px; -webkit-animation-timing-function: linear; }
+  50.8514% { top: 613.5714285714312px; left: 382.142857142857px; width: 492px; height: 588px; -webkit-animation-timing-function: linear; }
+  52% { top: 613.2857142857138px; left: 391.1428571428585px; width: 492px; height: 588px; -webkit-animation-timing-function: linear; }
+  53.1429% { top: 600.8571428571438px; left: 408.8571428571431px; width: 492px; height: 588px; -webkit-animation-timing-function: linear; }
+  53.7143% { top: 610.5714285714291px; left: 410.2857142857139px; width: 492px; height: 588px; -webkit-animation-timing-function: linear; }
+  54.28% { top: 604px; left: 425.2857142857148px; width: 492px; height: 588px; -webkit-animation-timing-function: linear; }
+  54.8514% { top: 622.142857142858px; left: 425px; width: 492px; height: 588px; -webkit-animation-timing-function: linear; }
+  56% { top: 588.1428571428562px; left: 426.4285714285711px; width: 492px; height: 588px; -webkit-animation-timing-function: linear; }
+  57.1429% { top: 601.2857142857144px; left: 423.142857142857px; width: 492px; height: 588px; -webkit-animation-timing-function: linear; }
+  58.28% { top: 583.1428571428582px; left: 436px; width: 492px; height: 588px; -webkit-animation-timing-function: linear; }
+  59.4286% { top: 605px; left: 452.2857142857117px; width: 492px; height: 588px; -webkit-animation-timing-function: linear; }
+  60.5657% { top: 577px; left: 454.5714285714288px; width: 492px; height: 588px; -webkit-animation-timing-function: linear; }
+  61.7143% { top: 599.1428571428573px; left: 465px; width: 492px; height: 588px; -webkit-animation-timing-function: linear; }
+  62.28% { top: 617.5714285714289px; left: 477.28571428571445px; width: 492px; height: 588px; -webkit-animation-timing-function: linear; }
+  63.4286% { top: 585.4285714285713px; left: 479.42857142857133px; width: 492px; height: 588px; -webkit-animation-timing-function: linear; }
+  64% { top: 566.42857142857px; left: 482.285714285714px; width: 492px; height: 588px; -webkit-animation-timing-function: linear; }
+  64.5657% { top: 596.8571428571431px; left: 482.1428571428578px; width: 492px; height: 588px; -webkit-animation-timing-function: linear; }
+  65.1429% { top: 616.1428571428567px; left: 491.571428571428px; width: 492px; height: 588px; -webkit-animation-timing-function: linear; }
+  65.7143% { top: 591.5714285714303px; left: 501.57142857142867px; width: 492px; height: 588px; -webkit-animation-timing-function: linear; }
+  66.8514% { top: 620.4285714285725px; left: 506.42857142857156px; width: 492px; height: 588px; -webkit-animation-timing-function: linear; }
+  68% { top: 575.5714285714284px; left: 511.85714285714243px; width: 492px; height: 588px; -webkit-animation-timing-function: linear; }
+  69.1429% { top: 583.5714285714284px; left: 514.8571428571424px; width: 492px; height: 588px; -webkit-animation-timing-function: linear; }
+  70.28% { top: 583.5714285714284px; left: 522.8571428571424px; width: 492px; height: 588px; -webkit-animation-timing-function: linear; }
+  71.4286% { top: 601.5714285714284px; left: 530.8571428571424px; width: 492px; height: 588px; -webkit-animation-timing-function: linear; }
+  72% { top: 612.5714285714284px; left: 526.8571428571424px; width: 492px; height: 588px; -webkit-animation-timing-function: linear; }
+  73.7143% { top: 594.5714285714284px; left: 538.8571428571424px; width: 492px; height: 588px; -webkit-animation-timing-function: linear; }
+  74.8514% { top: 614.5714285714284px; left: 543.8571428571424px; width: 492px; height: 588px; -webkit-animation-timing-function: linear; }
+  76% { top: 606.5714285714284px; left: 555.8571428571424px; width: 492px; height: 588px; -webkit-animation-timing-function: linear; }
+  77.1429% { top: 619.5714285714284px; left: 555.8571428571424px; width: 492px; height: 588px; -webkit-animation-timing-function: linear; }
+  78.28% { top: 604.5714285714284px; left: 567.8571428571424px; width: 492px; height: 588px; -webkit-animation-timing-function: linear; }
+  79.4286% { top: 615.5714285714284px; left: 561.8571428571424px; width: 492px; height: 588px; -webkit-animation-timing-function: linear; }
+  80.5657% { top: 623.5714285714284px; left: 577.8571428571424px; width: 492px; height: 588px; -webkit-animation-timing-function: linear; }
+  81.7143% { top: 603.5714285714284px; left: 580.8571428571424px; width: 492px; height: 588px; -webkit-animation-timing-function: linear; }
+  82.8514% { top: 586.5714285714284px; left: 580.8571428571424px; width: 492px; height: 588px; -webkit-animation-timing-function: linear; }
+  84% { top: 594.5714285714284px; left: 586.8571428571424px; width: 492px; height: 588px; -webkit-animation-timing-function: linear; }
+  85.1429% { top: 607.5714285714284px; left: 577.8571428571424px; width: 492px; height: 588px; -webkit-animation-timing-function: linear; }
+  86.28% { top: 587.5714285714284px; left: 587.8571428571424px; width: 492px; height: 588px; -webkit-animation-timing-function: linear; }
+  87.4286% { top: 596.5714285714284px; left: 602.8571428571424px; width: 492px; height: 588px; -webkit-animation-timing-function: linear; }
+  88.5657% { top: 579.5714285714284px; left: 595.8571428571424px; width: 492px; height: 588px; -webkit-animation-timing-function: linear; }
+  89.7143% { top: 579.5714285714284px; left: 612.8571428571424px; width: 492px; height: 588px; -webkit-animation-timing-function: linear; }
+  90.28% { top: 595.5714285714284px; left: 612.8571428571424px; width: 492px; height: 588px; -webkit-animation-timing-function: linear; }
+  91.4286% { top: 577.5714285714284px; left: 623.8571428571424px; width: 492px; height: 588px; -webkit-animation-timing-function: linear; }
+  92% { top: 599.5714285714284px; left: 633.8571428571424px; width: 492px; height: 588px; -webkit-animation-timing-function: linear; }
+  93.1429% { top: 582.5714285714284px; left: 640.8571428571424px; width: 492px; height: 588px; -webkit-animation-timing-function: linear; }
+  94.28% { top: 599.5714285714284px; left: 631.8571428571424px; width: 492px; height: 588px; -webkit-animation-timing-function: linear; }
+  95.4286% { top: 599.5714285714284px; left: 658.8571428571424px; width: 492px; height: 588px; -webkit-animation-timing-function: linear; }
+  100% { top: 566.5714285714284px; left: 232.71428571428578px; width: 492px; height: 588px; -webkit-animation-timing-function: linear; }
+}
+.gwd-div-k8di {
+  position: absolute;
+  width: 395px;
+  font-family: 'Times New Roman';
+  text-align: left;
+  color: rgb(0, 0, 0);
+  height: 300px;
+  left: 10px;
+  top: 160px;
+}
+
+.gwd-span-piqi {
+  font-family: "bebasregular", sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 250px;
+  letter-spacing: -20px;
+  word-spacing: 25px;
+  margin: 0 0;
+  color:#c31414;
+  text-shadow: 1px 2px 0px #420d0d;
+  
+}
+
+.gwd-span-kro4 {
+  font-family: "bebasregular", sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 260px;
+  letter-spacing: -20px;
+  word-spacing: 25px;
+  margin: 0 0;
+  color:#c31414;
+  text-shadow: 1px 2px 0px #420d0d;
+}
+
+.gwd-div-txxu {
+  position: absolute;
+  width: 639px;
+  height: 314px;
+  font-family: 'Times New Roman';
+  text-align: left;
+  color: rgb(0, 0, 0);
+  left: 10px;
+  top: 394px;
+}
+
+.gwd-span-6zwl {
+  font-family: "bebasregular", sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 250px;
+  letter-spacing: -20px;
+  word-spacing: 25px;
+  margin: 0 0;
+  color:#c31414;
+  text-shadow: 1px 2px 0px #420d0d;
+}
+
+.gwd-div-jkup {
+  position: absolute;
+  width: 525px;
+  height: 96px;
+  font-family: 'Times New Roman';
+  text-align: left;
+  color: rgb(0, 0, 0);
+  left: 30px;
+  top: 150px;
+}
+
+.gwd-span-01zh {
+  font-family: "pacificoregular", cursive;
+  font-weight: 400;
+  color:#f4efec;
+  font-size: 54px;
+}
+
+.gwd-span-knrg {
+  font-size: 200px;
+}
+
+.gwd-gen-01t2gwdanimation-gen-animation0keyframe {
+  top: 566px;
+  left: 232px;
+  width: 492px;
+  height: 588px;
+}
+
+
+.circle {
+  width: 180px;
+  height: 165px;
+  line-height: 40px;
+  border-radius: 50%; /* the magic */
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  text-align: center;
+  font-family: "open sans", sans-serif;
+  color: #CCC;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin: 0 auto 40px;
+  background-color: rgba(0,0,0,0.2);
+  position:absolute;
+  bottom:-90px;
+  left:-30px;
+  padding-top:15px;
+  z-index:12;
+}
+
+.circle img {
+	opacity: 0.9;
+}
