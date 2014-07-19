@@ -204,3 +204,14 @@
 .black:after{
 	background:#666;
 	} 
+
+
+.overbutton {
+  height: 1024px; 
+  width: 768px; 
+  -webkit-overflow-scrolling:touch; 
+  overflow: auto; 
+  z-index:12; 
+  position:absolute;
+  
+  }
