@@ -10,7 +10,7 @@ body {
 .swiper-container {
   width: 768px;
   height: 1024px;
-  text-align: center;
+  /*text-align: center;*/
 
 }
 .swiper-slide {

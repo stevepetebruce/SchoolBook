@@ -16,7 +16,7 @@
     "-baker-page-numbers-color": "#333",
     "contents": [
                  "cover.html",
-                 "introduction.html",
+                 "contents.html",
                  "1.html",
                  "2.html",
                  "3.html",
@@ -26,5 +26,6 @@
                  "7.html",
                  "quiz_intro.html",
                  "quiz.html",
+                 "final_page.html"
                  ]
 }
