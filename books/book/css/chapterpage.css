@@ -24,9 +24,9 @@ h3 { font: 700 1.5em/1.5 "Droid Sans", sans-serif; margin: 1em 0; }
 
 #bannertext { width: 28em; position: absolute; top: 10%; left: 50%; margin-left: -14em; padding: 2em 0; }
 
-#content { max-width: 28em; text-align: justify; margin: 0 auto; padding: 2em; }
+.content { max-width: 28em; text-align: justify; margin: 0 auto; padding: 2em; }
 
-#content p {
+.content p {
 	margin: 0 0 2em;
 	text-align:left;
 }

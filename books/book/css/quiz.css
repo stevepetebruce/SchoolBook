@@ -1,143 +1,228 @@
 @charset "UTF-8";
 /* CSS Document */
 
+.correctAnswer{
+    background-color: green;
+}
 
 #subhead {
-	width:90%;
-	margin: 0 auto 0 auto;
-	}
+    width:90%;
+    margin: 0 auto 0 auto;
+}
 
 a {
-	color: #333333;
+    color: #333333;
 }
 
 #questionsList {
-	margin: 0 auto;
-	padding:0;
-	width: 95%;
+    margin: 0 auto;
+    padding:0;
+    width: 95%;
 }
 
 #questionsList section {
-	display:none;
+    display:none;
 }
 
 #questionsList section.current {
-	display:block;
-	position: relative;
+    display:block;
+    position: relative;
 }
 
 #questionsList li {
-	display:list-item;
-	margin: 0 auto;
-	list-style: none;
+    display:list-item;
+    margin: 0 auto;
+    list-style: none;
 }
 
 
 
 #questionsList .questionItem {
-	margin:0 auto;
-	padding: 0.2em 0;
-	position: relative;
-	display: block;
-	text-align:left
+    margin:0 auto;
+    padding: 0.2em 0;
+    position: relative;
+    display: block;
+    text-align:left
 }
 
 #questionsList .questionItem svg {
-	position: absolute;
-	width:40px;
-	height: 40px;
-	top:50%;
-	margin-top: -20px;
-	left:5px;
-	pointer-events:none;
+    position: absolute;
+    width:40px;
+    height: 40px;
+    top:50%;
+    margin-top: -20px;
+    left:5px;
+    pointer-events:none;
 }
 
 #questionsList .questionItem svg path {
-	stroke: #c96227;
-	stroke-width:14px;
-	background: none;
+    stroke: #c96227;
+    stroke-width:14px;
+    background: none;
 }
 
 svg:not(:root) {
-	overflow: hidden;
+    overflow: hidden;
 }
 
 #questionsList .questionItem label {
-	display: inline-block;
-	position: relative;
-	font-size: 1.2em;
-	color:#333;
-	padding:0 0 0 80px;
-	vertical-align: top;
-	cursor: pointer;
+    display: inline-block;
+    position: relative;
+    font-size: 1.2em;
+    color:#333;
+    padding:0 0 0 80px;
+    vertical-align: top;
+    cursor: pointer;
 }
 
 #questionsList .questionItem label::before {
-	border-radius: 50%;
-	content: '';
-	border: 6px solid #000;
-	background-color: #000;
-	width:50px;
-	height:50px;
-	top:50%;
-	left:0;
-	margin-top: -25px;
-	position: absolute;
-	cursor: pointer;
-	box-sizing: border-box;
+    border-radius: 50%;
+    content: '';
+    border: 6px solid #000;
+    background-color: #000;
+    width:50px;
+    height:50px;
+    top:50%;
+    left:0;
+    margin-top: -25px;
+    position: absolute;
+    cursor: pointer;
+    box-sizing: border-box;
 }
 
 #questionsList .questionItem input[type=radio] {
-	-webkit-appearance: none;
-	opacity: 0;
-	width:50px;
-	height:50px;
-	position: absolute;
-	top:50%;
-	left:0;
-	margin-top:-25px;
-	cursor: pointer;
-	background-color:#FFF;
+    -webkit-appearance: none;
+    opacity: 0;
+    width:50px;
+    height:50px;
+    position: absolute;
+    top:50%;
+    left:0;
+    margin-top:-25px;
+    cursor: pointer;
+    background-color:#FFF;
 }
 
 .nextButton, .finalButton {
-	display:block;
-	border:4px solid #5B808A;
-	border-radius: 20px;
-	width:100%;
-	margin-top: 25px;
-	font-family: "droid sans", sans-serif;
-	font-size: 1.2em;
-	text-align: center;
-	text-decoration: none;
-	color: #000;
-	background-color: #78afbe;
-	margin-right: auto;
-	margin-bottom: 0px;
-	margin-left: auto;
-	padding-top: 5px;
-	padding-right: 10px;
-	padding-bottom: 5px;
-	padding-left: 10px;
+    display:block;
+    border:4px solid #5B808A;
+    border-radius: 20px;
+    width:100%;
+    margin-top: 25px;
+    font-family: "droid sans", sans-serif;
+    font-size: 1.2em;
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+    background-color: #78afbe;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-left: 10px;
 }
 
 h3{
-	
-	font-size:0.8em;}
-	
+    font-size:2em;
+}
+    
 #subhead h1{
-	font-size:3em;
-	-moz-box-shadow:    inset 0px 0px 0px #fff;
-	-webkit-box-shadow: inset 0px 0px 0px #fff;
-	box-shadow:         inset 0px 0px 0px #fff;
-	color:#608089;
+    font-size:3em;
+    -moz-box-shadow:    inset 0px 0px 0px #fff;
+    -webkit-box-shadow: inset 0px 0px 0px #fff;
+    box-shadow:         inset 0px 0px 0px #fff;
+    color:#608089;
 }
 
 #boxdec {
-	margin:40px 0 40px 0;
-	height:750px;
-	padding:20px;
-	-moz-box-shadow:    0px 0px 12px 12px rgba(0,0,0,0.3);
-  	-webkit-box-shadow: 0px 0px 12px 12px rgba(0,0,0,0.3);
-  	box-shadow:         0px 0px 12px 12px rgba(0,0,0,0.3);
-	}
+    margin:40px 0 40px 0;
+    height:750px;
+    padding:20px;
+    -moz-box-shadow:    0px 0px 12px 12px rgba(0,0,0,0.3);
+    -webkit-box-shadow: 0px 0px 12px 12px rgba(0,0,0,0.3);
+    box-shadow:         0px 0px 12px 12px rgba(0,0,0,0.3);
+}
+
+input[type=radio].css-checkbox {
+    display:none;
+}
+
+input[type=radio].css-checkbox + label.css-label {
+    padding-left:48px;
+    height:42px; 
+    display:inline-block;
+    line-height:42px;
+    background-repeat:no-repeat;
+    background-position: 0 0;
+    font-size:42px;
+    vertical-align:middle;
+    cursor:pointer;
+}
+
+input[type=radio].css-checkbox:checked + label.css-label {
+    background-position: 0 -42px;
+}
+
+label.css-label {
+    background-image:url(../images/csscheckbox.png);
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+button.awesome, .button.awesome {
+    /*background: #222 url(/images/alert-overlay.png) repeat-x;*/
+    display: inline-block;
+    padding: 5px 10px 6px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    line-height: 1;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+    text-shadow: 0 -1px 1px rgba(0,0,0,0.25);
+    border-bottom: 1px solid rgba(0,0,0,0.25);
+/*    position: relative;
+    cursor: pointer;*/
+}
+
+.blue.awesome {
+    background-color: #2daebf;
+}
+
+.red.awesome {
+    background-color: #e33100;
+}
+
+.magenta.awesome {
+    background-color: #a9014b;
+}
+
+.orange.awesome {
+    background-color: #ff5c00;
+}
+
+.yellow.awesome {
+    background-color: #ffb515;
+}
+
+.center {
+    width: 700px ;
+    margin-left: auto ;
+    margin-right: auto ;
+}
+
+#score{
+    font-size:1.5em;
+}
+
+.pad-left{
+    padding-left: 100px;
+}
