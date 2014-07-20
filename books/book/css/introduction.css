@@ -1,0 +1,185 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html{
+	background-color:#FFF;
+	
+	}
+
+h1 {
+
+  font-size: 200%;
+  letter-spacing: 0.2em;
+  margin: 0;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'bebasregular';
+}
+h1::after {
+  background-color: #3c3d35;
+  content: "";
+  display: block;
+  height: 2px;
+  margin: 0.75rem auto 2.25rem;
+  width: 6rem;
+}
+
+.table, .table--contents {
+  width: 80%;
+  margin: 0 auto 0 auto;
+}
+
+.table--contents {
+  overflow: hidden;
+}
+.table--contents thead th {
+  text-align: right;
+  text-transform: uppercase;
+}
+.table--contents tbody {
+  line-height: 150%;
+}
+.table--contents tbody td:first-of-type {
+  background-size: 34px 1.5em;
+  background-position: right;
+  font-variant: small-caps;
+  letter-spacing: 0.1em;
+  position: relative;
+}
+.table--contents tbody td:first-of-type::after {
+  content: "••••••••••••••••••••••••••••••";
+  color: rgba(42, 44, 33, 0.20);
+  display: block;
+  font-size: 66.66667%;
+  letter-spacing: 2.5em;
+  line-height: 1.5;
+  position: absolute;
+  right: -1.5em;
+  text-align: right;
+  bottom: 0;
+  vertical-align: bottom;
+  z-index: -1;
+}
+.table--contents tbody td:first-of-type span {
+  padding-right: 0.5em;
+  font: 400 1.1em "Droid Serif", serif; color: #111;
+  text-transform:uppercase;
+  
+}
+
+.table--contents tbody td:first-of-type span a {
+	text-decoration:none;
+	background-color:#FFF;
+	color:#000;
+}
+.table--contents tbody td:nth-of-type(2) {
+  text-align: right;
+}
+
+
+
+
+
+
+.container {
+  font-family: 'pacificoregular';
+  font-weight: 400;
+  position: relative;
+  margin: 80px auto;
+  width: 600px;
+  font-size: 30px;
+  text-align: center;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
+  opacity: 0.8;
+}
+
+span {
+  display: block;
+}
+
+.line-1 {
+  position: relative;
+}
+.line-1:before, .line-1:after {
+  font-family: "pacificoregular", cursive;
+  position: relative;
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: inherit;
+  font-size: 16px;
+  margin: 0 30px;
+  top: -5px;
+}
+
+.line-2 {
+  font-family: 'bebasregular';
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 90px;
+  letter-spacing: 6px;
+  margin: 0 0;
+}
+
+.line-3 {
+  font-family: 'bebasregular';
+  font-weight: 700;
+  font-size: 16px;
+  text-transform: uppercase;
+  margin: 70px 0 0;
+  position: relative;
+  letter-spacing: 6px;
+}
+.line-3:before, .line-3:after {
+  content: " ";
+  position: absolute;
+  width: 50px;
+  height: 5px;
+  border-top: 1px solid #222222;
+  border-bottom: 1px solid #222222;
+}
+.line-3:before {
+  margin: 7px 0 0 -60px;
+}
+.line-3:after {
+  margin: 7px 0 0 10px;
+}
+
+.line-4 {
+  width: 100%;
+  position: relative;
+  font-size: 18px;
+  margin: 50px 0 0;
+}
+
+.line-5 {
+  margin: 20px 0 50px;
+  position: relative;
+  text-align: center;
+  margin: 50px auto;
+  display: block;
+  font-size: 20px;
+}
+.line-5 a {
+  text-decoration: none;
+  display: inline-block;
+  text-align: left;
+  color: #222222;
+}
+
+
+.line-6 {
+  font-family: "PT Sans", sans-serif;
+  font-size: 16px;
+  letter-spacing: 5px;
+}
+.line-6:before, .line-6:after {
+  content: "\f068";
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: inherit;
+  position: relative;
+  font-size: 16px;
+  margin: 0 10px;
+  top: 2px;
+}

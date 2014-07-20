@@ -392,7 +392,7 @@
 				LastUpgradeCheck = 0500;
 				TargetAttributes = {
 					ABAFB58615AB9A2E002FA498 = {
-						DevelopmentTeam = U8NEZZ5Z8P;
+						DevelopmentTeam = 57U55SA6ET;
 					};
 				};
 			};
@@ -556,7 +556,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = test;
 				PROVISIONING_PROFILE = "";
-				TARGETED_DEVICE_FAMILY = 2;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -574,7 +574,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = test;
 				PROVISIONING_PROFILE = "";
-				TARGETED_DEVICE_FAMILY = 2;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

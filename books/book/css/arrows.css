@@ -1,0 +1,217 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+.swipelefthalf {
+  position: absolute;
+  bottom: 48.3%;
+  right: 10%;
+  font-family: 'bebasregular';
+  text-shadow: 1px 1px 1px #000;
+  font-size: 0.8em;
+  color:#FFF;
+
+}
+
+
+.swipeleft {
+  position: absolute;
+  bottom: 25px;
+  left: 50%;
+  color:#FFF;
+   font-family: 'bebasregular';
+  text-shadow: 1px 1px 1px #000;
+  font-size: 0.8em;
+
+}
+
+.arrowleftcover {
+  position: absolute;
+  bottom: 50%;
+  right: 5%;
+  /*margin-left:30px;*/
+}
+
+.arrowleft {
+  position: absolute;
+  bottom: 60px;
+  left: 50%;
+  /*margin-left:30px;*/
+}
+.arrowleftcover:before,
+.arrowleftcover:after{
+  content: '';
+  position: absolute;
+  top: 0px;
+  right: -24px;
+  width: 24px;
+  height: 6px;
+  border-radius: 0px;
+  display: block;
+  background: #fff;
+  transform:rotate(45deg);
+  -webkit-transform:rotate(45deg); 
+}
+.arrowleftcover:after{
+  right: inherit;
+  left: 0px;
+  top: 13px;
+  transform:rotate(-45deg);
+  -webkit-transform:rotate(-45deg); 
+}
+
+.arrowleft:before,
+.arrowleft:after{
+  content: '';
+  position: absolute;
+  top: 0px;
+  right: -24px;
+  width: 24px;
+  height: 6px;
+  border-radius: 0px;
+  display: block;
+  background: #fff;
+  transform:rotate(45deg);
+  -webkit-transform:rotate(45deg); 
+}
+.arrowleft:after{
+  right: inherit;
+  left: 0px;
+  top: 13px;
+  transform:rotate(-45deg);
+  -webkit-transform:rotate(-45deg); 
+}
+ 
+.animatedleft{
+  -webkit-animation: bounceleft 3s 3;
+  animation: bounceleft 3s both 3;
+}
+ 
+ 
+@-webkit-keyframes bounceleft {
+	0% {-webkit-transform: translateX(0); opacity: 1;}
+ 
+  50% {-webkit-transform: translateX(-40px); opacity: 0}
+ 
+  100% {-webkit-transform: translateX(0); opacity: 1;}
+}
+ 
+@-moz-keyframes bouncleft {
+	0% {-webkit-transform: translateX(0); opacity: 1;}
+ 
+  50% {-webkit-transform: translateX(-40px); opacity: 0}
+ 
+  100% {-webkit-transform: translateX(0); opacity: 1;}
+}
+ 
+@-o-keyframes bounceleft {
+	0% {-webkit-transform: translateX(0); opacity: 1;}
+ 
+  50% {-webkit-transform: translateX(-40px); opacity: 0}
+ 
+  100% {-webkit-transform: translateX(0); opacity: 1;}
+}
+@keyframes bounceleft {
+	0% {-webkit-transform: translateX(0); opacity: 1;}
+ 
+  50% {-webkit-transform: translateX(-40px); opacity: 0}
+ 
+  100% {-webkit-transform: translateX(0); opacity: 1;}
+}
+
+
+.swipeup {
+  position: absolute;
+  bottom: 10px;
+  left: 44%;
+  color:#FFF;
+  font-family: 'bebasregular';
+  text-shadow: 1px 1px 1px #000;
+  font-size: 0.8em;
+
+}
+
+
+.arrowup {
+  position: absolute;
+  bottom: 60px;
+  left: 50%;
+  margin-left:-20px;
+}
+.arrowup:before,
+.arrowup:after{
+  content: '';
+  position: absolute;
+  top: 0;
+  right: -19px;
+  width: 24px;
+  height: 6px;
+  border-radius: 0px;
+  display: block;
+  background: #fff;
+  transform:rotate(-45deg);
+  -webkit-transform:rotate(-45deg); 
+}
+.arrowup:after{
+  right: inherit;
+  left: -18px;
+  transform:rotate(45deg);
+  -webkit-transform:rotate(45deg); 
+}
+ 
+.animatedup{
+  -webkit-animation: bounceup 2.5s infinite;
+  animation: bounceup 2.5s both infinite;
+}
+ 
+ 
+@-webkit-keyframes bounceup {
+	0% {-webkit-transform: translateY(0); opacity: 1;}
+ 
+  50% {-webkit-transform: translateY(-40px); opacity: 0}
+ 
+  100% {-webkit-transform: translateY(0); opacity: 1;}
+}
+ 
+@-moz-keyframes bounceup {
+	0% {-webkit-transform: translateY(0); opacity: 1;}
+ 
+  50% {-webkit-transform: translateY(-40px); opacity: 0}
+  
+  100% {-webkit-transform: translateY(0); opacity: 1;}
+}
+ 
+@-o-keyframes bounceup {
+	0% {-webkit-transform: translateY(0); opacity: 1;}
+  
+  50% {-webkit-transform: translateY(-40px); opacity: 0}
+  
+  100% {-webkit-transform: translateY(0); opacity: 1;}
+}
+@keyframes bounceup {
+	0% {-webkit-transform: translateY(0); opacity: 1;}
+  
+  50% {-webkit-transform: translateY(-40px); opacity: 0}
+  
+  100% {-webkit-transform: translateY(0); opacity: 1;}
+}
+
+
+.black{
+	bottom: 40px;}
+
+.black:before,
+.black:after{
+	background:#666;
+	} 
+
+
+.overbutton {
+  height: 1024px; 
+  width: 768px; 
+  -webkit-overflow-scrolling:touch; 
+  overflow: auto; 
+  z-index:12; 
+  position:absolute;
+  
+  }
