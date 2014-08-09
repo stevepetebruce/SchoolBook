@@ -9,14 +9,34 @@
   <link rel="stylesheet" type="text/css" href="css/layout.css"/>
   <link rel="stylesheet" type="text/css" href="css/chapterpage.css"/>
   <link rel="stylesheet" type="text/css" href="css/arrows.css"/>
- 
+  <link rel="stylesheet" type="text/css" href="css/boxspin.css"/>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+  <script type="text/javascript">	
+	$(document).ready(function () {
+    $('.flipWrapper').click(function () {
+        $(this).find('.card').toggleClass('flipped');
+        return false;
+    });
+	});
+  </script>
 
 </head>
 <body>
     <div class="content">
       <p>
+        <div class="flipWrapper flipright">
+          <div class="card">
+            <div class="face front">
+              <img src="images/E1.jpg" width="250" height="330" />
+            </div>
+            <div class="face back">
+              <p>Quote or image description can go here</p>
+            </div>
+          </div>
+        </div>
         He had more men joining his gangs and almost all of Anne's home country under his control. But that was OK, the Frank family were in their new home, a country far away where he could not harm them.
       </p>
+        
       <p>
          But he was scheming, Hitler, and he was full of hate. His plans grew more ambitious and daring, he wanted more towns and countries under his control and he wanted to drive the Frank family and other Jewish families like theirs into the sea. Whilst people and families went about their daily business he planned to attack all the countries in the land, including where the Frank family now lived. He planned terrible, terrible things. But no one could see what was coming. The coiled spring of war was winding tighter still, waiting to release its horrors onto the world.
       </p>
