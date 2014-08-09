@@ -215,3 +215,38 @@
   position:absolute;
   
   }
+  
+  
+  
+.pnumber {
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  margin-left:-10px;
+ 
+  
+}
+
+.line-number {
+	font-family: 'bebasregular';
+	font-weight: 700;
+	font-size: 16px;
+	text-transform: uppercase;
+	margin: 70px 0 0;
+	position: relative;
+	letter-spacing: 6px;
+}
+.line-number:before, .line-number:after {
+	content: " ";
+	position: absolute;
+	width: 30px;
+	height: 5px;
+	border-top: 1px solid #222222;
+	border-bottom: 1px solid #222222;
+}
+.line-number:before {
+	margin: 12px 0 0 -60px;
+}
+.line-number:after {
+	margin: 12px 0 0 20px;
+}
