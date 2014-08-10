@@ -2,7 +2,7 @@
 /* CSS Document */
 
 html { height: 100%; margin:0; padding:0; }
-body { background: #f1f1f1; font: 400 1.6em/1.8 "Droid Serif", serif; color: #111; /*text-align: center; */height: 100%; }
+body { background: #f1f1f1; font: 400 1.6em/1.8 "Droid Serif", serif; color: #111; /*text-align: center; */height: 100%; margin:0; padding:0; }
 
 h1 {
 	text-shadow: 1px 1px 1px #000;
@@ -30,6 +30,12 @@ h3 { font: 700 1.5em/1.5 "Droid Sans", sans-serif; margin: 1em 0; }
 	margin: 0 0 2em;
 	text-align:left;
 }
+
+.container {
+	width:768px;
+	height:1024px;
+	overflow:hidden;
+	}
 
 .leftpic {
 	float:left;
