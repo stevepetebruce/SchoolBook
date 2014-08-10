@@ -13,8 +13,9 @@
   <link rel="stylesheet" type="text/css" href="css/gravityswiper.css"/>
   <link rel="stylesheet" type="text/css" href="css/headtitle.css"/>
   <script src="js/jquery-1.4.4.min.js" type="text/javascript"></script>
+  <!-- Temp disabled until we work out why lake js is taking so long... -->
   <script src="js/lake.js" type="text/javascript"></script>
-<!--   <script type="text/javascript">
+  <script type="text/javascript">
     $(function() {
       $('#lake-img').lake({
         'speed': 0.8,
@@ -22,18 +23,21 @@
         'waves': 10
       });
     });
-  </script> -->
+  </script>
 </head>
 <body>
   <div class="swiper-container">
     <div class="swiper-wrapper">
-      <div class="swiper-slide red-slide" style="overflow:hidden;">
-        <div class="headlinecontainer" style="position:absolute; margin-left:80px;">
-          <span class="line2">At peace</span>
+      <div class="swiper-slide red-slide">
+        <div class="overbutton"></div>
+        <div class="headlinecontainer">
+          <span class="line2">At Peace</span>
           <span class="line1">Chapter 1</span>
         </div>
         <div class="swipeup">Swipe</div>
         <div class="arrowup animatedup"></div>
+        <!-- <img id="lake-img" src="images/am-lake.jpg" alt="lake image" width="768" height="1024" /> -->
+          <!-- Temp disabled until we work out why lake js is taking so long... -->
         <img id="lake-img" src="images/am-lake.jpg" width="768" style="display: none;" />
       </div>
       <div class="swiper-slide">
@@ -51,10 +55,10 @@
       <div class="swiper-slide">
         <div class="content">
           <p>
-             The Frank family were Jewish people who had thousands of years of heritage and culture, whose history was passed down as stories from parents to children. Stories of defending themselves against those who wanted to hurt them. They were an ancient, proud people who worked hard and helped out their friends and neighbours.
+            The Frank family were Jewish people who had thousands of years of heritage and culture, whose history was passed down as stories from parents to children. Stories of defending themselves against those who wanted to hurt them. They were an ancient, proud people who worked hard and helped out their friends and neighbours.
           </p>
           <p>   
-             Before Anne was old enough to understand the things on the news, Otto was worried when he found out that a gang of angry men had come to power in their home town. Called the Nazis, they were led by a twisted evil man, Hitler, who hated Jewish people like Otto and his family. At first, after this gang came to power, nothing much changed. Then week by week, things got worse and worse for the Frank family and other Jews. There were attacks on Otto's friends and families' houses and shops. After a few weeks of these attacks, the time had come where it was no longer safe for Otto, Anne and the rest of the family to live in their own home town. Otto and his wife decided to move their daughters out of town, somewhere safe.
+            Before Anne was old enough to understand the things on the news, Otto was worried when he found out that a gang of angry men had come to power in their home town. Called the Nazis, they were led by a twisted evil man, Hitler, who hated Jewish people like Otto and his family. At first, after this gang came to power, nothing much changed. Then week by week, things got worse and worse for the Frank family and other Jews. There were attacks on Otto's friends and families' houses and shops. After a few weeks of these attacks, the time had come where it was no longer safe for Otto, Anne and the rest of the family to live in their own home town. Otto and his wife decided to move their daughters out of town, somewhere safe.
           </p>
           <div class="arrowup black"></div>
         </div>
@@ -68,7 +72,7 @@
             The Netherlands. It was a beautiful country and Amsterdam was a wonderful city and most importantly, it was a long way away from Hitler and the Nazis. So they settled here, in the city with the waterways for streets, cobbled pavements and lots and lots of bikes. Anne was only four and she had a chance to mix with all the local children making lots of friends in her new home.
           </p>
           <p>
-             The years went by and life went on... Anne and her big sister Margot grew a little taller and their Mum and Dad grew a little bit older. Otto started a company, selling fruit, herbs and spices. Anne loved studying, she worked hard at her schoolwork and liked hanging out with her friends: they were all happy in their new city... Back in their old home, Hitler had grown very powerful.
+            The years went by and life went on... Anne and her big sister Margot grew a little taller and their Mum and Dad grew a little bit older. Otto started a company, selling fruit, herbs and spices. Anne loved studying, she worked hard at her schoolwork and liked hanging out with her friends: they were all happy in their new city... Back in their old home, Hitler had grown very powerful.
           </p>
           <div class="arrowup black"></div>
         </div>
@@ -79,7 +83,7 @@
             He had more men joining his gangs and almost all of Anne's home country under his control. But that was OK, the Frank family were in their new home, a country far away where he could not harm them.
           </p>
           <p>
-             But he was scheming, Hitler, and he was full of hate. His plans grew more ambitious and daring, he wanted more towns and countries under his control and he wanted to drive the Frank family and other Jewish families like theirs into the sea. Whilst people and families went about their daily business he planned to attack all the countries in the land, including where the Frank family now lived. He planned terrible, terrible things. But no one could see what was coming. The coiled spring of war was winding tighter still, waiting to release its horrors onto the world.
+            But he was scheming, Hitler, and he was full of hate. His plans grew more ambitious and daring, he wanted more towns and countries under his control and he wanted to drive the Frank family and other Jewish families like theirs into the sea. Whilst people and families went about their daily business he planned to attack all the countries in the land, including where the Frank family now lived. He planned terrible, terrible things. But no one could see what was coming. The coiled spring of war was winding tighter still, waiting to release its horrors onto the world.
           </p>
           <div class="arrowleft black"></div>
         </div>
@@ -94,14 +98,16 @@
                               mode:'verticle',
                               paginationClickable: true });
   </script>
-  <script type="text/javascript">
-		$(function() {
-		  $('#lake-img').lake({
-			'speed': 0.5,
-			'scale': 0.3,
-			'waves': 6
-		  });
-		});
-  </script>
+    <!-- Temp disabled until we work out why lake js is taking so long... -->
+<!-- This is also called at close of head tag above... -->
+<!--   <script type="text/javascript">
+    $(function() {
+      $('#lake-img').lake({
+      'speed': 0.5,
+      'scale': 0.3,
+      'waves': 6
+      });
+    });
+  </script> -->
 </body>
 </html>
