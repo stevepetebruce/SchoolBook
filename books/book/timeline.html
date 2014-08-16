@@ -6,6 +6,7 @@
   <!-- <link rel="stylesheet" type="text/css" href="css/custom_styles.css"/> -->
   <!-- TODO: need to put all the time line styles below into the custom_styles file above and then include.. -->
   <link rel="stylesheet" type="text/css" href="css/layout.css"/>
+  <link rel="stylesheet" type="text/css" href="fonts/fonts.css"/>
   <style>
 
     /* -------------------------------------
@@ -27,11 +28,19 @@
 
     h1{
       text-shadow: 1px 1px 1px rgba(0,0,0,0.6);
-      font-family: "desyrelregular", sans-serif;
-      font-size: 4em;
+      font-family: "bebasregular", sans-serif;
+      font-size: 3em;
       line-height: 0.4;
-      font-weight: 300;
+      font-weight: 200;
       text-align:center;
+    }
+	
+	 .timetitle{
+      font-family: "bebasregular", sans-serif;
+      font-size: 1.4em;
+      font-weight: 100;
+	  color:#333333;
+	  word-spacing: 0.2em;
     }
 
     /* -------------------------------------
@@ -53,13 +62,13 @@
     }
 
     .date {
-      margin-top: -10px;
+      margin-top: -20px;
       top: 50%;
       left: -158px;
       font-size: 1.4em;
-      line-height: 20px;
       position: absolute;
-      text-shadow: 1px 1px 1px rgba(0,0,0,0.6);
+       font-family: "bebasregular", sans-serif;
+	   word-spacing: 12px;
     }
 
     .circle {
@@ -221,7 +230,7 @@
     <li class='work'>
       <input class='radio' id='work1' name='works' type='radio' checked>
       <div class="relative">
-        <label for='work1'>Anne Frank Born</label>
+        <label for='work1' class="timetitle">Anne Frank Born</label>
         <span class='date'>1929</span>
         <span class='circle'></span>
       </div>

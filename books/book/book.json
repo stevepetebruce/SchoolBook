@@ -9,7 +9,7 @@
     "zoomable": false,
     "-baker-background": "#000000",
     "-baker-vertical-bounce": false,
-    "-baker-index-height": 200,
+    "-baker-index-height": 140,
     "-baker-media-autoplay": true,
     "-baker-background-image-portrait": "library_images/background-portrait.png",
     "-baker-background-image-landscape": "library_images/background-landscape.png",

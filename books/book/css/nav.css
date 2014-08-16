@@ -127,13 +127,13 @@ Table of content on iOS devices
 #####################################################################
 */
 body.body-toc-ios {
-	width: 4920px;/* The width must be number of table of content entries * width of entry (410px)*/
+	width: 3690px;/* The width must be number of table of content entries * width of entry (410px)*/
 	margin: 0px;
 	padding: 0px;
 	background-color: #fff;
 	overflow-y: hidden;
 	overflow-x: auto;
-	height: 130px !important;    
+	height: 140px !important;    
 }
 .toc-list-ios {
 	margin-top: 0px;
@@ -143,7 +143,7 @@ body.body-toc-ios {
 	border-top: 3px solid #e5333b;
 	white-space: normal;
 	width:100%;
-	height:130px !important;
+	height:140px !important;
 }
 .toc-list-ios .toc-dossier-number {
 	position: absolute;
@@ -157,31 +157,26 @@ body.body-toc-ios {
 .toc-list-ios .toc-dossier {
 	display: block;
 	float: left;
-	width: 355px;
+	width: 345px;
 	height: 105px;
 	margin-top: 0px;
 	margin-right: 0px;
 	background-color: transparent;
-	color: #21a6ec;
+	color: #e5333b;
 	opacity: 1;
 	white-space: normal;
-	border-right-width: 1px;
-	border-bottom-width: 0px;
-	border-right-style: solid;
-	border-bottom-style: solid;
-	border-right-color: #fff;
-	border-bottom-color: #333;
 	padding-top: 14px;
 	padding-right: 20px;
 	padding-bottom: 10px;
-	padding-left: 34px;
+	padding-left: 44px;
+	border:0;
 }
 .toc-list-ios .toc-dossier:last-child {
     width: 350px;
     border-right: 0px solid #000
 }
 .toc-list-ios .toc-dossier:hover h1 {
-    color: #fff;
+
     : 
 }
 
@@ -190,10 +185,9 @@ body.body-toc-ios {
 	margin-top: 18px;
 	margin-bottom: 12px;
 	color: #333;
-	font-size: 1em;
-	font-family: 'bebasregular';
+	font-size: 1.2em;
+	font-family: bebasregular;
 	line-height: 1.6em;
-
 }
 .toc-list-ios p {
     color: #666 !important;
