@@ -14,6 +14,7 @@
     "-baker-background-image-portrait": "library_images/background-portrait.png",
     "-baker-background-image-landscape": "library_images/background-landscape.png",
     "-baker-page-numbers-color": "#333",
+    "-baker-rendering": "three-cards",
     "contents": [
                  "cover.html",
                  "contents.html",

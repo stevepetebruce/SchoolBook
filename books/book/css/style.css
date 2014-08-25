@@ -91,13 +91,13 @@ h1.logo {
 	margin: 40px auto 0;
 }
 
-	h1.logo a{
-		display: block;
-		height: 80px;
-		width: 260px;
-		text-indent: -9999px;
-		background: url(../images/logo.png) no-repeat;
-	}
+h1.logo a{
+	display: block;
+	height: 80px;
+	width: 260px;
+	text-indent: -9999px;
+	background: url(../images/logo.png) no-repeat;
+}
 
 
 ul.demos {
@@ -169,6 +169,5 @@ p.license,
 p.copyright {
 	font-size: 11px;
 }
-
 
 
