@@ -1,16 +1,18 @@
 .flipWrapper {
 -webkit-perspective: 1000;
-width: 250px;
-height: 330px;
+width: 290px;
+height: 360px;
 position: relative;
-margin: 30px 30px;
+
 }
 .flipright{
 	float:right;
+	margin: 10px 0px 10px 30px;
 }
 	
 .flipleft{
 	float:left;
+	margin: 10px 30px 10px 0px;
 }
 .flipWrapper .card.flipped {
 -webkit-transform: rotatey(180deg);
