@@ -9,13 +9,32 @@
   <link rel="stylesheet" type="text/css" href="css/layout.css"/>
   <link rel="stylesheet" type="text/css" href="css/chapterpage.css"/>
   <link rel="stylesheet" type="text/css" href="css/arrows.css"/>
- 
+  <link rel="stylesheet" type="text/css" href="css/boxspin.css"/>
+  <script src="js/jquery-1.10.1.min.js"></script>
+  <script type="text/javascript">	
+	$(document).ready(function () {
+    $('.flipWrapper').click(function () {
+        $(this).find('.card').toggleClass('flipped');
+        return false;
+    });
+	});
+  </script>
 
 </head>
 <body>
     <div class="content">
       <p>
-        They were dragged out of the secret house, pushed into vans and driven to a building where they were questioned overnight... With little sleep, the next day they were all moved to a prison, The House of Detention. They had no idea where they would finally end up, the men were scary and it was frightening to think about what might happen in the next five minutes, so it was difficult to think what would happen in the future. 
+         <div class="flipWrapper flipright">
+          <div class="card">
+            <div class="face front"><div class="spinarrow"></div>
+              <img src="images/5questioning.jpg" width="290" height="360" />
+            </div>
+            <div class="face back"><div class="spinarrow rev"></div>
+              <p>Quote or image description can go here</p>
+            </div>
+          </div>
+        </div>
+         They were dragged out of the secret house, pushed into vans and driven to a building where they were questioned overnight... With little sleep, the next day they were all moved to a prison, The House of Detention. They had no idea where they would finally end up, the men were scary and it was frightening to think about what might happen in the next five minutes, so it was difficult to think what would happen in the future. 
       </p>
       <p>
         After two days in the prison they were moved north to a transit camp, where Hitler's men would decide where to send them. After a month they were told to get on a train waiting in the grounds of the camp, as they boarded they still had no idea where they were going but at least they were still together as a family. They were on this train, with no seats, little water and food for days. It passed through fields, forests and towns. Three long days passed as the train travelled further and further into the darkness, away from their home, into strange countries they had never seen before.
