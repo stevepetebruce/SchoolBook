@@ -9,14 +9,34 @@
   <link rel="stylesheet" type="text/css" href="css/layout.css"/>
   <link rel="stylesheet" type="text/css" href="css/chapterpage.css"/>
   <link rel="stylesheet" type="text/css" href="css/arrows.css"/>
- 
+  <link rel="stylesheet" type="text/css" href="css/boxspin.css"/>
+  <script src="js/jquery-1.10.1.min.js"></script>
+  <script type="text/javascript">	
+	$(document).ready(function () {
+    $('.flipWrapper').click(function () {
+        $(this).find('.card').toggleClass('flipped');
+        return false;
+    });
+	});
+  </script>
 
 </head>
 <body>
     <div class="content">
       <p>It was July and whilst everyone was enjoying the summer, Anne gave her friend Toosje: her favourite book, a tea set, a tin of marbles and her cat, Moortje, to look after. Otto wrote a note in which he pretended that he and his family were leaving the country, in case Hitler's men came looking for them at their home. They packed a small amount of personal belongings and prepared to leave to go to their new hiding place. It would be the last time any of them would see their home.
       </p>
-      <p>That night, they all walked the few hundred metres from their home to their new hiding place being careful not to be seen. They quietly entered the building, went to the top of the business offices, and pulled the bookcase away from the wall. One by one they squeezed up the narrow secret passage into their new hiding place and finally Otto pulled the bookcase back against the wall. In the first floor room they took off their heavy jackets and dumped their belongings on the floor and took a moment to take in their new, secret home.  
+      <p>
+        <div class="flipWrapper flipright">
+          <div class="card">
+            <div class="face front"><div class="spinarrow"></div>
+              <img src="images/3darkwalk.jpg" width="290" height="360" />
+            </div>
+            <div class="face back"><div class="spinarrow rev"></div>
+              <p>Quote or image description can go here</p>
+            </div>
+          </div>
+        </div>
+        That night, they all walked the few hundred metres from their home to their new hiding place being careful not to be seen. They quietly entered the building, went to the top of the business offices, and pulled the bookcase away from the wall. One by one they squeezed up the narrow secret passage into their new hiding place and finally Otto pulled the bookcase back against the wall. In the first floor room they took off their heavy jackets and dumped their belongings on the floor and took a moment to take in their new, secret home.  
       </p>
       <div class="pnumber"><span class="line-number">14</span></div>
     </div>

@@ -9,7 +9,16 @@
   <link rel="stylesheet" type="text/css" href="css/layout.css"/>
   <link rel="stylesheet" type="text/css" href="css/chapterpage.css"/>
   <link rel="stylesheet" type="text/css" href="css/arrows.css"/>
- 
+  <link rel="stylesheet" type="text/css" href="css/boxspin.css"/>
+  <script src="js/jquery-1.10.1.min.js"></script>
+  <script type="text/javascript">	
+	$(document).ready(function () {
+    $('.flipWrapper').click(function () {
+        $(this).find('.card').toggleClass('flipped');
+        return false;
+    });
+	});
+  </script>
 
 </head>
 <body>
@@ -19,7 +28,18 @@
       </p>
       <p> First the planes came; dropping their bombs, blowing up homes, factories and businesses. Then the planes released Hitler's men in parachutes so they could drop from the sky. Then his men came in vehicles and on foot. The local people fought the invaders bravely, there was so many of these men to fight it was hard to protect their home country. The fights were long and bloody.
       </p>
-      <p>On the fourth day of fighting, Hitler ordered 100 of his planes with giant bombs to attack. These planes were so big, heavy and loud they made the earth rumble as they flew overhead.
+      <p>
+        <div class="flipWrapper flipleft">
+          <div class="card">
+            <div class="face front"><div class="spinarrow"></div>
+              <img src="images/2parachutes.jpg" width="290" height="360" />
+            </div>
+            <div class="face back"><div class="spinarrow rev"></div>
+              <p>Quote or image description can go here</p>
+            </div>
+          </div>
+        </div>
+      On the fourth day of fighting, Hitler ordered 100 of his planes with giant bombs to attack. These planes were so big, heavy and loud they made the earth rumble as they flew overhead.
       </p>
       <div class="pnumber"><span class="line-number">9</span></div>
     </div>

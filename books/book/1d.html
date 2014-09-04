@@ -9,7 +9,16 @@
   <link rel="stylesheet" type="text/css" href="css/layout.css"/>
   <link rel="stylesheet" type="text/css" href="css/chapterpage.css"/>
   <link rel="stylesheet" type="text/css" href="css/arrows.css"/>
- 
+  <link rel="stylesheet" type="text/css" href="css/boxspin.css"/>
+  <script src="js/jquery-1.10.1.min.js"></script>
+  <script type="text/javascript">	
+	$(document).ready(function () {
+    $('.flipWrapper').click(function () {
+        $(this).find('.card').toggleClass('flipped');
+        return false;
+    });
+	});
+  </script>
 
 </head>
 <body>
@@ -18,7 +27,21 @@
         And so the Frank family moved on. They travelled miles and miles, to a land so flat you could see forever, to a magical city that was full of canals. Where people would step out of their front door, step onto a boat and go to school or work on the water, instead of walking on the street.
       </p>
       <p>
+<<<<<<< HEAD
         The Netherlands! It was a beautiful country and Amsterdam was a wonderful city and most importantly, it was a long way away from Hitler and the Nazis. So they settled here, in the city with the waterways for streets, cobbled pavements and lots and lots of bikes. Anne was only four and she had a chance to mix with all the local children making lots of friends in her new home.
+=======
+        <div class="flipWrapper flipleft">
+          <div class="card">
+            <div class="face front"><div class="spinarrow"></div>
+              <img src="images/1amsterdam.jpg" width="290" height="360" />
+            </div>
+            <div class="face back"><div class="spinarrow rev"></div>
+              <p>Quote or image description can go here</p>
+            </div>
+          </div>
+        </div>
+        The Netherlands. It was a beautiful country and Amsterdam was a wonderful city and most importantly, it was a long way away from Hitler and the Nazis. So they settled here, in the city with the waterways for streets, cobbled pavements and lots and lots of bikes. Anne was only four and she had a chance to mix with all the local children making lots of friends in her new home.
+>>>>>>> a2a05f3d99b56b187ae1e6cb670464d50cb80ca9
       </p>
       <p>
          The years went by and life went on... Anne and her big sister Margot grew a little taller and their Mum and Dad grew a little bit older. Otto started a company, selling fruit, herbs and spices. Anne loved studying, she worked hard at her schoolwork and liked hanging out with her friends; they were all happy in their new city. But all this time, back in their old home, Hitler had grown very powerful.
