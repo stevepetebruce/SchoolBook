@@ -114,9 +114,14 @@ function checkAnswer() {
     } else {
       labelStyle.color = "red";
     }
+    if(1 == score){
+      scoreContainer.textContent = "Score: " + score + " right answer out of " + quiz.length + ".";
+    }
+    if(score > 1){
+      scoreContainer.textContent = "Score: " + score + " right answers out of " + quiz.length + ".";
+    }
 
-    scoreContainer.textContent = "Score: " + score + " right answers out of " +
-      quiz.length + ".";
+    
   } else { // move to next question
     // setting up so user can ask a question
     askingQuestion = true;
