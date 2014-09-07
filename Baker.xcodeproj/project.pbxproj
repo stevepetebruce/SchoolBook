@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		20CC551D16AD346900DEFB5C /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 20CC551F16AD346900DEFB5C /* Localizable.strings */; };
+		2E84F3C019BCA10C0005F26D /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E84F3BF19BCA10C0005F26D /* CoreTelephony.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		2E84F3C219BCA1280005F26D /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E84F3C119BCA1280005F26D /* CoreData.framework */; };
+		2E84F3CB19BCA4CA0005F26D /* Countly_OpenUDID.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E84F3C419BCA4CA0005F26D /* Countly_OpenUDID.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		2E84F3CC19BCA4CA0005F26D /* Countly.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E84F3C619BCA4CA0005F26D /* Countly.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		2E84F3CD19BCA4CA0005F26D /* Countly.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2E84F3C719BCA4CA0005F26D /* Countly.xcdatamodeld */; };
+		2E84F3CE19BCA4CA0005F26D /* CountlyDB.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E84F3CA19BCA4CA0005F26D /* CountlyDB.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		9F55576815B4C6C3003072A3 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F55576515B4C6B7003072A3 /* QuartzCore.framework */; };
 		9F58D85115D66E870027902C /* UICustomNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F58D84E15D66E870027902C /* UICustomNavigationBar.m */; };
 		9F58D85215D66E870027902C /* UICustomNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F58D85015D66E870027902C /* UICustomNavigationController.m */; };
@@ -58,6 +64,15 @@
 
 /* Begin PBXFileReference section */
 		20CC551E16AD346900DEFB5C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		2E84F3BF19BCA10C0005F26D /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		2E84F3C119BCA1280005F26D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		2E84F3C319BCA4CA0005F26D /* Countly_OpenUDID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Countly_OpenUDID.h; sourceTree = "<group>"; };
+		2E84F3C419BCA4CA0005F26D /* Countly_OpenUDID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Countly_OpenUDID.m; sourceTree = "<group>"; };
+		2E84F3C519BCA4CA0005F26D /* Countly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Countly.h; sourceTree = "<group>"; };
+		2E84F3C619BCA4CA0005F26D /* Countly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Countly.m; sourceTree = "<group>"; };
+		2E84F3C819BCA4CA0005F26D /* Countly.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Countly.xcdatamodel; sourceTree = "<group>"; };
+		2E84F3C919BCA4CA0005F26D /* CountlyDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountlyDB.h; sourceTree = "<group>"; };
+		2E84F3CA19BCA4CA0005F26D /* CountlyDB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountlyDB.m; sourceTree = "<group>"; };
 		9F55576515B4C6B7003072A3 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		9F58D84D15D66E870027902C /* UICustomNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UICustomNavigationBar.h; sourceTree = "<group>"; };
 		9F58D84E15D66E870027902C /* UICustomNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UICustomNavigationBar.m; sourceTree = "<group>"; };
@@ -151,6 +166,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E84F3C219BCA1280005F26D /* CoreData.framework in Frameworks */,
+				2E84F3C019BCA10C0005F26D /* CoreTelephony.framework in Frameworks */,
 				AB67F5BC16EE9B79005A04F6 /* SystemConfiguration.framework in Frameworks */,
 				ABD245531639E3650080F056 /* AVFoundation.framework in Frameworks */,
 				ABABF1A81646C06100A75E67 /* StoreKit.framework in Frameworks */,
@@ -319,6 +336,8 @@
 		ABAFB58A15AB9A2E002FA498 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2E84F3C119BCA1280005F26D /* CoreData.framework */,
+				2E84F3BF19BCA10C0005F26D /* CoreTelephony.framework */,
 				AB67F5BB16EE9B79005A04F6 /* SystemConfiguration.framework */,
 				ABABF1A51646C04D00A75E67 /* StoreKit.framework */,
 				ABD245521639E3650080F056 /* AVFoundation.framework */,
@@ -336,6 +355,13 @@
 			isa = PBXGroup;
 			children = (
 				ABAFB59A15AB9A2E002FA498 /* AppDelegate.h */,
+				2E84F3C319BCA4CA0005F26D /* Countly_OpenUDID.h */,
+				2E84F3C419BCA4CA0005F26D /* Countly_OpenUDID.m */,
+				2E84F3C519BCA4CA0005F26D /* Countly.h */,
+				2E84F3C619BCA4CA0005F26D /* Countly.m */,
+				2E84F3C719BCA4CA0005F26D /* Countly.xcdatamodeld */,
+				2E84F3C919BCA4CA0005F26D /* CountlyDB.h */,
+				2E84F3CA19BCA4CA0005F26D /* CountlyDB.m */,
 				ABAFB59B15AB9A2E002FA498 /* AppDelegate.m */,
 				BFAB78D117B2A67E00E91ADE /* BakerAnalyticsEvents.h */,
 				BFAB78D217B2A67E00E91ADE /* BakerAnalyticsEvents.m */,
@@ -433,6 +459,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ABAFB59815AB9A2E002FA498 /* main.m in Sources */,
+				2E84F3CD19BCA4CA0005F26D /* Countly.xcdatamodeld in Sources */,
 				ABAFB59C15AB9A2E002FA498 /* AppDelegate.m in Sources */,
 				AB40045315B4B83000D87E2A /* BakerViewController.m in Sources */,
 				AB40045F15B4B83000D87E2A /* IndexViewController.m in Sources */,
@@ -449,6 +476,8 @@
 				9FF795A715B4C57E00899E51 /* ShelfViewController.m in Sources */,
 				9F8FC1C415C55E8C0065F0A3 /* BakerBook.m in Sources */,
 				9F58D85115D66E870027902C /* UICustomNavigationBar.m in Sources */,
+				2E84F3CE19BCA4CA0005F26D /* CountlyDB.m in Sources */,
+				2E84F3CB19BCA4CA0005F26D /* Countly_OpenUDID.m in Sources */,
 				9F58D85215D66E870027902C /* UICustomNavigationController.m in Sources */,
 				9F5EB3BD15FCA3A100E13796 /* NSString+Extensions.m in Sources */,
 				AB26005116011D9D00E9AA66 /* BakerBookStatus.m in Sources */,
@@ -465,6 +494,7 @@
 				ABADF3F916C7BAD900F52F3C /* NSURL+Extensions.m in Sources */,
 				AB67F5BA16EE99B2005A04F6 /* Reachability.m in Sources */,
 				ABF23B1D1708418E003AA3B0 /* BakerAPI.m in Sources */,
+				2E84F3CC19BCA4CA0005F26D /* Countly.m in Sources */,
 				BFAB78D317B2A67E00E91ADE /* BakerAnalyticsEvents.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -603,6 +633,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2E84F3C719BCA4CA0005F26D /* Countly.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2E84F3C819BCA4CA0005F26D /* Countly.xcdatamodel */,
+			);
+			currentVersion = 2E84F3C819BCA4CA0005F26D /* Countly.xcdatamodel */;
+			path = Countly.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = ABAFB57E15AB9A2E002FA498 /* Project object */;
 }

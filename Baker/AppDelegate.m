@@ -49,6 +49,8 @@
 @synthesize rootViewController;
 @synthesize rootNavigationController;
 
+
+
 + (void)initialize {
     // Set user agent (the only problem is that we can't modify the User-Agent later in the program)
     // We use a more browser-like User-Agent in order to allow browser detection scripts to run (like Tumult Hype).
@@ -68,7 +70,8 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-
+    [[Countly sharedInstance] start:@"a6f123287c262ce40d82247ed245a3ed68cbcece" withHost:@"http://TYPE_HERE_URL_WHERE_API_IS_HOSTED.com"];
+    
     #ifdef BAKER_NEWSSTAND
 
     NSLog(@"====== Baker Newsstand Mode enabled ======");
