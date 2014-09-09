@@ -17,14 +17,23 @@
      * General Style
      * ------------------------------------- */
     body {
-      max-width: 1200px;
       margin: 0 auto;
       padding: 0 5%;
       font-size: 120%;
       font-family: "Droid Serif", serif;
       color: #fff;
-      background:url(images/brownbg.jpg) repeat;
+	  background-image:url(images/notebook.png);
+	 
+
+      
     }
+	
+	.strip{
+		 background:url(images/strip.jpg) left top repeat-y;
+		 position: absolute;
+		 top:0;
+		 left:0;
+		}
 
     h1{
       text-shadow: 1px 1px 1px rgba(0,0,0,0.6);
@@ -41,6 +50,7 @@
       font-weight: 100;
 	  color:#333333;
 	  word-spacing: 0.2em;
+	  
     }
 
     /* -------------------------------------
@@ -48,7 +58,7 @@
      * ------------------------------------- */
     #timeline {
       list-style: none;
-      margin: 50px 0 30px 120px;
+      margin: 50px 20px 30px 250px;
       padding-left: 30px;
       border-left: 8px solid #eee9dc;
     }
@@ -225,6 +235,7 @@
 </head>
 
 <body>
+<div class="strip">
   <h1>Timeline</h1>
   <ul id='timeline'>
     <li class='work'>
@@ -236,8 +247,7 @@
       </div>
       <div class='content'>
         <p>
-          <img src="images/ill_anne_frank_large.jpg" width="152" height="172" style="float:left;">
-          ...in Frankfurt, Germany. <br/>
+        ...in Frankfurt, Germany. <br/>
           Her Father is Otto, her Mother is Edith and her big sister is Margot. 
         </p>
       </div>
@@ -251,8 +261,7 @@
       </div>
       <div class='content'>
         <p>
-          <img src="images/ill_anne_frank_large.jpg" width="152" height="172" style="float:left;">
-          ...The Frank family escape Germany and move to Amsterdam, in The Netherlands.
+        ...The Frank family escape Germany and move to Amsterdam, in The Netherlands.
         </p>
       </div>
     </li>
@@ -293,8 +302,7 @@
       </div>
       <div class='content'>
         <p>
-          <img src="images/ill_anne_frank_large.jpg" width="152" height="172" style="float:left;">
-          ...in the concealed rooms in the building where Otto Frank worked.
+        ...in the concealed rooms in the building where Otto Frank worked.
         </p>
       </div>
     </li>
@@ -307,8 +315,7 @@
       </div>
       <div class='content'>
         <p>
-          <img src="images/ill_anne_frank_large.jpg" width="152" height="172" style="float:left;">
-          ... and they are all transported to Auschwitz concentration camp (camp A).
+        ... and they are all transported to Auschwitz concentration camp (camp A).
         </p>
       </div>
     </li>
@@ -321,8 +328,7 @@
       </div>
       <div class='content'>
         <p>
-         <img src="images/ill_anne_frank_large.jpg" width="152" height="172" style="float:left;">
-         ... of typhus bug in the Bergen-Belsen concentration camp (camp B).
+       ... of typhus bug in the Bergen-Belsen concentration camp (camp B).
         </p>
       </div>
     </li>
@@ -335,15 +341,14 @@
       </div>
       <div class='content'>
         <p>
-          <img src="images/ill_anne_frank_large.jpg" width="152" height="172" style="float:left;">
-          ...He is the only Frank to survive and discovers Anne's diary. 
+        ...He is the only Frank to survive and discovers Anne's diary. 
           <br/>
           Later he publishes her diary and a museum is made where their secret house was.
         </p>
       </div>
     </li>
   </ul>
-
+</div>
   <script src='http://codepen.io/assets/libs/fullpage/none.js'></script>
 
 </body>

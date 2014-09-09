@@ -7,12 +7,12 @@ position: relative;
 }
 .flipright{
 	float:right;
-	margin: 10px 0px 10px 30px;
+	margin: 10px -50px 10px 30px;
 }
 	
 .flipleft{
 	float:left;
-	margin: 10px 30px 10px 0px;
+	margin: 10px 30px 10px -50px;
 }
 .flipWrapper .card.flipped {
 -webkit-transform: rotatey(180deg);
