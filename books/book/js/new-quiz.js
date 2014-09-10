@@ -112,7 +112,7 @@ function checkAnswer() {
       score++;
       labelStyle.color = "green";
     } else {
-      labelStyle.color = "red";
+      labelStyle.color = "#C31414";
     }
     if(1 == score){
       scoreContainer.textContent = "Score: " + score + " right answer out of " + quiz.length + ".";

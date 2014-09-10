@@ -2,38 +2,60 @@
 /* CSS Document */
 
 
-    body {
+  body {
       margin: 0 auto;
       padding: 0 5%;
-      font-size: 120%;
+      font-size: 110%;
       font-family: "Droid Serif", serif;
-      color: #fff;
 	  background-image:url(../images/notebook.png);
-	  height:100%;
-
+	  
 	 
 
       
     }
+	
+	 p {
+	margin: 0 0 1.6em;
+	text-align:left;
+	line-height:1.6em;
+}
+	
+	#question{
+		margin-bottom:40px;
+		}
 	
 	.strip{
 		 background:url(../images/strip.jpg) left top repeat-y;
 		 position: absolute;
 		 top:0;
 		 left:0;
-		 z-index:6;
 		 height:100%;
-	 
 		}
+		
+	.strip p {
+		
+		text-align:center;
+		color:#333333;}	
 
     h1{
-      text-shadow: 1px 1px 1px rgba(0,0,0,0.6);
+      
       font-family: "bebasregular", sans-serif;
       font-size: 2.8em;
       line-height: 0.4;
       font-weight: 200;
       text-align:center;
+	  color:#333;
+	  margin-bottom:60px
     }
+	
+	#choices{
+	  font-family: "bebasregular", sans-serif;
+      font-size: 0.8em;
+      line-height: 4.4em;
+      font-weight: 200;
+	  color:#333;
+	  word-spacing:1em;
+		}
 
 .correctAnswer{
     background-color: green;
@@ -48,10 +70,13 @@ a {
     color: #333333;
 }
 
+
+
 #questionsList {
     margin: 0 auto;
     padding:0;
     width: 95%;
+	
 }
 
 #questionsList section {
@@ -65,7 +90,7 @@ a {
 
 #questionsList li {
     display:list-item;
-    margin: 0 auto;
+    margin: 30 auto;
     list-style: none;
 }
 
@@ -211,24 +236,29 @@ label.css-label {
 
 button.awesome, .button.awesome {
     /*background: #222 url(/images/alert-overlay.png) repeat-x;*/
-    display: inline-block;
-    padding: 5px 10px 6px;
-    color: #fff;
+    display:block;
+    border:3px solid #b21818;
+    border-radius: 10px;
+    width:300px;
+    margin-top: 65px;
+    font-family: "droid sans", sans-serif;
+    font-size: 1.2em;
+    text-align: left;
     text-decoration: none;
-    font-weight: bold;
-    line-height: 1;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
-    -moz-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
-    -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
-    text-shadow: 0 -1px 1px rgba(0,0,0,0.25);
-    border-bottom: 1px solid rgba(0,0,0,0.25);
+    color: #fff;
+    background-color: #C31414;
+	text-align:center;
+    margin-left: 100px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
 /*    position: relative;
     cursor: pointer;*/
 }
 
 .blue.awesome {
-    background-color: #2daebf;
+    background-color: #C31414;
 }
 
 .red.awesome {
