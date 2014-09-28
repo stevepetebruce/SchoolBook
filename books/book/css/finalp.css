@@ -1,0 +1,49 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@charset "UTF-8";
+/* CSS Document */
+
+html { height: 100%; margin:0; padding:0; }
+body { background: #f1f1f1; font: 400 1.6em/1.8 "Droid Serif", serif; color: #111; /*text-align: center; */height: 100%; margin:0; padding:0; background:url(../images/handmadepaper.png); }
+
+a img {
+	border:none;}
+
+p {
+	line-height: 1.4em;
+	font-size:0.7em;
+	text-align: justify;
+}
+
+h1 {
+	font-family: "bebasregular", sans-serif;
+    font-size: 1em;
+	color:#333333;
+	word-spacing: 0.2em;
+	text-align:center;
+	font-weight: 200;
+}
+h2 {
+	font: 700 1.5em/1.5 "Droid Sans", sans-serif;
+	margin: 1em 0 0 0;
+	
+}
+h3 { font: 700 1.5em/1.5 "Droid Sans", sans-serif; margin: 1em 0; }
+
+.finalbox{
+	width:40%;
+	margin:20% auto 0 auto;
+		}
+		
+
+.external{
+	text-decoration:none;
+	font-size:0.7em;
+	color:#000;
+	background:url(../images/link.png) no-repeat left;
+	background-size:16px 16px;
+	padding-left:22px;
+	font-family: "bebasregular", sans-serif;
+	
+	}

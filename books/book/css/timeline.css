@@ -123,11 +123,10 @@
     .content p {
       max-height: 0;
       color: transparent;
-      text-align: justify;
-      word-break: break-word;
       hyphens: auto;
       overflow: hidden;
       color:#555;
+	  text-align:left;
 
     }
 

@@ -107,7 +107,7 @@ function checkAnswer() {
 
     // setup if they got it right, or wrong
     var labelStyle = document.getElementsByTagName("label")[correctIndex].style;
-    labelStyle.fontWeight = "bold";
+    labelStyle.fontWeight = "";
     if (userpick == quiz[currentQuestion].correct) {
       score++;
       labelStyle.color = "green";
@@ -137,7 +137,7 @@ function checkAnswer() {
   }
 }
 function correctAnswersHTML(){
-  html = "<p>";
+  html = "<p style=\"text-align:left;\">";
   for(i = 0; i < quiz.length; i++){
     html += quiz[i].question + " - " + quiz[i].correct + "</br>";
   }
@@ -147,8 +147,8 @@ function correctAnswersHTML(){
 
 function showFinalResults() {
   content.innerHTML = "<h2>You've completed the quiz!</h2>" +
-    "<h2>You got " + score + " out of " + quiz.length + "<h2>" +
-    "The correct answers are: " + correctAnswersHTML() +
+    "<h2>You got " + score + " out of " + quiz.length + "</h2>" +
+    "<h2>The correct answers are: </h2>"  + correctAnswersHTML() +
     "<a href=\"../book/quiz.html\" class=\"nextButton\">Try again</a>" +
     "<a href=\"../book/final_page.html\" class=\"nextButton\">Done</a>";
 }
