@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		20CC551D16AD346900DEFB5C /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 20CC551F16AD346900DEFB5C /* Localizable.strings */; };
+		2E7764F519E017FE00943A1A /* libGoogleAnalyticsServices.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E7764F419E017FE00943A1A /* libGoogleAnalyticsServices.a */; };
+		2E7764F719E0181800943A1A /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E7764F619E0181800943A1A /* CoreData.framework */; };
 		9F55576815B4C6C3003072A3 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F55576515B4C6B7003072A3 /* QuartzCore.framework */; };
 		9F58D85115D66E870027902C /* UICustomNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F58D84E15D66E870027902C /* UICustomNavigationBar.m */; };
 		9F58D85215D66E870027902C /* UICustomNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F58D85015D66E870027902C /* UICustomNavigationController.m */; };
@@ -58,6 +60,8 @@
 
 /* Begin PBXFileReference section */
 		20CC551E16AD346900DEFB5C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		2E7764F419E017FE00943A1A /* libGoogleAnalyticsServices.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libGoogleAnalyticsServices.a; path = Baker/libGoogleAnalyticsServices.a; sourceTree = "<group>"; };
+		2E7764F619E0181800943A1A /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		9F55576515B4C6B7003072A3 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		9F58D84D15D66E870027902C /* UICustomNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UICustomNavigationBar.h; sourceTree = "<group>"; };
 		9F58D84E15D66E870027902C /* UICustomNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UICustomNavigationBar.m; sourceTree = "<group>"; };
@@ -152,6 +156,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				AB67F5BC16EE9B79005A04F6 /* SystemConfiguration.framework in Frameworks */,
+				2E7764F719E0181800943A1A /* CoreData.framework in Frameworks */,
+				2E7764F519E017FE00943A1A /* libGoogleAnalyticsServices.a in Frameworks */,
 				ABD245531639E3650080F056 /* AVFoundation.framework in Frameworks */,
 				ABABF1A81646C06100A75E67 /* StoreKit.framework in Frameworks */,
 				ABAFB58C15AB9A2E002FA498 /* UIKit.framework in Frameworks */,
@@ -319,6 +325,8 @@
 		ABAFB58A15AB9A2E002FA498 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2E7764F619E0181800943A1A /* CoreData.framework */,
+				2E7764F419E017FE00943A1A /* libGoogleAnalyticsServices.a */,
 				AB67F5BB16EE9B79005A04F6 /* SystemConfiguration.framework */,
 				ABABF1A51646C04D00A75E67 /* StoreKit.framework */,
 				ABD245521639E3650080F056 /* AVFoundation.framework */,
@@ -389,7 +397,7 @@
 		ABAFB57E15AB9A2E002FA498 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0510;
+				LastUpgradeCheck = 0600;
 				TargetAttributes = {
 					ABAFB58615AB9A2E002FA498 = {
 						DevelopmentTeam = U8NEZZ5Z8P;
@@ -492,9 +500,11 @@
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -526,9 +536,11 @@
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -556,6 +568,10 @@
 				GCC_PREFIX_HEADER = "Baker/Baker-Prefix.pch";
 				INFOPLIST_FILE = "Baker/Baker-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Baker",
+				);
 				PRODUCT_NAME = annefrank;
 				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -574,6 +590,10 @@
 				GCC_PREFIX_HEADER = "Baker/Baker-Prefix.pch";
 				INFOPLIST_FILE = "Baker/Baker-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Baker",
+				);
 				PRODUCT_NAME = annefrank;
 				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
