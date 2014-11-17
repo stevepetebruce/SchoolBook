@@ -127,7 +127,7 @@ Table of content on iOS devices
 #####################################################################
 */
 body.body-toc-ios {
-	width: 3690px;/* The width must be number of table of content entries * width of entry (410px)*/
+	width: 4510px;/* The width must be number of table of content entries * width of entry (410px)*/
 	margin: 0px;
 	padding: 0px;
 	background-color: #fff;

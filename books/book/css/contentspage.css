@@ -45,7 +45,7 @@ html{
     letter-spacing: 0.1em;
     position: relative;
   }
-  .table--contents tbody td:first-of-type::after {
+  .dots::after{
     content: "••••••••••••••••••••••••••••••";
     color: rgba(42, 44, 33, 0.20);
     display: block;
@@ -59,6 +59,21 @@ html{
     vertical-align: bottom;
     z-index: -1;
   }
+  
+/*  .table--contents tbody td:first-of-type::after {
+    content: "••••••••••••••••••••••••••••••";
+    color: rgba(42, 44, 33, 0.20);
+    display: block;
+    font-size: 66.66667%;
+    letter-spacing: 2.5em;
+    line-height: 1.5;
+    position: absolute;
+    right: -1.5em;
+    text-align: right;
+    bottom: 0;
+    vertical-align: bottom;
+    z-index: -1;
+  }*/
   .table--contents tbody td:first-of-type span {
     padding-right: 0.5em;
     font: 400 1.1em "Droid Serif", serif; color: #111;

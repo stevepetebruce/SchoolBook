@@ -1,6 +1,6 @@
 {
     "hpub": 1,
-    "title": "Real Life Heroes: Anne Frank",
+    "title": "Historical Heroes: Anne Frank",
     "author": ["Free The Trees"],
     "creator": ["Free The Trees"],
     "date": "2013-05-23",
@@ -18,6 +18,9 @@
     "contents": [
                  "cover.html",
                  "contents.html",
+                 "prelude.html",
+                 "prelude1.html",
+                 "prelude2.html",
                  "1.html",
                  "1b.html",
                  "1c.html",
