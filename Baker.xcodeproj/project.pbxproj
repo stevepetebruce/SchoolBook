@@ -8,8 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		20CC551D16AD346900DEFB5C /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 20CC551F16AD346900DEFB5C /* Localizable.strings */; };
-		2E7764F519E017FE00943A1A /* libGoogleAnalyticsServices.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E7764F419E017FE00943A1A /* libGoogleAnalyticsServices.a */; };
-		2E7764F719E0181800943A1A /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E7764F619E0181800943A1A /* CoreData.framework */; };
+		2E4C3DC21A1B38BC00212B4B /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E7764F619E0181800943A1A /* CoreData.framework */; };
+		2E4C3DC31A1B38D300212B4B /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB67F5BB16EE9B79005A04F6 /* SystemConfiguration.framework */; };
+		2E4C3DC41A1B390D00212B4B /* libGoogleAnalyticsServices.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E7764F419E017FE00943A1A /* libGoogleAnalyticsServices.a */; };
 		9F55576815B4C6C3003072A3 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F55576515B4C6B7003072A3 /* QuartzCore.framework */; };
 		9F58D85115D66E870027902C /* UICustomNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F58D84E15D66E870027902C /* UICustomNavigationBar.m */; };
 		9F58D85215D66E870027902C /* UICustomNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F58D85015D66E870027902C /* UICustomNavigationController.m */; };
@@ -36,7 +37,6 @@
 		AB40048315B4B90A00D87E2A /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = AB40048215B4B90A00D87E2A /* libz.dylib */; };
 		AB40048515B4BB8B00D87E2A /* books in Resources */ = {isa = PBXBuildFile; fileRef = AB40048415B4BB8B00D87E2A /* books */; };
 		AB67F5BA16EE99B2005A04F6 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = AB67F5B916EE99B2005A04F6 /* Reachability.m */; };
-		AB67F5BC16EE9B79005A04F6 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB67F5BB16EE9B79005A04F6 /* SystemConfiguration.framework */; };
 		ABABF1A81646C06100A75E67 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABABF1A51646C04D00A75E67 /* StoreKit.framework */; };
 		ABADF3F916C7BAD900F52F3C /* NSURL+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = ABADF3F816C7BAD900F52F3C /* NSURL+Extensions.m */; };
 		ABAFB58C15AB9A2E002FA498 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABAFB58B15AB9A2E002FA498 /* UIKit.framework */; };
@@ -155,9 +155,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB67F5BC16EE9B79005A04F6 /* SystemConfiguration.framework in Frameworks */,
-				2E7764F719E0181800943A1A /* CoreData.framework in Frameworks */,
-				2E7764F519E017FE00943A1A /* libGoogleAnalyticsServices.a in Frameworks */,
+				2E4C3DC41A1B390D00212B4B /* libGoogleAnalyticsServices.a in Frameworks */,
+				2E4C3DC31A1B38D300212B4B /* SystemConfiguration.framework in Frameworks */,
+				2E4C3DC21A1B38BC00212B4B /* CoreData.framework in Frameworks */,
 				ABD245531639E3650080F056 /* AVFoundation.framework in Frameworks */,
 				ABABF1A81646C06100A75E67 /* StoreKit.framework in Frameworks */,
 				ABAFB58C15AB9A2E002FA498 /* UIKit.framework in Frameworks */,
