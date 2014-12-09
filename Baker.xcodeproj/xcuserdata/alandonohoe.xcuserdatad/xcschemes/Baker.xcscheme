@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "ABAFB58615AB9A2E002FA498"
-               BuildableName = "annefrank.app"
+               BuildableName = "historicalheroesannefrank.app"
                BlueprintName = "Baker"
                ReferencedContainer = "container:Baker.xcodeproj">
             </BuildableReference>
@@ -33,7 +33,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "ABAFB58615AB9A2E002FA498"
-            BuildableName = "annefrank.app"
+            BuildableName = "historicalheroesannefrank.app"
             BlueprintName = "Baker"
             ReferencedContainer = "container:Baker.xcodeproj">
          </BuildableReference>
@@ -52,7 +52,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "ABAFB58615AB9A2E002FA498"
-            BuildableName = "annefrank.app"
+            BuildableName = "historicalheroesannefrank.app"
             BlueprintName = "Baker"
             ReferencedContainer = "container:Baker.xcodeproj">
          </BuildableReference>
@@ -70,7 +70,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "ABAFB58615AB9A2E002FA498"
-            BuildableName = "annefrank.app"
+            BuildableName = "historicalheroesannefrank.app"
             BlueprintName = "Baker"
             ReferencedContainer = "container:Baker.xcodeproj">
          </BuildableReference>
