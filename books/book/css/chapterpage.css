@@ -40,7 +40,7 @@ h3 { font: 700 1.5em/1.5 "Droid Sans", sans-serif; margin: 1em 0; }
 .content p {
 	margin: 0 0 0.6em;
 	text-align:left;
-	line-height:1.6em;
+	line-height:1.5em;
 }
 
 .container {
@@ -84,7 +84,7 @@ h3 { font: 700 1.5em/1.5 "Droid Sans", sans-serif; margin: 1em 0; }
 	margin-left:-25px;
 	}	
 	
-.firstcharacter { float: left; font-size: 92px; line-height: 76px; padding-top: 10px; padding-right: 8px; padding-left: 3px; }
+.firstcharacter { float: left; font-size: 136px; line-height: 76px; padding-top: 12px; padding-right: 8px; padding-left: 3px; }
 
 .left{
 	float: left;
