@@ -100,7 +100,7 @@ Navigation bar
     -webkit-transition: opacity 0.2s ease-out;
 }
 .toc-dossier:hover h1 {
-    color: #77f9ae;
+    
     -webkit-transition: color 0.2s ease-out
 }
 .toc-dossier:hover p {
@@ -177,7 +177,6 @@ body.body-toc-ios {
 }
 .toc-list-ios .toc-dossier:hover h1 {
 
-    : 
 }
 
 .toc-list-ios .toc-dossier p {    color: #666 }

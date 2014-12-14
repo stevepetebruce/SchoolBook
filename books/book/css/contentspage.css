@@ -2,8 +2,10 @@
 /* CSS Document */
 
 html{
-    background-color:#FFF;
+   
   }
+
+  body { background-color: #f1f1f1;  background:url(../images/handmadepaper.png); }
 
   h1 {
 
@@ -82,7 +84,7 @@ html{
 
   td a {
   	text-decoration:none;
-  	background-color:#FFF;
+  	
   	color:#000;
   }
   .table--contents tbody td:nth-of-type(2) {
