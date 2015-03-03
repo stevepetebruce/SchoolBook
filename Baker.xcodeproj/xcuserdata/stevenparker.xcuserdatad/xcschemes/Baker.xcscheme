@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0500"
+   LastUpgradeVersion = "0610"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "ABAFB58615AB9A2E002FA498"
-               BuildableName = "annefrank.app"
+               BuildableName = "pastels.app"
                BlueprintName = "Baker"
                ReferencedContainer = "container:Baker.xcodeproj">
             </BuildableReference>
@@ -33,7 +33,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "ABAFB58615AB9A2E002FA498"
-            BuildableName = "annefrank.app"
+            BuildableName = "pastels.app"
             BlueprintName = "Baker"
             ReferencedContainer = "container:Baker.xcodeproj">
          </BuildableReference>
@@ -52,7 +52,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "ABAFB58615AB9A2E002FA498"
-            BuildableName = "annefrank.app"
+            BuildableName = "pastels.app"
             BlueprintName = "Baker"
             ReferencedContainer = "container:Baker.xcodeproj">
          </BuildableReference>
@@ -70,7 +70,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "ABAFB58615AB9A2E002FA498"
-            BuildableName = "annefrank.app"
+            BuildableName = "pastels.app"
             BlueprintName = "Baker"
             ReferencedContainer = "container:Baker.xcodeproj">
          </BuildableReference>

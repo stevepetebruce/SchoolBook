@@ -30,8 +30,7 @@
 //
 
 #import "BakerAnalyticsEvents.h"
-#import "GAI.h"
-#import "GAIDictionaryBuilder.h"
+
 
 @implementation BakerAnalyticsEvents
 
@@ -53,7 +52,7 @@
     
     // ****** Add here your analytics code
     // tracker = [[GAI sharedInstance] trackerWithTrackingId:@"ADD_HERE_YOUR_TRACKING_CODE"];
-    tracker = [ [GAI sharedInstance] trackerWithTrackingId:@"UA-54551049-1" ];
+    
     
     // ****** Register to handle events
     [self registerEvents];
@@ -115,14 +114,8 @@
         // Track here when a subscription purchased is requested
     } else if ([[notification name] isEqualToString:@"BakerViewPage"]) {
         // Track here when a specific page is opened
-        BakerViewController *bakerview = [notification object]; // Uncomment this to get the BakerViewController object and get its properties
-        NSLog(@"[Google Analytics] Viewing page %@", [NSString stringWithFormat: @"%@ : %d", bakerview.book.title, bakerview.currentPageNumber]);
-        [tracker send:[
-                       [GAIDictionaryBuilder createEventWithCategory:@"action"
-                                             action:@"ViewPage"
-                                             label: [NSString stringWithFormat: @"%@ : %d", bakerview.book.title, bakerview.currentPageNumber]
-                                             value:nil]
-                                             build]];
+        // BakerViewController *bakerview = [notification object]; // Uncomment this to get the BakerViewController object and get its properties
+        //NSLog(@" - Tracking page %d", bakerview.currentPageNumber); // This is useful to check if it works
     } else if ([[notification name] isEqualToString:@"BakerViewIndexOpen"]) {
         // Track here the opening of the index and status bar
     } else if ([[notification name] isEqualToString:@"BakerViewModalBrowser"]) {

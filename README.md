@@ -1,10 +1,18 @@
-SchoolBook Project
+Project Baker
 =============
 
-Engaging stories that children will want to read, about people that will inspire them and that supplement their schoolwork. Giving children better reading skills whilst learning about people they will need to know about for school (boosting their education).
+**The HTML5 ebook framework to publish interactive books & magazines on iPad & iPhone using simply open web standards**
+<http://bakerframework.com>
 
 
-Built using the Baker framework
+
+WHAT IS BAKER
+-------------
+
+To this day, ebooks have been limited by an old standard created in the pre-Kindle and pre-iPad era.
+Baker is the first stepping stone to show that we could already be using the powerful HTML5 language
+to create books with real typography, real layouts and high-quality design.
+
 
 
 HOW TO USE BAKER
