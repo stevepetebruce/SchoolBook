@@ -3,7 +3,6 @@ SchoolBook Project
 
 Engaging stories that children will want to read, about people that will inspire them and that supplement their schoolwork. Giving children better reading skills whilst learning about people they will need to know about for school (boosting their education).
 
-
 Built using the Baker framework
 
 
