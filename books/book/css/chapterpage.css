@@ -2,7 +2,7 @@
 /* CSS Document */
 
 html { height: 100%; margin:0; padding:0; }
-body { background: #f1f1f1; font: 400 1.6em/1.8 "Droid Serif", serif; color: #111; /*text-align: center; */height: 100%; margin:0; padding:0; background:url(../images/handmadepaper.png); }
+body { background: #f1f1f1; font: 400 1.5em/1.7 "Droid Serif", serif; color: #111; /*text-align: center; */height: 100%; margin:0; padding:0; background:url(../images/handmadepaper.png); }
 
 h1 {
 	text-shadow: 1px 1px 1px #000;
@@ -88,4 +88,49 @@ h3 { font: 700 1.5em/1.5 "Droid Sans", sans-serif; margin: 1em 0; }
 
 .left{
 	float: left;
+}
+
+
+
+
+
+/*---Audio Player---*/
+
+#audioplayer{
+	width: 400px;
+	height: 50px;
+	margin: 40px auto auto auto;
+	border: solid 1px;
+}
+
+#pButton{
+    height:50px; 
+    width: 50px;
+    border: none;
+    background-size: 50% 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    float:left;
+    outline:none;
+}
+
+.play{background: url('../images/android-play-arrow-512px.svg'); background-size:50px;}
+.pause{background: url('../images/android-pause-512px-2.svg'); background-size:50px;}
+
+#timeline{
+	width: 320px;
+	height: 14px;
+	margin-top: 18px;
+	float: left;
+	border-radius: 10px;
+	background: rgba(0,0,0,.3);
+  
+}
+#playhead{
+	width: 12px;
+	height: 12px;
+	border-radius: 50%;
+	margin-top: 1px;
+	background: rgba(0, 0, 0,1);
+
 }

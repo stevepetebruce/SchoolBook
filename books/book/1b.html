@@ -9,6 +9,8 @@
   <link rel="stylesheet" type="text/css" href="css/layout.css"/>
   <link rel="stylesheet" type="text/css" href="css/chapterpage.css"/>
   <link rel="stylesheet" type="text/css" href="css/arrows.css"/>
+  
+
  
 
 </head>
@@ -19,12 +21,26 @@
       and those born in peacetime just don't know how easily it can be broken. They cannot see the dark forces building just beyond the horizon; the coiled spring of war pushed tighter and tighter during times of peace, with horror and pain bursting to be released.
     </p>
     <p>
-      After The World War, there was a time of peace and here, as the smoke cleared, in amongst the bustle of everyone else, lived a husband and wife, Otto and Edith Frank. They had two daughters, Anne and Margot, who were lucky enough to be born during this time. They lived in a house just like everyone else's, in a country called Germany. Otto loved to read; he had a built up a great library of books and he encouraged his daughters to read too. Anne, the youngest daughter, was only three but liked to flick through the pages of her Dad's books, looking for pictures and words she could understand. 
+      After The World War, there was a time of peace and here, as the smoke cleared, in amongst the bustle of everyone else, lived a husband and wife, Otto and Edith Frank. They had two daughters, Anne and Margot, who were lucky enough to be born during this time. They lived in a house just like everyone else's, in a country called Germany. Otto loved to read; he had built up a great library of books and he encouraged his daughters to read too. Anne, the youngest daughter, was only three but liked to flick through the pages of her Dad's books, looking for pictures and words she could understand. 
     </p>
     <p>
       The Frank family were Jewish people who had thousands of years of heritage and culture, whose history was passed down as stories from parents to children, stories of defending themselves against those who wanted to hurt them. 
     </p>
+    
+    <audio id="music" preload="true">
+  	  <source src="audio/1b.mp3">
+	</audio>
+    
+    <div id="audioplayer">
+        <button id="pButton" class="play" onclick="play()"></button>
+      <div id="timeline">    
+        <div id="playhead"></div>
+      </div>
+    </div>
+
     <div class="pnumber"><span class="line-number">4</span></div>
   </div>
+  
+  <script src="js/audio.js"></script>
 </body>
 </html>

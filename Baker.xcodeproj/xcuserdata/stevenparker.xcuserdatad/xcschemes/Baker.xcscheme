@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "ABAFB58615AB9A2E002FA498"
-               BuildableName = "annefrank.app"
+               BuildableName = "historicalheroesannefrank.app"
                BlueprintName = "Baker"
                ReferencedContainer = "container:Baker.xcodeproj">
             </BuildableReference>
@@ -33,7 +33,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "ABAFB58615AB9A2E002FA498"
-            BuildableName = "annefrank.app"
+            BuildableName = "historicalheroesannefrank.app"
             BlueprintName = "Baker"
             ReferencedContainer = "container:Baker.xcodeproj">
          </BuildableReference>
@@ -48,11 +48,12 @@
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "ABAFB58615AB9A2E002FA498"
-            BuildableName = "annefrank.app"
+            BuildableName = "historicalheroesannefrank.app"
             BlueprintName = "Baker"
             ReferencedContainer = "container:Baker.xcodeproj">
          </BuildableReference>
@@ -66,11 +67,12 @@
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "ABAFB58615AB9A2E002FA498"
-            BuildableName = "annefrank.app"
+            BuildableName = "historicalheroesannefrank.app"
             BlueprintName = "Baker"
             ReferencedContainer = "container:Baker.xcodeproj">
          </BuildableReference>
