@@ -45,7 +45,7 @@ background-color:#FFFFFF;
 }
 
 .flipWrapper .card .back p {
-	padding:20px;
+	padding:60px 20px;
 	font-style:italic;
 	font-size:1em;
 	line-height:1.2em;
@@ -53,8 +53,8 @@ background-color:#FFFFFF;
 	
 .spinarrow {
 	position: absolute;
-	top:-20px;
-	right:-20px;
+	top:15px;
+	right: calc(50% - 10px);
 	width:25px;
 	height:25px;
 	background-image:url(../images/turnicon.png);
@@ -65,7 +65,7 @@ background-color:#FFFFFF;
 		
 		
 .rev {
-	left:-20px;
+	right: calc(50% - 10px);
 	-moz-transform: scaleX(-1);
     -o-transform: scaleX(-1);
     -webkit-transform: scaleX(-1);
